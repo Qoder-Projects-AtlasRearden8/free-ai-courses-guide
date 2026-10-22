@@ -1,0 +1,109 @@
+<section class="page-hero page-hero--plan">
+  <div class="shell">
+    <div class="plan-hero-grid">
+      <div>
+        <p class="eyebrow">The 90-day plan</p>
+        <h1>{{PLAN_TITLE}}</h1>
+        <p class="page-lede">{{PLAN_SUBTITLE}}</p>
+      </div>
+      <div class="page-hero__aside">
+        <p class="mini-label">Built for low-energy weeks</p>
+        <p>{{PLAN_TIME_NOTE}}</p>
+        <p class="hero-aside-note">Your checked tasks are stored only in this browser.</p>
+      </div>
+    </div>
+
+    <p class="plan-intro">{{PLAN_INTRO}}</p>
+
+    <div class="plan-dashboard">
+      <div class="plan-progress-block">
+        <div class="plan-progress-copy">
+          <span class="eyebrow">Your place in the plan</span>
+          <strong data-plan-overall-count>0 of {{TOTAL_TASKS}} tasks done</strong>
+          <span class="plan-progress-percent" data-plan-overall-percent>0%</span>
+        </div>
+        <div class="progress-bar progress-bar--lg" data-plan-overall-bar role="progressbar" aria-label="Overall plan progress" aria-valuemin="0" aria-valuemax="{{TOTAL_TASKS}}" aria-valuenow="0"><span></span></div>
+        <p class="plan-progress-note">Three sessions a week is enough. Missed a week? Resume where you are; do not restart.</p>
+      </div>
+      <div class="plan-actions" data-requires-js hidden role="group" aria-label="Plan progress actions">
+        <button class="button button--quiet button--small" type="button" id="export-plan">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.5v11m0 0 4-4m-4 4-4-4M4.5 16v3.5h15V16"/></svg>
+          Export progress
+        </button>
+        <button class="button button--quiet button--small" type="button" id="print-plan">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 9V4.5h10V9M7 17H4.5V9h15v8H17M7 13h10v6.5H7V13Z"/></svg>
+          Print the plan
+        </button>
+        <button class="text-button reset-plan" type="button" id="reset-plan">Reset checked tasks</button>
+      </div>
+    </div>
+    <noscript><p class="noscript-note">The plan reads and prints fine without JavaScript, but checkboxes will not remember your progress. Enable JavaScript to save progress in this browser.</p></noscript>
+  </div>
+</section>
+
+<div class="plan-phases">
+  <div class="shell">
+    {{PLAN_PHASES}}
+  </div>
+</div>
+
+<section class="section section--cream" aria-labelledby="rules-title">
+  <div class="shell">
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="eyebrow">The house rules</p>
+        <h2 id="rules-title">Keep the plan humane.</h2>
+      </div>
+      <p class="section-intro">A schedule is a tool for making room, not another place to fail. These rules matter more than finishing every checkbox.</p>
+    </div>
+    <ol class="plan-rules">
+      {{PLAN_RULES}}
+    </ol>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="fallback-title">
+  <div class="shell">
+    <div class="section-heading">
+      <p class="eyebrow">Real life happens</p>
+      <h2 id="fallback-title">When the plan meets a hard week.</h2>
+      <p class="section-intro">No guilt, no dramatic restart. Use the smallest response that keeps the thread.</p>
+    </div>
+    <div class="fallback-grid">
+      {{PLAN_FALLBACK}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--sage" aria-labelledby="projects-title">
+  <div class="shell">
+    <div class="section-heading section-heading--split">
+      <div>
+        <p class="eyebrow">Practice with a point</p>
+        <h2 id="projects-title">Three projects worth making.</h2>
+      </div>
+      <p class="section-intro">A project turns course language into your own judgment. Keep it small, document the limits, and use fabricated or public information only.</p>
+    </div>
+    <div class="project-grid">
+      {{PLAN_PROJECTS}}
+    </div>
+    <p class="section-footnote">Healthcare examples in this guide are educational. They are not diagnostic, treatment, or clinical decision tools, and real patient information never belongs in a consumer AI prompt.</p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="finish-title">
+  <div class="shell finish-panel">
+    <div>
+      <p class="eyebrow">Day 90</p>
+      <h2 id="finish-title">The finish line is a thing you made.</h2>
+      <p>You do not need a certificate to prove that. A small working artifact, a clear write-up, and a realistic next step are stronger evidence than a badge alone.</p>
+    </div>
+    <ul class="finish-list">
+      {{PLAN_FINISH}}
+    </ul>
+    <div class="finish-actions">
+      <a class="button button--primary" href="paths.html">Revisit the learning paths</a>
+      <a class="text-link" href="certificates.html">Read what certificates can and cannot prove <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>

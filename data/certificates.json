@@ -1,0 +1,109 @@
+{
+  "headline": "A certificate can open a door. It cannot do the learning for you.",
+  "intro": "Free completion certificates are real, useful records of practice—especially when you are changing fields and need visible evidence. They are not the same as an accredited credential, a professional certification, or proof that you can do the work unsupervised.",
+  "matrix": [
+    {
+      "provider": "Google",
+      "learnFree": "Yes",
+      "freeCertificate": "Yes — intro skill badge",
+      "watchOut": "The 45-minute Introduction to Generative AI course and its skill badge are free. Google's larger professional certificates and cloud certifications are separate, paid products.",
+      "url": "https://www.skills.google/course_templates/536",
+      "linkLabel": "Google intro course"
+    },
+    {
+      "provider": "Microsoft",
+      "learnFree": "Yes",
+      "freeCertificate": "No free professional credential",
+      "watchOut": "Microsoft's GitHub curricula and many Learn modules are free. Microsoft Certifications and Applied Skills are separate credentials with their own rules and costs.",
+      "url": "https://github.com/microsoft/ai-for-beginners",
+      "linkLabel": "Free AI for Beginners curriculum"
+    },
+    {
+      "provider": "AWS",
+      "learnFree": "Yes",
+      "freeCertificate": "Some free digital badges",
+      "watchOut": "AWS badges are free to earn and accept for selected learning, but an AWS badge is not an AWS Certification. Certification exams are paid.",
+      "url": "https://aws.amazon.com/training/badges/",
+      "linkLabel": "AWS badges explained"
+    },
+    {
+      "provider": "DeepLearning.AI",
+      "learnFree": "Yes — short courses",
+      "freeCertificate": "No — PRO or paid Coursera",
+      "watchOut": "Short-course lessons are free. Certificates require DeepLearning.AI PRO membership, or a paid Coursera enrollment where applicable. Coursera financial aid may help.",
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "linkLabel": "DeepLearning.AI short courses"
+    },
+    {
+      "provider": "Hugging Face",
+      "learnFree": "Yes",
+      "freeCertificate": "Yes — Agents and MCP",
+      "watchOut": "The Agents and MCP courses offer free certificates of completion. The LLM Course currently states that it has no certification; check each course's own page.",
+      "url": "https://huggingface.co/learn/agents-course",
+      "linkLabel": "Hugging Face Agents Course"
+    },
+    {
+      "provider": "fast.ai",
+      "learnFree": "Yes",
+      "freeCertificate": "No",
+      "watchOut": "The course and book are free, but there is no certificate. Your project, notebook, or write-up is the evidence.",
+      "url": "https://course.fast.ai/",
+      "linkLabel": "Practical Deep Learning for Coders"
+    },
+    {
+      "provider": "Coursera",
+      "learnFree": "Limited — first-module preview",
+      "freeCertificate": "No",
+      "watchOut": "Coursera replaced full course auditing with a free preview of the first module in August 2025. Preview does not include a certificate. Pay for the certificate or apply for financial aid.",
+      "url": "https://blog.coursera.org/introducing-courseras-new-course-preview-experience/",
+      "linkLabel": "Coursera's official preview announcement"
+    },
+    {
+      "provider": "edX",
+      "learnFree": "Yes — audit track",
+      "freeCertificate": "No",
+      "watchOut": "Audit access is free but can be time-limited, excludes some graded work, and does not include a certificate. Verified certificates are paid. CS50 AI, for example, currently lists a US$299 verified certificate.",
+      "url": "https://help.edx.org/edxlearner/s/article/What-are-the-differences-between-audit-free-and-verified-paid-courses",
+      "linkLabel": "edX audit track explained"
+    },
+    {
+      "provider": "Kaggle Learn",
+      "learnFree": "Yes",
+      "freeCertificate": "Yes — completion certificates",
+      "watchOut": "Every Kaggle Learn course listed in this guide offers a free completion certificate after the exercises. It is a completion record, not an accredited qualification.",
+      "url": "https://www.kaggle.com/learn-course-certificates",
+      "linkLabel": "How Kaggle certificates work"
+    },
+    {
+      "provider": "freeCodeCamp",
+      "learnFree": "Yes",
+      "freeCertificate": "Yes — project certifications",
+      "watchOut": "The certifications are free after completing the required projects. They are substantial—often around 300 hours by freeCodeCamp's own estimate—so treat them as a long course, not a quick badge.",
+      "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
+      "linkLabel": "freeCodeCamp ML with Python"
+    },
+    {
+      "provider": "University of Helsinki",
+      "learnFree": "Yes",
+      "freeCertificate": "No — certificate costs €50",
+      "watchOut": "The Elements of AI course itself is free. The optional certificate is currently €50 and is separate from the free learning.",
+      "url": "https://www.elementsofai.com/",
+      "linkLabel": "Elements of AI"
+    }
+  ],
+  "freeRouteNote": "Twelve resource links in this guide currently lead to a free certificate or badge. Each is a completion record from its provider—not an accredited degree, professional license, or guarantee of a job.",
+  "finePrint": [
+    "A certificate proves that you finished a defined piece of learning. It does not prove that you can apply it without help.",
+    "Free access and certificate rules change. Check the provider's page on the day you enroll; this guide records a verified date, not a permanent promise.",
+    "Never pay a third-party 'certificate service' for a certificate that the provider offers free. Use the provider's own site.",
+    "Do not put real patient, client, student, financial, or password data into a learning project, portfolio, screenshot, or prompt.",
+    "A paid professional certification can be worth it later. It is not a prerequisite for learning, and it should not be your first purchase if you are still deciding whether you enjoy the work."
+  ],
+  "sharingExamples": [
+    "Completed Kaggle's Intro to Machine Learning (3-hour course) through Kaggle Learn.",
+    "Earned the free Google Introduction to Generative AI skill badge.",
+    "Completed the fundamentals unit of the Hugging Face AI Agents Course and earned its free certificate.",
+    "Completed freeCodeCamp's Data Analysis with Python certification, including five required projects."
+  ],
+  "sharingWarning": "Describe what you completed and what you can do. Avoid turning a completion certificate into 'certified AI expert,' 'AI engineer,' or a clinical/legal/financial credential."
+}

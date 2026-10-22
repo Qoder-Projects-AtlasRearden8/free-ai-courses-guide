@@ -1,0 +1,434 @@
+{
+  "title": "The 90-day plain-English AI plan",
+  "subtitle": "A humane learning plan built around short sessions, small artifacts, and real life.",
+  "intro": "This plan assumes you have a job, a family, or a questionable relationship with your calendar. Three focused sessions a week are enough. Every week has a small finish line, every phase has a checkpoint, and two flex days are built into each 30-day stretch. You do not need to finish every resource—the plan is the spine, and the library is the shelf you choose from.",
+  "timeNote": "Standard pace is about 4–5 hours per week. On a hard week, do the first task only. On a good week, add the stretch. Progress is not a personality test.",
+  "phases": [
+    {
+      "id": "phase-see",
+      "days": "Days 1–30",
+      "title": "See clearly",
+      "accent": "rust",
+      "summary": "Get the vocabulary, practice a real prompt, and build a habit of checking the output. The goal is calm competence, not speed.",
+      "weeks": [
+        {
+          "number": 1,
+          "title": "Make a small, safe start",
+          "focus": "Orient, choose one safe problem, and put learning on the calendar.",
+          "hours": "2–3 hours",
+          "tasks": [
+            {
+              "id": "w1t1",
+              "label": "Take Google's 45-minute Introduction to Generative AI.",
+              "detail": "Finish the quiz if you want the free skill badge. Save two examples that feel genuinely useful.",
+              "resourceId": "google-intro-genai"
+            },
+            {
+              "id": "w1t2",
+              "label": "Create one learning note with a no-sensitive-data rule.",
+              "detail": "Name it something plain, like ai-lab.md. Add three tasks AI might help with, then circle one that uses no patient, client, financial, or password data."
+            },
+            {
+              "id": "w1t3",
+              "label": "Block three 45-minute sessions this week.",
+              "detail": "Calendar them. Put your notes in one place. A small repeatable slot beats a heroic weekend."
+            }
+          ],
+          "stretch": "Skim the four learning paths and choose a home base.",
+          "outcome": "One safe starter task, one place for notes, and three appointments with yourself."
+        },
+        {
+          "number": 2,
+          "title": "Learn the words",
+          "focus": "Replace vague AI anxiety with a handful of accurate, plain-English definitions.",
+          "hours": "3–4 hours",
+          "tasks": [
+            {
+              "id": "w2t1",
+              "label": "Work through the first two chapters of Elements of AI.",
+              "detail": "No math needed. Write down one thing AI cannot do well.",
+              "resourceId": "elements-of-ai"
+            },
+            {
+              "id": "w2t2",
+              "label": "Build a six-term glossary in your own words.",
+              "detail": "Define model, prompt, token, context window, hallucination, and inference. If a definition needs a second jargon word, simplify it."
+            },
+            {
+              "id": "w2t3",
+              "label": "Explain one concept back in five sentences.",
+              "detail": "Write it or record a voice note. Notice where you reach for jargon and where the idea is genuinely yours."
+            }
+          ],
+          "stretch": "Watch one 3Blue1Brown neural-network video and sketch the idea afterward.",
+          "outcome": "A one-page glossary you can actually use in conversation."
+        },
+        {
+          "number": 3,
+          "title": "Practice the prompt loop",
+          "focus": "Move from 'please make this better' to instructions you can test and improve.",
+          "hours": "3–4 hours",
+          "tasks": [
+            {
+              "id": "w3t1",
+              "label": "Take the free lessons in ChatGPT Prompt Engineering for Developers.",
+              "detail": "If you do not code yet, watch for the patterns rather than copying the API details.",
+              "resourceId": "deeplearning-chatgpt-prompt"
+            },
+            {
+              "id": "w3t2",
+              "label": "Write a five-part prompt template: task, context, constraints, format, and example.",
+              "detail": "Test it on one real, non-sensitive task such as rewriting a public paragraph or planning a meal from ingredients you already have."
+            },
+            {
+              "id": "w3t3",
+              "label": "Change one variable at a time and compare two outputs.",
+              "detail": "Log which version was more useful and why. This is how prompting becomes a skill rather than a stack of magic phrases."
+            }
+          ],
+          "stretch": "Read Google's prompt-engineering whitepaper for the reasoning behind the template.",
+          "outcome": "A reusable prompt template and notes on why it works."
+        },
+        {
+          "number": 4,
+          "title": "Make a tiny useful thing",
+          "focus": "Turn the vocabulary and prompt practice into one edited artifact and your own safety rules.",
+          "hours": "3–5 hours",
+          "tasks": [
+            {
+              "id": "w4t1",
+              "label": "Make one small artifact with AI help: a checklist, email draft, study guide, or scene.",
+              "detail": "Use AI for a draft. Do the final editing, fact-checking, and decisions yourself."
+            },
+            {
+              "id": "w4t2",
+              "label": "Fact-check every factual claim and add a 'how I checked' note.",
+              "detail": "Prefer primary sources. If you cannot verify something, label it as uncertain or remove it."
+            },
+            {
+              "id": "w4t3",
+              "label": "Complete Kaggle's Intro to AI Ethics and write five personal AI rules.",
+              "detail": "Cover privacy, verification, disclosure, human review, and one situation where you will not use AI at all.",
+              "resourceId": "kaggle-intro-ai-ethics"
+            }
+          ],
+          "stretch": "Show the artifact to one trusted person and ask what felt confusing.",
+          "outcome": "A finished small artifact, a verification habit, and a personal rules card."
+        }
+      ],
+      "milestone": {
+        "title": "Day 30 checkpoint: you can explain it",
+        "description": "You do not need a credential yet. You need evidence that the ideas are becoming yours.",
+        "checks": [
+          "Explain generative AI to a friend in five minutes without hiding behind jargon.",
+          "Show one artifact that you edited and checked yourself.",
+          "Name three types of information you will never paste into a consumer AI tool.",
+          "Choose one next step: stay on this route or move into Python and data."
+        ]
+      }
+    },
+    {
+      "id": "phase-build",
+      "days": "Days 31–60",
+      "title": "Build the mechanics",
+      "accent": "sage",
+      "summary": "Add Python and data skills, train a first model, and practice honest evaluation. Keep the artifacts small enough to finish.",
+      "weeks": [
+        {
+          "number": 5,
+          "title": "Python, gently",
+          "focus": "Learn enough code to read, run, and modify a small script—not to memorize a language.",
+          "hours": "4–5 hours",
+          "tasks": [
+            {
+              "id": "w5t1",
+              "label": "Complete Kaggle's Python course.",
+              "detail": "Type every exercise. Do not copy-paste your way through the first pass.",
+              "resourceId": "kaggle-python"
+            },
+            {
+              "id": "w5t2",
+              "label": "Write a 20-line Python script with a variable, list, loop, and function.",
+              "detail": "Use your own text file or simple numbers. No personal data yet."
+            },
+            {
+              "id": "w5t3",
+              "label": "Start a bug log: error, guess, what fixed it.",
+              "detail": "Three lines per bug. It becomes evidence of progress when the results feel invisible."
+            }
+          ],
+          "stretch": "Try the first project in freeCodeCamp's Scientific Computing with Python curriculum.",
+          "outcome": "Enough Python to be curious rather than afraid."
+        },
+        {
+          "number": 6,
+          "title": "Make data legible",
+          "focus": "Learn to inspect tabular data before you try to model it.",
+          "hours": "4–5 hours",
+          "tasks": [
+            {
+              "id": "w6t1",
+              "label": "Complete Kaggle's Pandas course.",
+              "detail": "Focus on selecting, filtering, grouping, and missing values.",
+              "resourceId": "kaggle-pandas"
+            },
+            {
+              "id": "w6t2",
+              "label": "Load a public dataset, check its shape and missing values, and make two charts.",
+              "detail": "Use Kaggle datasets or a public open-data portal. No private business data yet."
+            },
+            {
+              "id": "w6t3",
+              "label": "Write a five-sentence data story and one thing the data does not show.",
+              "detail": "The second part matters as much as the first. A chart without a limitation is a sales pitch, not analysis."
+            }
+          ],
+          "stretch": "Clean one messy column and document every choice you made.",
+          "outcome": "A notebook and a habit of asking what the data cannot tell you."
+        },
+        {
+          "number": 7,
+          "title": "Train a first model",
+          "focus": "Build the simplest model you can and learn why the score is not the whole story.",
+          "hours": "4–5 hours",
+          "tasks": [
+            {
+              "id": "w7t1",
+              "label": "Complete Kaggle's Intro to Machine Learning.",
+              "detail": "Train a decision tree and a random forest. Note the difference in results.",
+              "resourceId": "kaggle-intro-machine-learning"
+            },
+            {
+              "id": "w7t2",
+              "label": "Work through the ML framing, regression, classification, and overfitting sections of Google's crash course.",
+              "detail": "You do not need every module. Prioritize the ones that explain evaluation.",
+              "resourceId": "google-ml-crash-course"
+            },
+            {
+              "id": "w7t3",
+              "label": "Explain train, validation, and test sets using a non-tech analogy.",
+              "detail": "If the analogy breaks, fix the analogy, not your honesty."
+            }
+          ],
+          "stretch": "Read the early chapters of Machine Learning Yearning.",
+          "outcome": "A first model and an explanation of why a single score is not proof."
+        },
+        {
+          "number": 8,
+          "title": "Tell an honest story",
+          "focus": "Turn a dataset into a small project with a clear question, baseline, and limitation.",
+          "hours": "5–6 hours",
+          "tasks": [
+            {
+              "id": "w8t1",
+              "label": "Choose a public dataset, one question, a baseline, and a train/test split.",
+              "detail": "Write these down before modeling. A baseline can be as simple as predicting the average."
+            },
+            {
+              "id": "w8t2",
+              "label": "Train a simple model and record two metrics—not only accuracy.",
+              "detail": "Explain why each metric fits or fails the question."
+            },
+            {
+              "id": "w8t3",
+              "label": "Write a README with the question, data, method, limits, and next step. Ask one person for feedback.",
+              "detail": "This is the portfolio piece you can show later. Clarity beats complexity."
+            }
+          ],
+          "stretch": "Try Kaggle's Intermediate Machine Learning for pipelines and cross-validation.",
+          "outcome": "Project 01: a small, honest data story with a README."
+        }
+      ],
+      "milestone": {
+        "title": "Day 60 checkpoint: you can build and evaluate",
+        "description": "You have moved from talking about AI to making a small, testable artifact with data.",
+        "checks": [
+          "Run a Python script from top to bottom without step-by-step hand-holding.",
+          "Show one notebook with a question, two charts, and a stated limitation.",
+          "Explain why you chose your model and metric.",
+          "Ask someone to critique the project—and write down what you would change."
+        ]
+      }
+    },
+    {
+      "id": "phase-make",
+      "days": "Days 61–90",
+      "title": "Make it real",
+      "accent": "gold",
+      "summary": "Connect an LLM to code, understand agent loops and MCP, then ship one small, documented tool with safety boundaries.",
+      "weeks": [
+        {
+          "number": 9,
+          "title": "Call an LLM from code",
+          "focus": "Move from chat windows to a small program with inputs, outputs, and secrets handled properly.",
+          "hours": "4–6 hours",
+          "tasks": [
+            {
+              "id": "w9t1",
+              "label": "Work through the first half of AI Python for Beginners.",
+              "detail": "The API examples are optional; the point is code confidence. Use a free-tier or local model if you prefer.",
+              "resourceId": "deeplearning-ai-python-beginners"
+            },
+            {
+              "id": "w9t2",
+              "label": "Build a tiny CLI that takes text and returns a labeled summary.",
+              "detail": "Put API keys in environment variables. Never paste a key into a tracked file, screenshot, or chat."
+            },
+            {
+              "id": "w9t3",
+              "label": "Add a README with setup, failure cases, and a privacy note.",
+              "detail": "Document what happens when the input is empty, the API fails, or the output is nonsense."
+            }
+          ],
+          "stretch": "Try a local model with a small open model runner and compare latency, quality, and privacy.",
+          "outcome": "A small AI script you can run, explain, and safely share."
+        },
+        {
+          "number": 10,
+          "title": "Build an agent loop",
+          "focus": "Understand agents as a loop with tools and stopping conditions—not as magic autonomy.",
+          "hours": "4–6 hours",
+          "tasks": [
+            {
+              "id": "w10t1",
+              "label": "Complete Unit 1 of Hugging Face's Agents Course.",
+              "detail": "Take the free fundamentals quiz if you want the certificate. No pressure to do the full challenge yet.",
+              "resourceId": "huggingface-agents-course"
+            },
+            {
+              "id": "w10t2",
+              "label": "Draw the agent loop: goal, tools, observations, and stop condition.",
+              "detail": "Add a failure mode to each box. Where could it loop, use the wrong tool, or trust a bad observation?"
+            },
+            {
+              "id": "w10t3",
+              "label": "Prototype one agent with a safe tool and log every step.",
+              "detail": "Use a calculator or a read-only file lookup first. No write actions without explicit confirmation."
+            }
+          ],
+          "stretch": "Use Microsoft's AI Agents for Beginners as a second perspective on patterns and RAG.",
+          "outcome": "An agent mental model and a small, legible prototype."
+        },
+        {
+          "number": 11,
+          "title": "Give the agent a safe tool",
+          "focus": "Learn MCP, then design for least privilege before adding capability.",
+          "hours": "4–6 hours",
+          "tasks": [
+            {
+              "id": "w11t1",
+              "label": "Complete Unit 1 of Hugging Face's MCP Course.",
+              "detail": "The free fundamentals quiz is the natural checkpoint.",
+              "resourceId": "huggingface-mcp-course"
+            },
+            {
+              "id": "w11t2",
+              "label": "Read the opening sections of the official MCP docs and write three sentences about servers, clients, and tools.",
+              "detail": "Use your own words. Jargon you cannot explain is jargon you cannot debug.",
+              "resourceId": "mcp-docs"
+            },
+            {
+              "id": "w11t3",
+              "label": "Design a read-only tool and write a safety checklist.",
+              "detail": "List its permissions, data source, what it cannot access, when a human must approve, and where secrets live."
+            }
+          ],
+          "stretch": "Follow a Microsoft MCP for Beginners lab or complete the rest of the Hugging Face MCP course.",
+          "outcome": "A clear MCP mental model and a safety checklist for tool use."
+        },
+        {
+          "number": 12,
+          "title": "Ship, document, review",
+          "focus": "Finish one small thing properly and decide what comes next.",
+          "hours": "5–7 hours",
+          "tasks": [
+            {
+              "id": "w12t1",
+              "label": "Scope the capstone in one paragraph: user, problem, demo, and non-goal.",
+              "detail": "Small and tested beats ambitious and unfinished. Choose one narrow task."
+            },
+            {
+              "id": "w12t2",
+              "label": "Build and test from a clean setup.",
+              "detail": "Remove personal data and secrets. If a fresh run needs undocumented steps, fix the README or remove the step."
+            },
+            {
+              "id": "w12t3",
+              "label": "Write the README and share a short case study.",
+              "detail": "Include the problem, audience, how it works, privacy, what works, limitations, and one next step."
+            },
+            {
+              "id": "w12t4",
+              "label": "Do a 90-day review: list three skills you can demonstrate and two next steps.",
+              "detail": "No self-grade or productivity shame. Evidence and a direction are enough."
+            }
+          ],
+          "stretch": "Choose one next specialization: evaluation, safety, fine-tuning, local AI, or product craft.",
+          "outcome": "Capstone project, documentation, and a clear next direction."
+        }
+      ],
+      "milestone": {
+        "title": "Day 90 checkpoint: you made a thing",
+        "description": "The finish line is not a certificate. It is a working artifact, a readable explanation, and a realistic next step.",
+        "checks": [
+          "A tested tool, notebook, or manual with a README anyone can follow.",
+          "One prompt library or workflow you actually reuse.",
+          "A personal privacy and safety card for AI use.",
+          "A short case study that names limitations instead of hiding them.",
+          "A decision about the next 90 days—not a vague intention to 'learn more'."
+        ]
+      }
+    }
+  ],
+  "rules": [
+    "The plan is the spine; the library is the shelf. You do not need to finish every course.",
+    "Three short sessions a week count. Missing a week is data, not a moral failure.",
+    "Always protect privacy first: no patient information, client records, passwords, API keys, or private financial data in prompts or repositories.",
+    "Use AI for drafts, questions, and scaffolding. Keep human judgment for decisions, claims, and anything high-stakes.",
+    "When a resource stops helping, stop. Provider loyalty is not a learning outcome.",
+    "If you are exhausted, do the ten-minute version. Rest is part of the schedule."
+  ],
+  "fallback": [
+    {
+      "title": "You missed a week",
+      "text": "Restart at the current week. Do not restart from Week 1. Skip the stretch task and keep the next checkpoint small."
+    },
+    {
+      "title": "You only have 15 minutes",
+      "text": "Open the next task, set a timer, and do one small piece. Write one sentence in your learning note before you close it."
+    },
+    {
+      "title": "A course format is not working",
+      "text": "Substitute a video or a different route from the library, but keep the week's artifact. The artifact is the real test."
+    },
+    {
+      "title": "Life is genuinely on fire",
+      "text": "Pause the plan. Keep your notes. When you return, resume at the current week and shrink the next checkpoint. Do not punish yourself with a restart."
+    },
+    {
+      "title": "Perfectionism shows up",
+      "text": "Ship the boring first version. A small, documented thing that works teaches more than a beautiful plan that never runs."
+    }
+  ],
+  "projects": [
+    {
+      "title": "For authors and small businesses",
+      "text": "Build a prompt library for book descriptions, FAQ drafts, and email replies—using only public information. Add a human review step and a fact-check checklist."
+    },
+    {
+      "title": "For healthcare workers, education only",
+      "text": "Practice with fabricated scenarios. Create a study guide or shift-reflection template, never a diagnostic or treatment tool, and never paste real patient information into a consumer AI tool."
+    },
+    {
+      "title": "For local-first tinkerers",
+      "text": "Compare a hosted model with a small local model on one low-stakes task. Record privacy, cost, speed, and quality trade-offs in a one-page note."
+    }
+  ],
+  "finishLine": [
+    "One tested artifact with a README and a clear limitation.",
+    "One reusable prompt or workflow, stored somewhere you will find it again.",
+    "One personal safety and privacy card.",
+    "One honest explanation of what a certificate can and cannot prove.",
+    "One concrete next step for the following 90 days."
+  ]
+}

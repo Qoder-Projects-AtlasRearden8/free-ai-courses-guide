@@ -1,0 +1,116 @@
+<section class="page-hero page-hero--library">
+  <div class="shell page-hero__grid">
+    <div>
+      <p class="eyebrow">The library</p>
+      <h1>One good next thing.</h1>
+      <p class="page-lede">{{TOTAL_RESOURCES}} official resources, sorted for humans. Search by what you want to make, filter by how much time you have, and save the ones that fit.</p>
+    </div>
+    <div class="page-hero__aside">
+      <p class="mini-label">A useful way in</p>
+      <p>Brand new? Start with a 45-minute course and one explanation you can repeat to a friend. <a href="paths.html">The paths</a> do the sequencing for you.</p>
+      <p class="hero-aside-note">Nothing here requires an account on this site.</p>
+    </div>
+  </div>
+</section>
+
+<section class="library-section" aria-labelledby="library-heading">
+  <h2 id="library-heading" class="visually-hidden">Browse and filter the resource library</h2>
+  <div class="shell">
+    <div class="library-tools">
+      <div class="search-row">
+        <div class="search-field">
+          <label class="field-label" for="library-search">Search the library</label>
+          <div class="search-input-wrap">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 4.5 4.5"/></svg>
+            <input id="library-search" type="search" placeholder="Try “agents”, “Kaggle”, or “Python”" autocomplete="off" spellcheck="false" aria-describedby="search-hint">
+            <button class="search-clear" type="button" data-clear-search aria-label="Clear the search" hidden>Clear</button>
+          </div>
+          <p class="field-hint" id="search-hint">Searches titles, providers, topics, formats, and descriptions.</p>
+        </div>
+        <div class="toolbar-note">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3.2c2.1 1.6 4.4 2.4 7 2.5v5.4c0 4.5-2.8 7.9-7 9.7-4.2-1.8-7-5.2-7-9.7V5.7c2.6-.1 4.9-.9 7-2.5Z"/><path d="m8.8 12 2.1 2.1 4.4-4.5"/></svg>
+          <p><strong>Your shelf is private.</strong> Saved items, done marks, and plan checkboxes live in this browser only.</p>
+        </div>
+      </div>
+
+      <div class="filter-row">
+        <div class="filter-tabs" role="group" aria-label="Filter by resource type">
+          {{TYPE_COUNTS}}
+        </div>
+        <div class="select-filters">
+          <div class="select-field">
+            <label class="field-label" for="category-filter">Category</label>
+            <select id="category-filter">
+              <option value="">All categories</option>
+              {{CATEGORY_OPTIONS}}
+            </select>
+          </div>
+          <div class="select-field">
+            <label class="field-label" for="level-filter">Level</label>
+            <select id="level-filter">
+              <option value="">Any level</option>
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+            </select>
+          </div>
+          <div class="select-field">
+            <label class="field-label" for="provider-filter">Provider</label>
+            <select id="provider-filter">
+              <option value="">All providers</option>
+              {{PROVIDER_OPTIONS}}
+            </select>
+          </div>
+        </div>
+        <div class="chip-filters" role="group" aria-label="More library filters">
+          <label class="check-chip">
+            <input type="checkbox" id="free-cert-filter">
+            <span>Free certificate only</span>
+          </label>
+          <button class="check-chip check-chip--button" type="button" id="saved-filter" aria-pressed="false">
+            Saved <span class="chip-count" data-saved-count>0</span>
+          </button>
+          <button class="check-chip check-chip--button" type="button" id="done-filter" aria-pressed="false">
+            Done <span class="chip-count" data-done-count>0</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="results-bar">
+        <p id="results-count" role="status" aria-live="polite">Showing all {{TOTAL_RESOURCES}} resources.</p>
+        <button class="text-button clear-filters" type="button" data-clear-filters hidden>Reset all filters</button>
+        <p class="results-note">Please check the provider’s page before enrolling—free rules can change.</p>
+      </div>
+    </div>
+
+    <noscript>
+      <p class="noscript-note">Search and filters need JavaScript. The full library is still listed below, and every official link works without it.</p>
+    </noscript>
+
+    <div class="resource-grid" id="resource-grid">
+      {{LIBRARY_CARDS}}
+    </div>
+
+    <div class="empty-state" id="empty-state" hidden>
+      <p class="eyebrow">Nothing in this sieve</p>
+      <h3>No resources match those filters.</h3>
+      <p>Try a shorter search, a different level, or fewer filters. Your saved and done marks are still in this browser.</p>
+      <button class="button button--quiet" type="button" data-clear-filters>Reset all filters</button>
+    </div>
+  </div>
+</section>
+
+<section class="section section--cream section--tight" aria-labelledby="library-help-title">
+  <div class="shell reading-grid">
+    <div>
+      <p class="eyebrow">A small reading key</p>
+      <h2 id="library-help-title">What the labels mean.</h2>
+    </div>
+    <dl class="legend">
+      <div><dt>Free certificate</dt><dd>The provider offers a free completion record. Rules and account requirements vary; read the course page.</dd></div>
+      <div><dt>Certificate paid</dt><dd>The learning may be free, but the certificate costs money or requires a paid membership.</dd></div>
+      <div><dt>No certificate</dt><dd>There is no certificate route listed. Your notes, project, or write-up are the evidence.</dd></div>
+      <div><dt>Certificate varies</dt><dd>Rules differ by cohort or access route. Check the current official page before you plan around it.</dd></div>
+    </dl>
+  </div>
+</section>

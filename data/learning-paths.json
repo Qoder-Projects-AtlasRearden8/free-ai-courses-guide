@@ -1,0 +1,206 @@
+{
+  "intro": "Four routes, same principle: learn a little, make something small, then check your understanding. Start at the level that matches what you can already do—not the level you think you should be.",
+  "paths": [
+    {
+      "id": "understand-ai",
+      "number": "01",
+      "accent": "rust",
+      "eyebrow": "Beginner · No code",
+      "title": "Understand AI without the jargon",
+      "subtitle": "A calm on-ramp for curious adults who want to use AI thoughtfully and explain it clearly.",
+      "level": "Beginner",
+      "duration": "4–6 weeks",
+      "effort": "3–4 hours per week",
+      "cost": "Free to start",
+      "certificates": "One free Google badge and one free Kaggle certificate are available in this route.",
+      "bestFor": "Nurses, writers, small-business owners, parents, and anyone who keeps hearing AI terms they are too polite to ask about.",
+      "prereqs": "None. No math, no coding, no prerequisite course.",
+      "summary": "Build a working vocabulary, practice a repeatable prompt loop, and develop the judgment to notice when AI is helpful, wrong, or inappropriate.",
+      "steps": [
+        {
+          "title": "Get the big picture",
+          "description": "Start with a 45-minute explanation and a friendly university course. The goal is not to memorize terms; it is to replace vague anxiety with a few accurate sentences.",
+          "resourceIds": ["google-intro-genai", "elements-of-ai"]
+        },
+        {
+          "title": "Learn how machines learn",
+          "description": "Skim Google's ML fundamentals and watch one visual explanation. You are building a mental model of training, prediction, and error—not becoming an engineer in a weekend.",
+          "resourceIds": ["google-ml-crash-course", "youtube-3blue1brown"]
+        },
+        {
+          "title": "Practice a real prompt",
+          "description": "Take a short prompting course, then use Google's whitepaper to understand why one prompt works better than another. Test everything on a low-stakes, non-sensitive task.",
+          "resourceIds": ["deeplearning-chatgpt-prompt", "google-prompt-whitepaper"]
+        },
+        {
+          "title": "Build your judgment",
+          "description": "Use an ethics course and a human-centered design guide to make your own rules for privacy, verification, disclosure, and when to stop and ask a person.",
+          "resourceIds": ["kaggle-intro-ai-ethics", "google-pair-guidebook"]
+        }
+      ],
+      "project": {
+        "title": "A one-page AI field note",
+        "description": "Write a plain-English explanation of generative AI in five paragraphs, include a prompt template you tested, and finish with five personal rules for safe use.",
+        "proof": "A document you could hand to a colleague. Bonus: record a five-minute voice note explaining it without jargon."
+      },
+      "after": "Move to the Python and data foundations route if you want to make tools yourself, or stay here and deepen your practice with the 30/60/90-day plan."
+    },
+    {
+      "id": "python-and-data",
+      "number": "02",
+      "accent": "sage",
+      "eyebrow": "Beginner → Intermediate · Code",
+      "title": "Python and data, without the bootcamp",
+      "subtitle": "A practical foundation for people who want to clean data, train a first model, and know when the result is believable.",
+      "level": "Beginner to intermediate",
+      "duration": "12 weeks–6 months",
+      "effort": "5–6 hours per week",
+      "cost": "Free to start",
+      "certificates": "Kaggle certificates are free and quick; freeCodeCamp certifications are free but long.",
+      "bestFor": "Anyone willing to practice a little code each week. Useful for authors tracking sales, small businesses studying demand, or healthcare workers learning with public data.",
+      "prereqs": "Comfort using a browser and editing a spreadsheet. No prior programming required, but consistency is.",
+      "summary": "Learn just enough Python to be dangerous, get comfortable with tabular data, build a first model, and tell an honest story about what it can and cannot prove.",
+      "steps": [
+        {
+          "title": "Python on-ramp",
+          "description": "Use Kaggle's short in-browser course as the required spine. Keep freeCodeCamp's larger certification in reserve for when you want a long, project-based credential.",
+          "resourceIds": ["kaggle-python", "freecodecamp-scientific-python"]
+        },
+        {
+          "title": "Make data less scary",
+          "description": "Learn pandas through small exercises, then use freeCodeCamp's data-analysis curriculum for deeper project practice. Pick a public dataset you actually find interesting.",
+          "resourceIds": ["kaggle-pandas", "freecodecamp-data-analysis-python"]
+        },
+        {
+          "title": "Train a first model",
+          "description": "Build a decision tree and random forest in Kaggle, then use Google's crash course to understand what the model is optimizing and where it can fail.",
+          "resourceIds": ["kaggle-intro-machine-learning", "google-ml-crash-course"]
+        },
+        {
+          "title": "Get honest about evaluation",
+          "description": "Learn about validation, missing data, and pipelines. Read Machine Learning Yearning for the project-level judgment that code tutorials often skip.",
+          "resourceIds": ["kaggle-intermediate-machine-learning", "book-machine-learning-yearning"]
+        },
+        {
+          "title": "Make a portfolio project",
+          "description": "Only after the smaller pieces feel familiar, choose a long freeCodeCamp certification or go deeper into neural networks with Kaggle. Use the other as optional follow-up.",
+          "resourceIds": ["freecodecamp-machine-learning-python", "kaggle-intro-deep-learning"]
+        }
+      ],
+      "project": {
+        "title": "One honest data story",
+        "description": "Choose a public, non-sensitive dataset. Ask one clear question, establish a baseline, train a simple model, and report one meaningful limit alongside your result.",
+        "proof": "A clean notebook and a one-page README with the question, data source, method, metric, and 'what this does not prove'."
+      },
+      "after": "You are ready for the builder route: LLM applications, agents, and MCP. Or continue into deep learning for a more mathematical route."
+    },
+    {
+      "id": "build-with-ai",
+      "number": "03",
+      "accent": "gold",
+      "eyebrow": "Intermediate · Build",
+      "title": "Build with LLMs, agents, and MCP",
+      "subtitle": "From a first API call to a small agent that uses tools—with free certificates available along the way.",
+      "level": "Intermediate",
+      "duration": "12 weeks–4 months",
+      "effort": "5–8 hours per week",
+      "cost": "Free to start",
+      "certificates": "Hugging Face offers free Agents and MCP certificates. DeepLearning.AI lessons are free; its certificates require PRO.",
+      "bestFor": "People who can already write a little Python and want to build useful, local-first tools rather than only chat with a model.",
+      "prereqs": "Basic Python (variables, functions, lists, a little file handling), comfort with the command line, and patience with error messages.",
+      "summary": "Learn how LLM applications are put together, how agents use tools, and how MCP connects models to outside data. Each stage ends with something small you can run.",
+      "steps": [
+        {
+          "title": "Python and API confidence",
+          "description": "Fill the coding gaps with DeepLearning.AI's beginner Python course. Skim Microsoft's Generative AI curriculum for the app-building vocabulary, not as a race.",
+          "resourceIds": ["deeplearning-ai-python-beginners", "microsoft-genai-beginners"]
+        },
+        {
+          "title": "Understand the model layer",
+          "description": "Work through the first chapters of the Hugging Face LLM course. Focus on tokens, transformers, datasets, and evaluation before trying to fine-tune anything.",
+          "resourceIds": ["huggingface-llm-course"]
+        },
+        {
+          "title": "Prompt, call, and constrain",
+          "description": "Use DeepLearning.AI's prompting short course to turn a fuzzy idea into instructions, then enforce a format in code. Keep API keys in environment variables, never in your repo.",
+          "resourceIds": ["deeplearning-chatgpt-prompt", "deeplearning-mcp-anthropic"]
+        },
+        {
+          "title": "Build your first agent loop",
+          "description": "Learn the goal → tool → observation → stop loop. Take Hugging Face's Agents course for structured practice, with Microsoft's AI Agents curriculum as a second perspective.",
+          "resourceIds": ["huggingface-agents-course", "microsoft-ai-agents-beginners"]
+        },
+        {
+          "title": "Connect tools safely with MCP",
+          "description": "Build an MCP mental model with the Hugging Face course, then use Microsoft's curriculum and the official docs when you need implementation detail. Start read-only, with explicit permissions.",
+          "resourceIds": ["huggingface-mcp-course", "microsoft-mcp-beginners", "mcp-docs"]
+        },
+        {
+          "title": "Ship a small capstone",
+          "description": "Use the Kaggle/Google agent intensive for structure and community, or design your own project. The finish line is a tested tool with a README—not a folder of half-finished demos.",
+          "resourceIds": ["kaggle-agents-intensive"]
+        }
+      ],
+      "project": {
+        "title": "A small tool with a tool-use boundary",
+        "description": "Build one narrow agent or MCP-connected app: a reading-log helper, a public-data lookup, or a local document Q&A tool. Use synthetic or public data, require confirmation before any write action, and document what it cannot do.",
+        "proof": "A public repo or local project with setup steps, a demo, a privacy note, and evidence that it runs from a clean start."
+      },
+      "after": "Go deeper into evaluation, observability, and security. Or use the finished project as the foundation for an ASDALE DYNAMICS template or small product."
+    },
+    {
+      "id": "deep-learning",
+      "number": "04",
+      "accent": "forest",
+      "eyebrow": "Advanced · Theory + practice",
+      "title": "Deep learning, from first principles",
+      "subtitle": "A slower, more rigorous route for people who want to understand the machinery, not only use the API.",
+      "level": "Advanced",
+      "duration": "6–9 months",
+      "effort": "6–10 hours per week",
+      "cost": "Free to start",
+      "certificates": "Kaggle's Intro to Deep Learning certificate is free. The most valuable output here is a reproducible project and model card.",
+      "bestFor": "Builders who have finished a first ML project and now want the math, model internals, and research habits behind modern deep learning.",
+      "prereqs": "Comfortable Python, basic calculus and linear algebra, and at least one machine-learning course or equivalent project experience.",
+      "summary": "Use code-first courses to keep momentum, open textbooks to fill the math, and primary lectures to see how the field reasons. Expect to loop back, not master everything in one pass.",
+      "steps": [
+        {
+          "title": "Refresh the math you need",
+          "description": "Use selected chapters of Mathematics for Machine Learning and visual videos. Aim for intuition about vectors, gradients, and probability—not exam perfection.",
+          "resourceIds": ["book-mathematics-for-ml", "youtube-3blue1brown"]
+        },
+        {
+          "title": "Build first",
+          "description": "Take fast.ai's code-first course alongside its free book. Train models, break things, and develop a feel for learning rates, overfitting, and data quality before diving into proofs.",
+          "resourceIds": ["fastai-practical-deep-learning", "book-fastbook"]
+        },
+        {
+          "title": "Connect theory to implementation",
+          "description": "Read and run Dive into Deep Learning, then complete Kaggle's short deep-learning course as a checkpoint. Rewrite at least one model from scratch in a small notebook.",
+          "resourceIds": ["book-dive-into-deep-learning", "kaggle-intro-deep-learning"]
+        },
+        {
+          "title": "Learn from primary lectures",
+          "description": "Watch MIT 6.S191 and selected Andrej Karpathy lectures. Take notes as if you will explain each idea to a smart colleague who has never trained a model.",
+          "resourceIds": ["mit-intro-deep-learning", "youtube-karpathy"]
+        },
+        {
+          "title": "Read the reference shelf",
+          "description": "Use Deep Learning as a reference when a concept will not click, and An Introduction to Statistical Learning to keep classical machine learning in view. You are not required to read every page.",
+          "resourceIds": ["book-deep-learning", "book-statlearning"]
+        },
+        {
+          "title": "Fine-tune and document",
+          "description": "Use the Hugging Face LLM course for a guided fine-tuning or evaluation project, then write a model card with intended use, limits, data provenance, and failure cases.",
+          "resourceIds": ["huggingface-llm-course"]
+        }
+      ],
+      "project": {
+        "title": "A reproducible model study",
+        "description": "Choose a public dataset or small open model. Establish a baseline, test one clear hypothesis, document the compute budget, evaluate beyond a single score, and state who should not rely on it.",
+        "proof": "A reproducible repository, training log, evaluation table, and a model card written for a non-expert reader."
+      },
+      "after": "Specialize in evaluation, interpretability, efficient fine-tuning, or safety—and keep a small project shipping while you read."
+    }
+  ]
+}

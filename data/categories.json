@@ -1,0 +1,232 @@
+{
+  "intro": "The guide is organized by what you want to be able to do, not by whichever company is loudest. Start with one category, finish a small piece of work, then decide whether to go wider.",
+  "categories": [
+    {
+      "id": "foundations",
+      "number": "01",
+      "navLabel": "Foundations",
+      "title": "AI foundations, without the jargon",
+      "level": "Beginner",
+      "time": "45 minutes to ~30 hours",
+      "tagline": "Understand what AI and generative AI actually are, where they fail, and how to use them without surrendering your judgment.",
+      "lede": "Start here if you want the vocabulary and a sound mental model before touching code. This is also the best shelf for nurses, writers, small-business owners, and anyone tired of hearing words like \"model\" and \"hallucination\" without a plain-English explanation.",
+      "body": [
+        "The opening resources do different jobs. Google's 45-minute introduction gives you a fast, accurate map of generative AI. Elements of AI slows down and asks what AI is for, where it shows up in society, and what it cannot do. Kaggle's ethics course turns those ideas into practical questions about fairness and privacy. Microsoft's curriculum is the deeper, self-paced option when you want to understand how the machinery works.",
+        "You do not need to complete every item. A sensible first pass is roughly 6–10 hours: Google's introduction, the first two chapters of Elements of AI, and Kaggle's ethics lessons. Add Microsoft when you want a structured 12-week curriculum, and use the People + AI Guidebook when you are designing something another person will use.",
+        "Two access notes matter. Coursera's AI for Everyone now offers a free first-module preview, not the full course and not a certificate. AWS's digital lesson is free, but its labs and credential ecosystem are separate products. The guide labels both clearly rather than calling everything \"free.\""
+      ],
+      "certificateReality": "The Google Introduction to Generative AI skill badge and all listed Kaggle Learn certificates are free. Elements of AI's course is free but its optional certificate costs €50. Coursera and AWS do not hand out a free professional credential with these beginner courses. Microsoft's open curricula do not include a certificate.",
+      "bestFor": "Curious adults, career changers, healthcare workers, writers, and business owners who need useful literacy before tools or code.",
+      "resourceIds": [
+        "google-intro-genai",
+        "elements-of-ai",
+        "kaggle-intro-ai-ethics",
+        "microsoft-ai-beginners",
+        "deeplearning-ai-for-everyone",
+        "aws-fundamentals-genai",
+        "google-pair-guidebook"
+      ],
+      "route": [
+        "google-intro-genai",
+        "elements-of-ai",
+        "kaggle-intro-ai-ethics",
+        "microsoft-ai-beginners",
+        "deeplearning-ai-for-everyone",
+        "aws-fundamentals-genai"
+      ],
+      "proof": "Write a one-page AI field note: explain generative AI in five short paragraphs, include one prompt you tested, and list five personal rules for privacy, verification, disclosure, and when not to use AI at all.",
+      "next": "When the vocabulary feels manageable, move to Python and data, or follow the beginner no-code path for a guided sequence."
+    },
+    {
+      "id": "coding-data",
+      "number": "02",
+      "navLabel": "Python & data",
+      "title": "Python and data, from a gentle start",
+      "level": "Beginner to intermediate",
+      "time": "5 hours to ~300 hours per certification",
+      "tagline": "Learn enough code to read, run, and modify something real—then use it to understand a dataset honestly.",
+      "lede": "A Python course is not the same thing as an AI course, but it is the on-ramp that makes modern AI practice possible. Start here if you want to build tools rather than only talk about them.",
+      "body": [
+        "Kaggle is the lowest-friction starting line: short browser notebooks, immediate feedback, and a free completion certificate. Python takes about five hours and pandas about four. You can finish the first one this week without installing anything; install Python locally only when you want to keep working offline.",
+        "The long freeCodeCamp certifications are a different commitment. Each is project-based and estimated at roughly 300 hours. They can be excellent evidence of persistence, but they are a poor first test of whether you enjoy coding. Use the freeCodeCamp YouTube channel or early curriculum sections as a sample before promising yourself a marathon.",
+        "DeepLearning.AI's AI Python for Beginners is useful once you can write a basic script and want an AI-assisted, project-oriented next step. Its lessons are free to watch; labs, quizzes, and certificates on its own platform require DeepLearning.AI PRO. Keep API keys in environment variables and never commit them."
+      ],
+      "certificateReality": "Kaggle's Python and pandas certificates are free after you complete the exercises. freeCodeCamp's certifications are free after the required projects; each is a long course, not a quick badge. DeepLearning.AI's certificate is tied to paid PRO access, even though its lesson videos are free to watch.",
+      "bestFor": "Beginners who want a practical coding foundation, spreadsheet users ready to graduate, and builders who need enough Python to work with APIs and data.",
+      "resourceIds": [
+        "kaggle-python",
+        "kaggle-pandas",
+        "deeplearning-ai-python-beginners",
+        "freecodecamp-data-analysis-python",
+        "freecodecamp-scientific-python",
+        "youtube-freecodecamp"
+      ],
+      "route": [
+        "kaggle-python",
+        "kaggle-pandas",
+        "deeplearning-ai-python-beginners",
+        "freecodecamp-data-analysis-python",
+        "freecodecamp-scientific-python"
+      ],
+      "proof": "Build a small local notebook with a fabricated or public CSV: load it, clean one messy column, make two charts, and write five sentences that include one limitation of the data.",
+      "next": "Carry the same dataset into the machine-learning shelf, where you will train a first model and learn to evaluate it with more honesty."
+    },
+    {
+      "id": "machine-learning",
+      "number": "03",
+      "navLabel": "Machine learning",
+      "title": "Machine learning, with honest evaluation",
+      "level": "Beginner to intermediate",
+      "time": "3 hours to a full semester",
+      "tagline": "Go from your first decision tree to the project-level judgment that separates a useful result from a misleading score.",
+      "lede": "Machine learning is where data, statistics, and code meet. The point is not to collect algorithms; it is to ask a clear question, establish a baseline, measure honestly, and state what your result does not prove.",
+      "body": [
+        "Kaggle's Intro to Machine Learning is the kindest first step: three hours, a decision tree, a random forest, and the beginnings of validation. Google's Machine Learning Crash Course adds the conceptual layer with videos and exercises, while Kaggle's Intermediate course introduces pipelines, missing values, and cross-validation.",
+        "Only then decide whether you want a larger commitment. Coursera's Machine Learning Specialization is a respected foundation, but the current free preview covers the first module and does not include graded labs or a certificate. edX's CS50 AI is free to audit and much heavier; its verified certificate is paid. Neither is a prerequisite for building something small.",
+        "Use books and video selectively. Machine Learning Yearning is short and unusually practical about project decisions. An Introduction to Statistical Learning is a patient reference, not a cover-to-cover requirement. StatQuest and Kaggle's channel are useful when a specific algorithm refuses to click."
+      ],
+      "certificateReality": "Kaggle's Intro and Intermediate Machine Learning certificates are free, as are freeCodeCamp's project certifications after their much longer requirements. Coursera and edX offer free learning access but charge for certificates. Books and YouTube channels do not include certificates.",
+      "bestFor": "Learners with basic Python who want to understand data, models, and evaluation—and builders who need to know when a result is too fragile to trust.",
+      "resourceIds": [
+        "kaggle-intro-machine-learning",
+        "google-ml-crash-course",
+        "kaggle-intermediate-machine-learning",
+        "edx-cs50-ai",
+        "coursera-ml-specialization",
+        "freecodecamp-machine-learning-python",
+        "book-machine-learning-yearning",
+        "book-statlearning",
+        "youtube-statquest",
+        "youtube-kaggle"
+      ],
+      "route": [
+        "kaggle-intro-machine-learning",
+        "google-ml-crash-course",
+        "kaggle-intermediate-machine-learning",
+        "edx-cs50-ai",
+        "coursera-ml-specialization",
+        "freecodecamp-machine-learning-python"
+      ],
+      "proof": "Choose one public dataset and one clear question. Write down a baseline before modeling, train a simple model, report two appropriate metrics, and finish with a README section titled \"What this does not prove.\"",
+      "next": "Follow the Python and data path for a longer sequence, or move into deep learning if you want the mathematics and model internals behind neural networks."
+    },
+    {
+      "id": "llm-agents",
+      "number": "04",
+      "navLabel": "LLMs & agents",
+      "title": "LLMs, agents, and MCP",
+      "level": "Intermediate",
+      "time": "2 hours to several weeks",
+      "tagline": "Move from a prompt in a chat box to a small, constrained program that can call tools without giving away the keys.",
+      "lede": "This category is for people who can already write a little Python and want to build. It covers prompting, model APIs, retrieval, agent loops, and the Model Context Protocol (MCP)—with honest limits on what \"agentic\" actually means.",
+      "body": [
+        "Begin with the model layer, not the hype layer. DeepLearning.AI's prompting short course is free to watch and still one of the clearest introductions to instructions, formats, and iterative improvement. Microsoft's Generative AI for Beginners is a broad, code-included curriculum for context. Hugging Face's LLM course is the structured route when you want transformers, datasets, fine-tuning, and evaluation.",
+        "Agents are loops: a goal, a set of tools, observations, and a stop condition. Hugging Face's Agents and MCP courses provide structured practice and free certificates for their fundamentals and completion tracks. Microsoft's open curricula give you another perspective and more implementation detail. Kaggle's 5-day intensive can add community structure, but its cohort badges and certificates have changed between sessions, so treat the current guide as the source of truth.",
+        "Build small and read-only first. A calculator, a public-data lookup, or a local notes search is enough to learn the pattern. Require explicit human confirmation before any write action. Never place API keys in a repository, screenshot, prompt, or shared notebook; use environment variables and a local secret store."
+      ],
+      "certificateReality": "Hugging Face's fundamentals and full-course completion certificates are free, with different requirements per course. Kaggle's agent intensive certificate varies by cohort. DeepLearning.AI's short-course videos are free, but its certificates require PRO membership. Microsoft's open curricula do not include certificates, and MCP documentation is reference material.",
+      "bestFor": "Builders with basic Python who want to make LLM-backed tools, automate a narrow workflow, or connect models to outside data while keeping permissions clear.",
+      "resourceIds": [
+        "deeplearning-chatgpt-prompt",
+        "microsoft-genai-beginners",
+        "huggingface-agents-course",
+        "huggingface-mcp-course",
+        "microsoft-ai-agents-beginners",
+        "microsoft-mcp-beginners",
+        "deeplearning-mcp-anthropic",
+        "kaggle-agents-intensive",
+        "huggingface-llm-course",
+        "google-prompt-whitepaper",
+        "mcp-docs",
+        "youtube-openai",
+        "youtube-anthropic",
+        "youtube-huggingface",
+        "youtube-microsoft-developer",
+        "youtube-google-cloud-tech",
+        "youtube-deeplearningai"
+      ],
+      "route": [
+        "deeplearning-chatgpt-prompt",
+        "microsoft-genai-beginners",
+        "huggingface-agents-course",
+        "huggingface-mcp-course",
+        "microsoft-ai-agents-beginners",
+        "microsoft-mcp-beginners",
+        "deeplearning-mcp-anthropic",
+        "kaggle-agents-intensive",
+        "huggingface-llm-course"
+      ],
+      "proof": "Ship one narrow, read-only tool with a README: the user, the problem, setup steps, a demo, the permissions it needs, where secrets live, two failure modes, and an explicit non-goal.",
+      "next": "Harden the project with tests, logging, and evaluation. If you want to understand the models underneath, move into deep learning and mathematics."
+    },
+    {
+      "id": "deep-learning",
+      "number": "05",
+      "navLabel": "Deep learning",
+      "title": "Deep learning and the math behind it",
+      "level": "Intermediate to advanced",
+      "time": "Several months",
+      "tagline": "Build neural networks, connect the code to the mathematics, and document results in a way another person can reproduce.",
+      "lede": "This is the slower route for people who want to understand the machinery rather than only call an API. It is fine to loop back, skip proofs on a first pass, and learn the math in the context of code you have actually run.",
+      "body": [
+        "Start with intuition and a working model. 3Blue1Brown's visual series is a gentle companion, Kaggle's four-hour Intro to Deep Learning gets a neural network running, and fast.ai builds practical models while quickly giving you real datasets and failure modes. MIT 6.S191 adds a fast, research-oriented survey; it is labeled introductory but assumes more mathematical maturity than the beginner shelf.",
+        "Dive into Deep Learning is the best all-in-one bridge from explanation to implementation. Mathematics for Machine Learning fills in linear algebra, probability, and optimization when a concept blocks you. Goodfellow, Bengio, and Courville's Deep Learning is a reference to grow into, not a first book to force yourself through.",
+        "The finish line is not coverage. Pick one small model, baseline, or fine-tuning experiment. Record the data, compute budget, metric, and failure cases. Write a model card for a non-expert. That is more useful evidence than a folder of completed notebooks you cannot explain."
+      ],
+      "certificateReality": "Kaggle's Intro to Deep Learning certificate is free. The listed university courses, open textbooks, fast.ai course, and YouTube channels do not include free certificates. The durable evidence here is a reproducible project, training log, and model card.",
+      "bestFor": "Builders who have finished a first machine-learning project and want the math, model internals, and research habits behind modern deep learning.",
+      "resourceIds": [
+        "youtube-3blue1brown",
+        "kaggle-intro-deep-learning",
+        "fastai-practical-deep-learning",
+        "mit-intro-deep-learning",
+        "book-fastbook",
+        "book-dive-into-deep-learning",
+        "book-mathematics-for-ml",
+        "book-deep-learning",
+        "youtube-karpathy",
+        "youtube-google-deepmind"
+      ],
+      "route": [
+        "youtube-3blue1brown",
+        "kaggle-intro-deep-learning",
+        "fastai-practical-deep-learning",
+        "mit-intro-deep-learning",
+        "book-dive-into-deep-learning",
+        "book-mathematics-for-ml"
+      ],
+      "proof": "Produce a reproducible model study: baseline, one clear hypothesis, training code, evaluation beyond a single score, compute notes, and a plain-language model card that names who should not rely on it.",
+      "next": "Specialize in evaluation, interpretability, efficient fine-tuning, or safety—and keep shipping small projects while you read."
+    },
+    {
+      "id": "access",
+      "number": "06",
+      "navLabel": "Access briefings",
+      "title": "Access and certificate briefings",
+      "level": "Reference",
+      "time": "5–10 minute reads",
+      "tagline": "Official explanations of what “free” means at Coursera, edX, and AWS—and where the certificate boundary actually sits.",
+      "lede": "These are not courses. They are primary sources for checking access rules before you invest weeks in a platform whose terms have changed.",
+      "body": [
+        "Coursera now offers a first-module preview on nearly every course rather than full free auditing. edX still allows free audit access on many courses, but it can be time-limited, exclude graded work, and exclude certificates. AWS makes selected digital badges free while reserving certification exams for paid products.",
+        "Read the provider's page on the day you enroll. Labels such as “audit,” “preview,” “professional certificate,” and “certification” are not interchangeable. The certificate guide turns these rules into a plain-English comparison."
+      ],
+      "certificateReality": "These briefings are free to read and are the citation trail for the certificate comparisons in this guide.",
+      "bestFor": "Anyone comparing access routes, financial aid, audit limits, or the difference between a badge and a certification.",
+      "resourceIds": [
+        "coursera-preview-guide",
+        "coursera-financial-aid",
+        "edx-audit-guide",
+        "aws-digital-badges"
+      ],
+      "route": [
+        "coursera-preview-guide",
+        "coursera-financial-aid",
+        "edx-audit-guide",
+        "aws-digital-badges"
+      ],
+      "proof": "Before enrolling, write down the course, provider, access type, certificate cost, and the date you checked. Save the official page so future-you knows what changed.",
+      "next": "Use the certificate guide for the full provider comparison and honest résumé language."
+    }
+  ]
+}

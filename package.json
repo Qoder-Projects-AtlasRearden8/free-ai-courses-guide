@@ -1,0 +1,27 @@
+{
+  "name": "learn-ai-for-free",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A no-hype guide to free AI courses, certificates, books, channels, and a 30/60/90-day learning plan.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "start": "npm run build && npm run serve",
+    "test": "npm run build && node --test tests/content.test.mjs tests/build.test.mjs",
+    "test:browser": "npm run build && node --test tests/browser.test.mjs",
+    "check-links": "node scripts/check-links.mjs",
+    "verify": "npm test && node --test tests/browser.test.mjs"
+  },
+  "keywords": [
+    "ai",
+    "free-courses",
+    "learning",
+    "education"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "axe-core": "^4.14.0",
+    "playwright-core": "^1.64.1"
+  }
+}
