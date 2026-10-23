@@ -2,14 +2,14 @@
 
 ### A no-hype field guide to legitimate free AI and tech courses, certificates, books, and official channels.
 
-**54 resources · 12 free certificate routes · 6 categories · 4 learning paths · a 12-week, 37-task plan**
+**59 resources · 14 free certificate routes · 6 categories · 5 learning paths · a 12-week, 37-task plan**
 
 This project ships the same guide twice, from one source of truth:
 
 - **Markdown docs** in [`docs/`](docs/) for reading, printing, or reusing offline.
-- **A static website** in [`site/`](site/) with search and filters, saved resources, learning-path progress, and a checkable 90-day plan.
+- **A static website** in [`site/`](site/) with search plus category, level, time, provider, certificate, and format filters; saved resources; learning-path progress; and a checkable 90-day plan.
 
-It is written for adults learning around real life: nurses, writers, small-business owners, career changers, and anyone who wants a plain-English route through AI without being sold a fantasy. The tone follows *The Massive AI Manual*: step by step, warm, and never condescending.
+It is written for adults learning around real life: nurses, writers, small-business owners, career changers, and anyone who wants a plain-English route through AI without being sold a fantasy. It also includes a dedicated practical route for GitHub, AI-assisted coding, and local models—the tools Dylan writes about for people who want to build without renting every capability. The tone follows *The Massive AI Manual*: step by step, warm, and never condescending.
 
 A project of **ASDALE DYNAMICS, LLC**.
 
@@ -20,7 +20,7 @@ A project of **ASDALE DYNAMICS, LLC**.
 | Foundations | Understand what AI and generative AI are, where they fail, and how to keep your judgment | Beginner |
 | Python & data | Read, run, and modify real code, then inspect a dataset honestly | Beginner to intermediate |
 | Machine learning | Go from a first decision tree to project-level judgment | Beginner to intermediate |
-| LLMs & agents | Build a small, constrained program that can call tools safely | Intermediate |
+| LLMs & agents | Build with LLMs, agents, and MCP; use an AI coding assistant; run models locally | Intermediate |
 | Deep learning | Connect neural-network code to the math and document reproducible results | Intermediate to advanced |
 | Access briefings | Short official policy and access pages rather than courses | Reference |
 
@@ -30,7 +30,7 @@ Every entry is linked at the provider's own site and labeled with:
 - level and honest time commitment
 - whether it is free to learn, offers a free certificate, charges for the certificate, varies by route, or offers no certificate
 
-Twelve resources currently lead to a free completion certificate or badge. The guide deliberately separates **free to learn**, **free certificate**, and **accredited credential**. They are not interchangeable, and no certificate here promises a job.
+Fourteen resources currently lead to a free completion certificate or badge, most from Kaggle Learn, freeCodeCamp, Google, Hugging Face, and Databricks. Some other entries, such as the Microsoft GitHub Foundations path, are free to study but charge for an optional certification exam. The guide deliberately separates **free to learn**, **free certificate**, **paid certificate**, and **accredited credential**. They are not interchangeable, and no certificate here promises a job.
 
 ## Quick start
 
@@ -72,7 +72,7 @@ data/
   catalog.json          Every resource, its URL, level, time, certificate status, and notes
   categories.json       Six categories and their exact resource membership
   certificates.json     Provider-by-provider certificate matrix and fine print
-  learning-paths.json   Four sequenced routes with finish lines
+  learning-paths.json   Five sequenced routes with finish lines
   plan.json             Three phases, 12 weeks, 37 tasks, projects, and fallbacks
 src/site/
   *.html                Section templates for each page
@@ -101,7 +101,7 @@ The data files are the source of truth. Both deliverables are generated from the
 2. **Substantive learning.** No lead magnets; each entry says what you will actually do.
 3. **Honest access.** Free, free certificate, paid certificate, varies, and no certificate are separate labels.
 4. **No monetized detour.** No affiliate links, tracking parameters, or mystery course mills.
-5. **Checked by hand.** Links and certificate rules were last checked **October 22, 2026**. Provider terms change, so confirm on the course page before enrolling.
+5. **Checked by hand.** Links and certificate rules were last checked **October 23, 2026**. Provider terms change, so confirm on the course page before enrolling.
 
 The guide is independent and not affiliated with or endorsed by any course provider.
 
@@ -113,6 +113,26 @@ The guide is independent and not affiliated with or endorsed by any course provi
 - Healthcare-related examples are **education only**, never medical advice, clinical guidance, or a diagnostic tool.
 - Never put real patient information, client records, passwords, or other sensitive data into a consumer AI tool. Use fabricated scenarios and follow your employer's policy and professional obligations.
 - The guide is not legal, financial, or medical advice.
+
+## Verification
+
+The project is tested locally; no hosted CI is configured. On **October 23, 2026**:
+
+| Check | Result |
+| --- | --- |
+| `npm test` | **29/29 pass** — content validation and generated-output tests |
+| `npm run test:browser` | **8/8 pass** — real Chrome interactions, persistence, mobile layout |
+| axe WCAG 2.1 A/AA scans | **0 violations** across all six pages |
+| `npm run check-links -- --concurrency=4` | **62 external URLs, 0 failures; 0 local issues** |
+
+The suites check official hosts, duplicate URLs, tracking parameters, certificate claims, exact category membership, path and plan integrity, generated links and fragments, filter combinations, saved/done state, plan export and reset, mobile overflow, and automated accessibility rules.
+
+### Known limits
+
+- **Point-in-time content.** Links and certificate rules were checked on the date above. Providers can change access, pricing, certificate terms, and URLs without notice; confirm on the course page before enrolling.
+- **No affiliation or accreditation.** Certificates and badges are completion records, not degrees or licenses. Inclusion does not imply provider endorsement, and no credential here promises a job.
+- **Local and static by design.** Progress stays in one browser's `localStorage`, with no account or sync. Search and filtering run client-side; there is no backend, CMS, or database.
+- **Editorial estimates.** Time buckets (`under 1 hour`, `1–5 hours`, `6–20 hours`, `20+ hours / multi-week`, and `reference / ongoing`) are practical estimates, not provider guarantees. The catalog is English-language and favors free-to-learn material from established providers.
 
 ## Reading order
 

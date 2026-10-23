@@ -2,13 +2,13 @@
 
 ### A no-hype field guide to legitimate free AI and tech courses and certificates.
 
-**54 official resources · 12 free certificate routes · 4 learning paths · 12-week plan**
+**59 official resources · 14 free certificate routes · 5 learning paths · 12-week plan**
 
 > Start smaller than you think. Make one useful thing. Check the source. Then decide what comes next.
 
 This guide is for adults learning around real life: nurses, writers, small-business owners, career changers, and anyone who wants a plain-English route through AI without being sold a fantasy. Every learning link goes to the provider's own site. Every certificate label separates three different things: **free to learn**, **free certificate**, and **accredited credential**. They are not interchangeable.
 
-Links and certificate rules were last checked **October 22, 2026**. Provider terms can change, so confirm the details on the course page before you enroll.
+Links and certificate rules were last checked **October 23, 2026**. Provider terms can change, so confirm the details on the course page before you enroll.
 
 ## Start here
 
@@ -37,13 +37,15 @@ The sixth site category, **Access briefings**, contains short official policy pa
 
 ## Certificates without the marketing gloss
 
-Twelve links in this guide lead to a free completion certificate or badge. Most come from Kaggle Learn, freeCodeCamp, Google Skills, or Hugging Face. A free certificate can be useful evidence of practice, especially during a career change. It is not an accredited qualification, and no certificate promises a job.
+Fourteen links in this guide lead to a free completion certificate or badge. They come from Kaggle Learn, freeCodeCamp, Google, Hugging Face, and Databricks. A free certificate can be useful evidence of practice, especially during a career change. It is not an accredited qualification, and no certificate promises a job.
 
 The guide labels **paid**, **varies**, and **no certificate** routes too. Start with [Free AI and tech certificates, explained](certificates.md).
 
 Free certificate routes in this edition:
 
 - [Introduction to Generative AI](https://www.skills.google/course_templates/536) — Google; 45 min. Free Google skill badge after passing the quiz; a Google Skills account is required.
+- [Generative AI Fundamentals](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals) — Databricks; 1 hour. Free one-hour training; pass the quiz to earn a Databricks badge. A Databricks account is required.
+- [Generative AI for Educators with Gemini](https://grow.google/ai-for-educators/) — Google; 2 hours. Free two-hour course with a certificate for professional-development credit, subject to district and state rules.
 - [Kaggle: Python](https://www.kaggle.com/learn/python) — Kaggle Learn; 5 hours. Free Kaggle Learn completion certificate after finishing the course exercises.
 - [Kaggle: Pandas](https://www.kaggle.com/learn/pandas) — Kaggle Learn; 4 hours. Free Kaggle Learn completion certificate.
 - [Kaggle: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) — Kaggle Learn; 3 hours. Free Kaggle Learn completion certificate.
@@ -58,7 +60,7 @@ Free certificate routes in this edition:
 
 ## Two quieter ways to use the guide
 
-- [Learning paths](learning-paths.md) arrange resources into four routes with a finish line: AI literacy, Python and data, building with LLMs and agents, and deep learning.
+- [Learning paths](learning-paths.md) arrange resources into five routes with a finish line: AI literacy, Python and data, building with LLMs and agents, free AI coding with local models, and deep learning.
 - [The 90-day plan](90-day-plan.md) turns the same material into three short sessions a week, with a fallback for hard weeks.
 
 You can also browse [the complete library](full-library.md), read [the certificate map](certificates.md), or check [the sources and method](sources-and-method.md).
@@ -85,6 +87,6 @@ _Independent guide. Not affiliated with or endorsed by any course provider. See 
 
 ---
 
-Verified October 22, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
+Verified October 23, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
 
 [Back to the guide index](README.md)

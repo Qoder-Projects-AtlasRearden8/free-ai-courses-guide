@@ -1439,6 +1439,10 @@ svg {
   --accent: var(--forest);
 }
 
+.path-teaser--plum {
+  --accent: #6b4f73;
+}
+
 .path-teaser .eyebrow {
   color: color-mix(in srgb, var(--accent) 80%, var(--ink));
   margin-bottom: 0.9rem;
@@ -2336,6 +2340,10 @@ svg {
 
 .path-card--forest {
   --accent: var(--forest);
+}
+
+.path-card--plum {
+  --accent: #6b4f73;
 }
 
 .path-card__header {

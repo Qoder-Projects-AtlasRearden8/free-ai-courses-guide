@@ -129,6 +129,6 @@ Follow the Python and data path for a longer sequence, or move into deep learnin
 
 ---
 
-Verified October 22, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
+Verified October 23, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
 
 [Back to the guide index](README.md)

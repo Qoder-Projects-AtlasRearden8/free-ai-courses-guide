@@ -8,19 +8,21 @@
 
 Start here if you want the vocabulary and a sound mental model before touching code. This is also the best shelf for nurses, writers, small-business owners, and anyone tired of hearing words like "model" and "hallucination" without a plain-English explanation.
 
-The opening resources do different jobs. Google's 45-minute introduction gives you a fast, accurate map of generative AI. Elements of AI slows down and asks what AI is for, where it shows up in society, and what it cannot do. Kaggle's ethics course turns those ideas into practical questions about fairness and privacy. Microsoft's curriculum is the deeper, self-paced option when you want to understand how the machinery works.
+The opening resources do different jobs. Google's 45-minute introduction gives you a fast, accurate map of generative AI. Databricks' one-hour course adds a free badge and a business framing, while Google's two-hour educator course shows how the same ideas apply to teaching. Elements of AI slows down and asks what AI is for, where it shows up in society, and what it cannot do. Kaggle's ethics course turns those ideas into practical questions about fairness and privacy. Microsoft's curriculum is the deeper, self-paced option when you want to understand how the machinery works.
 
 You do not need to complete every item. A sensible first pass is roughly 6–10 hours: Google's introduction, the first two chapters of Elements of AI, and Kaggle's ethics lessons. Add Microsoft when you want a structured 12-week curriculum, and use the People + AI Guidebook when you are designing something another person will use.
 
 Two access notes matter. Coursera's AI for Everyone now offers a free first-module preview, not the full course and not a certificate. AWS's digital lesson is free, but its labs and credential ecosystem are separate products. The guide labels both clearly rather than calling everything "free."
 
-**Best for:** Curious adults, career changers, healthcare workers, writers, and business owners who need useful literacy before tools or code.
+**Best for:** Curious adults, career changers, healthcare workers, writers, educators, and business owners who need useful literacy before tools or code.
 
 ## Courses at a glance
 
 | Course | Provider | Level | Time | Cost | Free certificate? | What it covers |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Introduction to Generative AI](https://www.skills.google/course_templates/536) | Google | Beginner | 45 min | Free | **Free certificate** | Generative AI, Foundations, No-code |
+| [Generative AI Fundamentals](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals) | Databricks | Beginner | 1 hour | Free | **Free certificate** | Generative AI, AI strategy, Foundations |
+| [Generative AI for Educators with Gemini](https://grow.google/ai-for-educators/) | Google | Beginner | 2 hours | Free | **Free certificate** | Generative AI, Teaching, Gemini |
 | [Elements of AI: Introduction to AI](https://www.elementsofai.com/) | University of Helsinki | Beginner | ~30 hours | Free course | Paid certificate | AI literacy, Society, No-code |
 | [Kaggle: Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) | Kaggle Learn | Beginner | 4 hours | Free | **Free certificate** | AI ethics, Fairness, Privacy |
 | [AI for Beginners](https://github.com/microsoft/ai-for-beginners) | Microsoft | Beginner | 12 weeks (self-paced) | Free | No certificate | Foundations, Python, Ethics |
@@ -40,6 +42,26 @@ A 45-minute, no-code explanation of what generative AI is, how it differs from t
 - **Access:** Free
 - **Certificate:** Free Google skill badge after passing the quiz; a Google Skills account is required.
 - **Topics:** Generative AI, Foundations, No-code
+
+### [Generative AI Fundamentals](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals)
+
+**Databricks** · Beginner · 1 hour · On-demand course + quiz
+
+A free one-hour on-demand course on core generative AI concepts, high-value business use cases, model trade-offs, governance, and where agents fit. Pass the quiz to earn a Databricks badge for LinkedIn and your résumé.
+
+- **Access:** Free
+- **Certificate:** Free one-hour training; pass the quiz to earn a Databricks badge. A Databricks account is required.
+- **Topics:** Generative AI, AI strategy, Foundations
+
+### [Generative AI for Educators with Gemini](https://grow.google/ai-for-educators/)
+
+**Google** · Beginner · 2 hours · Self-paced course
+
+A free two-hour, self-paced course for middle- and high-school educators who want to save time on everyday tasks, personalize instruction, and use Gemini and NotebookLM responsibly. No previous AI experience is required.
+
+- **Access:** Free
+- **Certificate:** Free two-hour course with a certificate for professional-development credit, subject to district and state rules.
+- **Topics:** Generative AI, Teaching, Gemini
 
 ### [Elements of AI: Introduction to AI](https://www.elementsofai.com/)
 
@@ -101,15 +123,17 @@ A three-hour AWS Skill Builder course on generative AI, natural language process
 You do not need every resource. This order keeps the next step small:
 
 1. [Introduction to Generative AI](https://www.skills.google/course_templates/536) — Google; 45 min; Beginner. A 45-minute, no-code explanation of what generative AI is, how it differs from traditional machine learning, and where Google uses it. Finish with a short quiz and a free Google skill badge.
-2. [Elements of AI: Introduction to AI](https://www.elementsofai.com/) — University of Helsinki; ~30 hours; Beginner. A gentle, non-technical course from the University of Helsinki and MinnaLearn. Learn what AI can and cannot do, where it shows up in daily life, and how it affects society. No math or coding required.
-3. [Kaggle: Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) — Kaggle Learn; 4 hours; Beginner. Four hours on human-centered design, fairness, and privacy for AI systems. The examples are practical, the language is plain, and you leave with a free certificate plus a better checklist for building responsibly.
-4. [AI for Beginners](https://github.com/microsoft/ai-for-beginners) — Microsoft; 12 weeks (self-paced); Beginner. Microsoft's open 12-week, 24-lesson curriculum covers AI history, neural networks, computer vision, natural language processing, and ethics, with quizzes and labs. Take only the lessons you need.
-5. [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone) — DeepLearning.AI; ~7 hours; Beginner. Andrew Ng's non-technical course on what AI can do, how to spot useful opportunities, and how AI projects get built. Coursera now offers a free preview of the first module; full access and a certificate are paid.
-6. [Fundamentals of Generative AI](https://skillbuilder.aws/learn/FKXM21R555/fundamentals-of-generative-ai/ZFX96NREH4) — AWS; 3 hours; Beginner. A three-hour AWS Skill Builder course on generative AI, natural language processing, and choosing an AI/ML approach for a real use case. The digital course is free; hands-on labs may require a paid subscription.
+2. [Generative AI Fundamentals](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals) — Databricks; 1 hour; Beginner. A free one-hour on-demand course on core generative AI concepts, high-value business use cases, model trade-offs, governance, and where agents fit. Pass the quiz to earn a Databricks badge for LinkedIn and your résumé.
+3. [Generative AI for Educators with Gemini](https://grow.google/ai-for-educators/) — Google; 2 hours; Beginner. A free two-hour, self-paced course for middle- and high-school educators who want to save time on everyday tasks, personalize instruction, and use Gemini and NotebookLM responsibly. No previous AI experience is required.
+4. [Elements of AI: Introduction to AI](https://www.elementsofai.com/) — University of Helsinki; ~30 hours; Beginner. A gentle, non-technical course from the University of Helsinki and MinnaLearn. Learn what AI can and cannot do, where it shows up in daily life, and how it affects society. No math or coding required.
+5. [Kaggle: Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) — Kaggle Learn; 4 hours; Beginner. Four hours on human-centered design, fairness, and privacy for AI systems. The examples are practical, the language is plain, and you leave with a free certificate plus a better checklist for building responsibly.
+6. [AI for Beginners](https://github.com/microsoft/ai-for-beginners) — Microsoft; 12 weeks (self-paced); Beginner. Microsoft's open 12-week, 24-lesson curriculum covers AI history, neural networks, computer vision, natural language processing, and ethics, with quizzes and labs. Take only the lessons you need.
+7. [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone) — DeepLearning.AI; ~7 hours; Beginner. Andrew Ng's non-technical course on what AI can do, how to spot useful opportunities, and how AI projects get built. Coursera now offers a free preview of the first module; full access and a certificate are paid.
+8. [Fundamentals of Generative AI](https://skillbuilder.aws/learn/FKXM21R555/fundamentals-of-generative-ai/ZFX96NREH4) — AWS; 3 hours; Beginner. A three-hour AWS Skill Builder course on generative AI, natural language processing, and choosing an AI/ML approach for a real use case. The digital course is free; hands-on labs may require a paid subscription.
 
 ## Certificate reality
 
-The Google Introduction to Generative AI skill badge and all listed Kaggle Learn certificates are free. Elements of AI's course is free but its optional certificate costs €50. Coursera and AWS do not hand out a free professional credential with these beginner courses. Microsoft's open curricula do not include a certificate.
+The Google Introduction to Generative AI skill badge, Databricks' one-hour fundamentals badge, Google's educator certificate, and all listed Kaggle Learn certificates are free. Elements of AI's course is free but its optional certificate costs €50. Coursera and AWS do not hand out a free professional credential with these beginner courses. Microsoft's open curricula do not include a certificate.
 
 A completion certificate is a record that you finished a defined piece of learning. It is not an accredited degree, a professional license, or proof that you can do the work unsupervised. See [the certificate guide](certificates.md) for the provider-by-provider rules.
 
@@ -123,6 +147,6 @@ When the vocabulary feels manageable, move to Python and data, or follow the beg
 
 ---
 
-Verified October 22, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
+Verified October 23, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
 
 [Back to the guide index](README.md)

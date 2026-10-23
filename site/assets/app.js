@@ -204,6 +204,7 @@
     const typeButtons = [...document.querySelectorAll('[data-type-filter]')];
     const category = document.getElementById('category-filter');
     const level = document.getElementById('level-filter');
+    const time = document.getElementById('time-filter');
     const provider = document.getElementById('provider-filter');
     const freeCertificate = document.getElementById('free-cert-filter');
     const savedFilter = document.getElementById('saved-filter');
@@ -236,6 +237,7 @@
           type !== 'all' ||
           category?.value ||
           level?.value ||
+          time?.value ||
           provider?.value ||
           freeCertificate?.checked ||
           savedOnly ||
@@ -252,6 +254,7 @@
           (type === 'all' || card.dataset.type === type) &&
           (!category?.value || card.dataset.category === category.value) &&
           (!level?.value || card.dataset.level === level.value) &&
+          (!time?.value || card.dataset.timeBucket === time.value) &&
           (!provider?.value || card.dataset.provider === provider.value) &&
           (!freeCertificate?.checked || card.dataset.certificate === 'free') &&
           (!savedOnly || saved.has(card.dataset.resourceId)) &&
@@ -302,7 +305,7 @@
       announce('Search cleared.');
     });
 
-    [category, level, provider, freeCertificate].forEach((control) => {
+    [category, level, time, provider, freeCertificate].forEach((control) => {
       control?.addEventListener('change', applyLibraryFilters);
     });
 
@@ -325,6 +328,7 @@
         if (search) search.value = '';
         if (category) category.value = '';
         if (level) level.value = '';
+        if (time) time.value = '';
         if (provider) provider.value = '';
         if (freeCertificate) freeCertificate.checked = false;
         typeButtons.forEach((candidate) =>

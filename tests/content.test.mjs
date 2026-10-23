@@ -3,6 +3,7 @@ import test from 'node:test';
 import {
   CERTIFICATE_LABELS,
   LEVEL_LABELS,
+  TIME_BUCKET_LABELS,
   getTotals,
   loadContent,
   readJson,
@@ -26,9 +27,9 @@ async function rawContent() {
 
 test('the catalog loads and passes validation', async () => {
   const content = await loadContent();
-  assert.ok(content.resources.length >= 50);
+  assert.ok(content.resources.length >= 55);
   assert.ok(content.categories.length >= 5);
-  assert.ok(content.paths.length >= 4);
+  assert.ok(content.paths.length >= 5);
 });
 
 test('the edition keeps its promised totals', async () => {
@@ -44,10 +45,10 @@ test('the edition keeps its promised totals', async () => {
       tasks: totals.tasks,
     },
     {
-      resources: 54,
-      courses: 29,
-      freeCertificates: 12,
-      paths: 4,
+      resources: 59,
+      courses: 33,
+      freeCertificates: 14,
+      paths: 5,
       weeks: 12,
       tasks: 37,
     },
@@ -89,6 +90,7 @@ test('all labels and levels use the published vocabulary', async () => {
   content.resources.forEach((resource) => {
     assert.ok(LEVEL_LABELS[resource.level], resource.id);
     assert.ok(Object.hasOwn(CERTIFICATE_LABELS, resource.certificate), resource.id);
+    assert.ok(TIME_BUCKET_LABELS[resource.timeBucket], resource.id);
     assert.ok(['course', 'guide', 'book', 'channel'].includes(resource.type), resource.id);
   });
 });
@@ -96,7 +98,7 @@ test('all labels and levels use the published vocabulary', async () => {
 test('free certificate routes are courses with a real free explanation', async () => {
   const content = await loadContent();
   const freeCourses = content.resources.filter((resource) => resource.certificate === 'free');
-  assert.equal(freeCourses.length, 12);
+  assert.equal(freeCourses.length, 14);
   freeCourses.forEach((resource) => {
     assert.equal(resource.type, 'course', resource.id);
     assert.match(resource.certificateNote, /free/i, resource.id);
@@ -104,12 +106,12 @@ test('free certificate routes are courses with a real free explanation', async (
   });
 });
 
-test('the four learning paths are coherent and reachable', async () => {
+test('the five learning paths are coherent and reachable', async () => {
   const content = await loadContent();
   const pathIds = new Set(content.paths.map((path) => path.id));
   assert.deepEqual(
     [...pathIds].sort(),
-    ['build-with-ai', 'deep-learning', 'python-and-data', 'understand-ai'],
+    ['build-with-ai', 'deep-learning', 'practical-ai', 'python-and-data', 'understand-ai'],
   );
   const levels = content.paths.map((path) => path.level.toLowerCase()).join(' ');
   assert.match(levels, /beginner/);

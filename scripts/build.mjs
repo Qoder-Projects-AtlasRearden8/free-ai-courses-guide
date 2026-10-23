@@ -96,8 +96,7 @@ export async function build() {
       bodyClass: 'page-library',
       file: 'library.html',
       title: 'Free AI and Tech Course Library — Learn AI for Free',
-      description:
-        'Browse 54 official free AI and tech resources by category, level, provider, and certificate status.',
+      description: `Browse ${totals.resources} official free AI and tech resources by category, level, provider, time commitment, and certificate status.`,
       tokens: {
         TYPE_COUNTS: renderTypeCounts(content.resources),
         CATEGORY_OPTIONS: renderCategoryOptions(content.categories, content.resources),
@@ -111,7 +110,7 @@ export async function build() {
       file: 'paths.html',
       title: 'Learning Paths — Learn AI for Free',
       description:
-        'Four free AI learning paths with clear levels, time commitments, projects, and certificate realities.',
+        'Five free AI learning paths with clear levels, time commitments, projects, and certificate realities.',
       tokens: {
         PATHS_INTRO: content.pathsIntro,
         PATH_QUICK_NAV: renderPathQuickNav(content.paths),
@@ -142,7 +141,7 @@ export async function build() {
       file: 'plan.html',
       title: 'The 90-Day AI Learning Plan — Learn AI for Free',
       description:
-        'A humane 90-day plan for learning AI in short sessions, with 36+ small tasks, three projects, and a fallback for hard weeks.',
+        'A humane 90-day plan for learning AI in short sessions, with 37 small tasks, three projects, and a fallback for hard weeks.',
       tokens: {
         PLAN_TITLE: content.plan.title,
         PLAN_SUBTITLE: content.plan.subtitle,

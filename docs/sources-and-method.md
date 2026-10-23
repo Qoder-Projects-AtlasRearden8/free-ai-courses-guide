@@ -18,11 +18,11 @@ A resource has to clear all five bars:
 2. **Substantive learning.** It teaches something useful and the description says what you will actually do. A lead magnet is not a course.
 3. **Honest access.** Free to learn, free certificate, paid certificate, and no certificate are labeled separately. A first-module preview is not described as a free full course.
 4. **No monetized detour.** No affiliate links, tracking parameters, or third-party certificate sellers.
-5. **Checked by hand.** Every URL and certificate claim was checked against the official page on October 22, 2026.
+5. **Checked by hand.** Every URL and certificate claim was checked against the official page on October 23, 2026.
 
 ## Verification
 
-- All 54 resource links returned an HTTP success response on October 22, 2026.
+- All 59 resource links returned an HTTP success response on October 23, 2026.
 - Course pages were checked for access restrictions and certificate requirements.
 - Free certificate claims were checked against the provider's own course, help, or policy page.
 - The site is static and uses no analytics, ads, accounts, remote fonts, or third-party scripts.
@@ -66,6 +66,6 @@ Built by **ASDALE DYNAMICS, LLC** in Indiana. Independent guide; not affiliated 
 
 ---
 
-Verified October 22, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
+Verified October 23, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
 
 [Back to the guide index](README.md)

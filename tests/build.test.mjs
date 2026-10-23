@@ -101,7 +101,10 @@ test('the home page carries the featured shelf and plan preview', () => {
 test('the library contains every resource and all category filters', () => {
   const html = htmlByFile.get('library.html');
   assert.equal((html.match(/data-resource-card/g) || []).length, content.resources.length);
+  assert.equal((html.match(/data-time-bucket="/g) || []).length, content.resources.length);
   assert.match(html, /<select id="category-filter">/);
+  assert.match(html, /<select id="time-filter">/);
+  assert.match(html, /<option value="quick">Under 1 hour<\/option>/);
   assert.equal((html.match(/<option value="[a-z-]+">/g) || []).length >= content.categories.length, true);
   content.categories.forEach((category) => {
     assert.match(html, new RegExp(`<option value="${category.id}">`), category.navLabel);
@@ -168,9 +171,18 @@ test('the docs index has a real category table and honest certificate framing', 
   const readme = await readFile(path.join(DOCS_DIR, 'README.md'), 'utf8');
   assert.match(readme, /\| # \| Category \| Level \| Time \| What it helps you do \|/);
   assert.match(readme, /\| --- \| --- \| --- \| --- \| --- \|/);
-  assert.match(readme, /Twelve links in this guide lead to a free completion certificate or badge/);
+  assert.match(readme, /Fourteen links in this guide lead to a free completion certificate or badge/);
   assert.doesNotMatch(readme, /Free lessons\. Lessons are free/);
   assert.match(readme, /not an accredited qualification/);
+});
+
+test('the certificate guide describes no-certificate routes instead of repeating cost', async () => {
+  const markdown = await readFile(path.join(DOCS_DIR, 'certificates.md'), 'utf8');
+  assert.match(
+    markdown,
+    /Machine Learning Crash Course\]\([^)]*\) — Google; ~15 hours\. No certificate is listed/,
+  );
+  assert.doesNotMatch(markdown, /— Google; ~15 hours\. Free\b/);
 });
 
 test('category guides contain a table, notes, and honest certificate guidance', async () => {
@@ -202,7 +214,8 @@ test('the learning-path and plan Markdown keep working anchors and task boxes', 
     assert.ok(pathsMarkdown.includes(`<a id="${learningPath.id}"></a>`), learningPath.id);
     assert.ok(pathsMarkdown.includes(`(#${learningPath.id})`), learningPath.id);
   });
-  assert.match(pathsMarkdown, /## 04\. Deep learning/);
+  assert.match(pathsMarkdown, /## 04\. Free AI coding and local models/);
+  assert.match(pathsMarkdown, /## 05\. Deep learning/);
 
   const planMarkdown = await readFile(path.join(DOCS_DIR, '90-day-plan.md'), 'utf8');
   assert.equal((planMarkdown.match(/^- \[ \] \*\*/gm) || []).length, 37);

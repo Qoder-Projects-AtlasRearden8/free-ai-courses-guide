@@ -1,10 +1,10 @@
 # The full library
 
-> 54 official resources, one page, no mystery links.
+> 59 official resources, one page, no mystery links.
 
 [Guide home](README.md) · [Certificate guide](certificates.md) · [Learning paths](learning-paths.md) · [90-day plan](90-day-plan.md)
 
-This is the complete catalog behind the guide: 29 courses, 7 official guides, 6 free books, and 12 YouTube channels. All links go to the provider's own site. No affiliate or tracking links are used.
+This is the complete catalog behind the guide: 33 courses, 8 official guides, 6 free books, and 12 YouTube channels. All links go to the provider's own site. No affiliate or tracking links are used.
 
 "Free certificate?" applies to courses. A dash means the item is a book, guide, or channel, not that it failed a certificate test. The [certificate guide](certificates.md) explains every free route and provider rule.
 
@@ -15,6 +15,8 @@ Understand what AI and generative AI actually are, where they fail, and how to u
 | Resource | Provider | Type | Level | Time | Cost | Free certificate? | Topics |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Introduction to Generative AI](https://www.skills.google/course_templates/536) | Google | Course | Beginner | 45 min | Free | **Free certificate** | Generative AI, Foundations, No-code |
+| [Generative AI Fundamentals](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals) | Databricks | Course | Beginner | 1 hour | Free | **Free certificate** | Generative AI, AI strategy, Foundations |
+| [Generative AI for Educators with Gemini](https://grow.google/ai-for-educators/) | Google | Course | Beginner | 2 hours | Free | **Free certificate** | Generative AI, Teaching, Gemini |
 | [Elements of AI: Introduction to AI](https://www.elementsofai.com/) | University of Helsinki | Course | Beginner | ~30 hours | Free course | Paid certificate | AI literacy, Society, No-code |
 | [Kaggle: Intro to AI Ethics](https://www.kaggle.com/learn/intro-to-ai-ethics) | Kaggle Learn | Course | Beginner | 4 hours | Free | **Free certificate** | AI ethics, Fairness, Privacy |
 | [AI for Beginners](https://github.com/microsoft/ai-for-beginners) | Microsoft | Course | Beginner | 12 weeks (self-paced) | Free | No certificate | Foundations, Python, Ethics |
@@ -30,6 +32,7 @@ Learn enough code to read, run, and modify something real—then use it to under
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Kaggle: Python](https://www.kaggle.com/learn/python) | Kaggle Learn | Course | Beginner | 5 hours | Free | **Free certificate** | Python, Coding, Notebooks |
 | [Kaggle: Pandas](https://www.kaggle.com/learn/pandas) | Kaggle Learn | Course | Beginner | 4 hours | Free | **Free certificate** | Pandas, Data, Python |
+| [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/en-us/training/paths/github-foundations/) | Microsoft Learn | Course | Beginner | 8 modules (self-paced) | Free to learn; optional exam paid | Paid certificate | GitHub, Git, Collaboration, Copilot |
 | [AI Python for Beginners](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/) | DeepLearning.AI | Course | Beginner | 11.5 hours | Free lessons | Paid certificate | Python, APIs, Beginner coding |
 | [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python) | freeCodeCamp | Course | Beginner | ~300 hours (self-paced) | Free | **Free certificate** | Data analysis, Python, Visualization |
 | [Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python) | freeCodeCamp | Course | Beginner | ~300 hours (self-paced) | Free | **Free certificate** | Python, Projects, Algorithms |
@@ -59,7 +62,9 @@ Move from a prompt in a chat box to a small, constrained program that can call t
 | Resource | Provider | Type | Level | Time | Cost | Free certificate? | Topics |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) | DeepLearning.AI | Course | Beginner | 1 hr 40 min | Free lessons | Paid certificate | Prompting, LLM APIs, Python |
+| [GitHub Copilot Fundamentals Part 1 of 2](https://learn.microsoft.com/en-us/training/paths/copilot/) | Microsoft Learn | Course | Beginner | 9 modules (self-paced) | Free | No certificate | GitHub Copilot, AI coding, Prompt engineering |
 | [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) | Microsoft | Course | Beginner | 21 lessons (self-paced) | Free | No certificate | LLMs, RAG, Prompts, Python |
+| [Ollama Quickstart](https://docs.ollama.com/quickstart) | Ollama | Guide | Beginner | ~1 hour | Free | — | Local AI, LLMs, Privacy |
 | [Hugging Face AI Agents Course](https://huggingface.co/learn/agents-course) | Hugging Face | Course | Intermediate | 3–4 hours per unit | Free | **Free certificate** | AI agents, Tool use, Python |
 | [Hugging Face MCP Course](https://huggingface.co/learn/mcp-course) | Hugging Face | Course | Intermediate | 3–4 hours per unit | Free | **Free certificate** | MCP, AI tools, Anthropic |
 | [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) | Microsoft | Course | Intermediate | 18 lessons (self-paced) | Free | No certificate | AI agents, RAG, Tools |
@@ -107,6 +112,6 @@ Official explanations of what “free” means at Coursera, edX, and AWS—and w
 
 ---
 
-Verified October 22, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
+Verified October 23, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
 
 [Back to the guide index](README.md)

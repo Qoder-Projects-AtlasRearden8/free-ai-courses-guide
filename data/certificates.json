@@ -5,18 +5,26 @@
     {
       "provider": "Google",
       "learnFree": "Yes",
-      "freeCertificate": "Yes — intro skill badge",
-      "watchOut": "The 45-minute Introduction to Generative AI course and its skill badge are free. Google's larger professional certificates and cloud certifications are separate, paid products.",
+      "freeCertificate": "Yes — intro badge and educator certificate",
+      "watchOut": "The 45-minute Introduction to Generative AI course and its skill badge are free. The two-hour Generative AI for Educators course also includes a free certificate for professional-development credit, subject to district and state rules. Google's larger professional certificates and cloud certifications are separate, paid products.",
       "url": "https://www.skills.google/course_templates/536",
       "linkLabel": "Google intro course"
+    },
+    {
+      "provider": "Databricks",
+      "learnFree": "Yes — on-demand",
+      "freeCertificate": "Yes — badge after a quiz",
+      "watchOut": "The one-hour Generative AI Fundamentals training is free, and passing its quiz earns a Databricks badge. An account is required, and badge rules can change.",
+      "url": "https://www.databricks.com/resources/learn/training/generative-ai-fundamentals",
+      "linkLabel": "Databricks Generative AI Fundamentals"
     },
     {
       "provider": "Microsoft",
       "learnFree": "Yes",
       "freeCertificate": "No free professional credential",
-      "watchOut": "Microsoft's GitHub curricula and many Learn modules are free. Microsoft Certifications and Applied Skills are separate credentials with their own rules and costs.",
-      "url": "https://github.com/microsoft/ai-for-beginners",
-      "linkLabel": "Free AI for Beginners curriculum"
+      "watchOut": "Microsoft's GitHub learning paths and many Learn modules are free. GitHub Foundations' certification exam is optional and paid. Microsoft Certifications and Applied Skills are separate credentials with their own rules and costs.",
+      "url": "https://learn.microsoft.com/en-us/training/paths/github-foundations/",
+      "linkLabel": "GitHub Foundations learning path"
     },
     {
       "provider": "AWS",
@@ -91,11 +99,12 @@
       "linkLabel": "Elements of AI"
     }
   ],
-  "freeRouteNote": "Twelve resource links in this guide currently lead to a free certificate or badge. Each is a completion record from its provider—not an accredited degree, professional license, or guarantee of a job.",
+  "freeRouteNote": "Each resource link marked with a free certificate in this guide leads to a completion record from its provider—not an accredited degree, professional license, or guarantee of a job.",
   "finePrint": [
     "A certificate proves that you finished a defined piece of learning. It does not prove that you can apply it without help.",
     "Free access and certificate rules change. Check the provider's page on the day you enroll; this guide records a verified date, not a permanent promise.",
     "Never pay a third-party 'certificate service' for a certificate that the provider offers free. Use the provider's own site.",
+    "Free badges and certificates often require a quiz, an account, or professional-development approval. Databricks, Google, Kaggle, and Hugging Face each set different rules even when the credential costs nothing.",
     "Do not put real patient, client, student, financial, or password data into a learning project, portfolio, screenshot, or prompt.",
     "A paid professional certification can be worth it later. It is not a prerequisite for learning, and it should not be your first purchase if you are still deciding whether you enjoy the work."
   ],

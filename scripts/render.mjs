@@ -124,7 +124,7 @@ export function renderResourceCard(resource) {
     .join(' ')
     .toLowerCase();
   return `
-<article class="resource-card resource-card--${resource.type}${resource.featured ? ' is-featured' : ''}" id="resource-${escapeAttribute(resource.id)}" data-resource-card data-resource-id="${escapeAttribute(resource.id)}" data-type="${escapeAttribute(resource.type)}" data-level="${escapeAttribute(resource.level)}" data-provider="${escapeAttribute(resource.providerGroup)}" data-certificate="${escapeAttribute(resource.certificate)}" data-category="${escapeAttribute(resource.categoryId)}" data-title="${escapeAttribute(resource.title)}" data-search="${escapeAttribute(searchText)}">
+<article class="resource-card resource-card--${resource.type}${resource.featured ? ' is-featured' : ''}" id="resource-${escapeAttribute(resource.id)}" data-resource-card data-resource-id="${escapeAttribute(resource.id)}" data-type="${escapeAttribute(resource.type)}" data-level="${escapeAttribute(resource.level)}" data-time-bucket="${escapeAttribute(resource.timeBucket)}" data-provider="${escapeAttribute(resource.providerGroup)}" data-certificate="${escapeAttribute(resource.certificate)}" data-category="${escapeAttribute(resource.categoryId)}" data-title="${escapeAttribute(resource.title)}" data-search="${escapeAttribute(searchText)}">
   <div class="resource-card__top">
     <span class="resource-type">${escapeHtml(typeLabel)}</span>
     <span class="category-chip">${escapeHtml(resource.categoryLabel)}</span>

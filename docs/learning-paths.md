@@ -4,14 +4,15 @@
 
 [Guide home](README.md) · [Certificate guide](certificates.md) · [90-day plan](90-day-plan.md) · [Full library](full-library.md)
 
-Four routes, same principle: learn a little, make something small, then check your understanding. Start at the level that matches what you can already do—not the level you think you should be.
+Five routes, same principle: learn a little, make something small, then check your understanding. Start at the level that matches what you can already do—not the level you think you should be.
 
 | # | Path | Level | Time | Weekly effort |
 | --- | --- | --- | --- | --- |
 | 01 | [Understand AI without the jargon](#understand-ai) | Beginner | 4–6 weeks | 3–4 hours per week |
 | 02 | [Python and data, without the bootcamp](#python-and-data) | Beginner to intermediate | 12 weeks–6 months | 5–6 hours per week |
 | 03 | [Build with LLMs, agents, and MCP](#build-with-ai) | Intermediate | 12 weeks–4 months | 5–8 hours per week |
-| 04 | [Deep learning, from first principles](#deep-learning) | Advanced | 6–9 months | 6–10 hours per week |
+| 04 | [Free AI coding and local models](#practical-ai) | Beginner to intermediate | 6–8 weeks | 4–6 hours per week |
+| 05 | [Deep learning, from first principles](#deep-learning) | Advanced | 6–9 months | 6–10 hours per week |
 
 Every route uses free-to-learn resources. Some certificates cost money; each path states its certificate reality before you commit. Progress is not a race: start at the level that matches what you can already do.
 
@@ -169,9 +170,59 @@ Build one narrow agent or MCP-connected app: a reading-log helper, a public-data
 
 ---
 
+<a id="practical-ai"></a>
+
+## 04. Free AI coding and local models
+
+**Beginner to intermediate · 6–8 weeks · 4–6 hours per week**
+
+> A practical toolkit for GitHub, an AI coding partner, and private models that run on your own machine.
+
+Set up GitHub, learn to use Copilot as a careful pair, run an open model locally with Ollama, connect a tool through MCP, and finish one small local-first project you can explain.
+
+- **Best for:** Writers, small-business owners, and early builders who want a public code workspace, an AI coding assistant, and a model that runs locally.
+- **Prerequisites:** Comfort with a browser and basic file navigation. No prior programming is required for the GitHub step; later steps assume a little Python or willingness to follow setup instructions.
+- **Certificates:** Hugging Face's MCP certificate is free. GitHub's optional certification exam is paid; Copilot and Ollama do not issue certificates.
+
+### The route
+
+1. **Make GitHub your workshop.** Work through GitHub Foundations Part 1. Learn repositories, commits, branches, pull requests, Projects, and Markdown. Publish a small README as your first artifact—not a perfect portfolio.
+  - [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/en-us/training/paths/github-foundations/) — Microsoft Learn; 8 modules (self-paced); Beginner · Paid certificate.
+    A free, eight-module learning path covering Git and GitHub essentials: repositories, commits, branches, pull requests, Projects, Markdown, Codespaces, code scanning, and an introduction to GitHub Copilot. The certification exam is separate.
+2. **Pair with an AI coding assistant.** Use GitHub Copilot Fundamentals to learn what the assistant is good at, where it is confidently wrong, and how prompt context changes the result. Keep reviewing every suggestion before accepting it.
+  - [GitHub Copilot Fundamentals Part 1 of 2](https://learn.microsoft.com/en-us/training/paths/copilot/) — Microsoft Learn; 9 modules (self-paced); Beginner.
+    A free, nine-module path on using GitHub Copilot responsibly: plan choices, prompt engineering, Copilot Spaces, advanced features, IDE and command-line use, developer workflows, and unit testing with an AI assistant.
+  - [Kaggle: Python](https://www.kaggle.com/learn/python) — Kaggle Learn; 5 hours; Beginner · Free certificate.
+    Five hours of hands-on Python in the browser: variables, functions, loops, lists, dictionaries, and importing libraries. Short coding exercises and a free completion certificate make it a low-friction first coding step.
+3. **Run a model on your own machine.** Follow Ollama's official quickstart: install it, pull a small open model, and make one local request. Test a task with fabricated or public data, and note the memory and speed limits you observe.
+  - [Ollama Quickstart](https://docs.ollama.com/quickstart) — Ollama; ~1 hour; Beginner.
+    An official quickstart for running open models locally: install Ollama, pull a model, connect a desktop app or coding agent, and make a first local API request without sending prompts to a hosted service.
+4. **Connect a tool with MCP.** Learn the MCP mental model with Hugging Face's free course, then use Microsoft's curriculum for implementation detail. Start read-only and give the tool the narrowest permissions that still work.
+  - [Hugging Face MCP Course](https://huggingface.co/learn/mcp-course) — Hugging Face; 3–4 hours per unit; Intermediate · Free certificate.
+    A free course built with Anthropic that explains the Model Context Protocol and walks you through building MCP applications. You should know basic AI, APIs, and either Python or TypeScript. Free certificates are available.
+  - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) — Microsoft; 15+ modules (self-paced); Intermediate.
+    A free, open curriculum on Model Context Protocol fundamentals, security, and practical labs, with examples across multiple languages. Useful as a reference shelf while you build your first MCP server.
+  - [Model Context Protocol Documentation](https://modelcontextprotocol.io/) — Model Context Protocol; Reference; Advanced.
+    The official open-standard documentation for MCP: architecture, servers, clients, tools, resources, and prompts. Use it as your reference when a course moves too fast, or when you are designing your own tool connection.
+5. **Ship a local-first capstone.** Use Microsoft's Generative AI curriculum and Hugging Face's Agents course as references, then build one narrow helper. Keep prompts and files on your machine, require confirmation before writes, and document what the tool cannot do.
+  - [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) — Microsoft; 21 lessons (self-paced); Beginner.
+    Twenty-one lessons that move from prompt basics to retrieval-augmented generation, agents, and responsible use, with Python code samples. You can read the ideas without using Azure, though a little coding helps.
+  - [Hugging Face AI Agents Course](https://huggingface.co/learn/agents-course) — Hugging Face; 3–4 hours per unit; Intermediate · Free certificate.
+    A free course from beginner to agent builder. Learn tool use, agent loops, smolagents, LlamaIndex, and LangGraph, then build and share an agent. Basic Python is expected; two free certificate levels are available.
+
+### The finish line: A private local-first helper
+
+Build a small note organizer, document Q&A tool, or reading-log helper that runs against a local Ollama model. Use synthetic or public text, keep secrets out of the repo, and add one read-only MCP tool if the project calls for it.
+
+**Proof of work:** A GitHub repository with setup steps, a short demo, a privacy note, two failure cases, and evidence that it runs from a clean start without paid API keys.
+
+**Then what?** Add tests and an evaluation checklist, or turn the project into a reusable template. If you want deeper model work, move into Python and data or the deep-learning route.
+
+---
+
 <a id="deep-learning"></a>
 
-## 04. Deep learning, from first principles
+## 05. Deep learning, from first principles
 
 **Advanced · 6–9 months · 6–10 hours per week**
 
@@ -225,6 +276,6 @@ Choose a public dataset or small open model. Establish a baseline, test one clea
 
 ---
 
-Verified October 22, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
+Verified October 23, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
 
 [Back to the guide index](README.md)

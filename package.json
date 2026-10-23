@@ -2,7 +2,7 @@
   "name": "learn-ai-for-free",
   "version": "1.0.0",
   "private": true,
-  "description": "A no-hype guide to free AI courses, certificates, books, channels, and a 30/60/90-day learning plan.",
+  "description": "A no-hype guide to free AI courses, certificates, books, channels, and a 90-day learning plan.",
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",

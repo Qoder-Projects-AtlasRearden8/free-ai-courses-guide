@@ -1,5 +1,5 @@
 {
-  "intro": "Four routes, same principle: learn a little, make something small, then check your understanding. Start at the level that matches what you can already do—not the level you think you should be.",
+  "intro": "Five routes, same principle: learn a little, make something small, then check your understanding. Start at the level that matches what you can already do—not the level you think you should be.",
   "paths": [
     {
       "id": "understand-ai",
@@ -149,8 +149,57 @@
       "after": "Go deeper into evaluation, observability, and security. Or use the finished project as the foundation for an ASDALE DYNAMICS template or small product."
     },
     {
-      "id": "deep-learning",
+      "id": "practical-ai",
       "number": "04",
+      "accent": "plum",
+      "eyebrow": "Beginner → Intermediate · Practical",
+      "title": "Free AI coding and local models",
+      "subtitle": "A practical toolkit for GitHub, an AI coding partner, and private models that run on your own machine.",
+      "level": "Beginner to intermediate",
+      "duration": "6–8 weeks",
+      "effort": "4–6 hours per week",
+      "cost": "Free to start",
+      "certificates": "Hugging Face's MCP certificate is free. GitHub's optional certification exam is paid; Copilot and Ollama do not issue certificates.",
+      "bestFor": "Writers, small-business owners, and early builders who want a public code workspace, an AI coding assistant, and a model that runs locally.",
+      "prereqs": "Comfort with a browser and basic file navigation. No prior programming is required for the GitHub step; later steps assume a little Python or willingness to follow setup instructions.",
+      "summary": "Set up GitHub, learn to use Copilot as a careful pair, run an open model locally with Ollama, connect a tool through MCP, and finish one small local-first project you can explain.",
+      "steps": [
+        {
+          "title": "Make GitHub your workshop",
+          "description": "Work through GitHub Foundations Part 1. Learn repositories, commits, branches, pull requests, Projects, and Markdown. Publish a small README as your first artifact—not a perfect portfolio.",
+          "resourceIds": ["microsoft-github-foundations"]
+        },
+        {
+          "title": "Pair with an AI coding assistant",
+          "description": "Use GitHub Copilot Fundamentals to learn what the assistant is good at, where it is confidently wrong, and how prompt context changes the result. Keep reviewing every suggestion before accepting it.",
+          "resourceIds": ["microsoft-github-copilot", "kaggle-python"]
+        },
+        {
+          "title": "Run a model on your own machine",
+          "description": "Follow Ollama's official quickstart: install it, pull a small open model, and make one local request. Test a task with fabricated or public data, and note the memory and speed limits you observe.",
+          "resourceIds": ["ollama-quickstart"]
+        },
+        {
+          "title": "Connect a tool with MCP",
+          "description": "Learn the MCP mental model with Hugging Face's free course, then use Microsoft's curriculum for implementation detail. Start read-only and give the tool the narrowest permissions that still work.",
+          "resourceIds": ["huggingface-mcp-course", "microsoft-mcp-beginners", "mcp-docs"]
+        },
+        {
+          "title": "Ship a local-first capstone",
+          "description": "Use Microsoft's Generative AI curriculum and Hugging Face's Agents course as references, then build one narrow helper. Keep prompts and files on your machine, require confirmation before writes, and document what the tool cannot do.",
+          "resourceIds": ["microsoft-genai-beginners", "huggingface-agents-course"]
+        }
+      ],
+      "project": {
+        "title": "A private local-first helper",
+        "description": "Build a small note organizer, document Q&A tool, or reading-log helper that runs against a local Ollama model. Use synthetic or public text, keep secrets out of the repo, and add one read-only MCP tool if the project calls for it.",
+        "proof": "A GitHub repository with setup steps, a short demo, a privacy note, two failure cases, and evidence that it runs from a clean start without paid API keys."
+      },
+      "after": "Add tests and an evaluation checklist, or turn the project into a reusable template. If you want deeper model work, move into Python and data or the deep-learning route."
+    },
+    {
+      "id": "deep-learning",
+      "number": "05",
       "accent": "forest",
       "eyebrow": "Advanced · Theory + practice",
       "title": "Deep learning, from first principles",

@@ -6,17 +6,19 @@
 
 Free completion certificates are real, useful records of practice—especially when you are changing fields and need visible evidence. They are not the same as an accredited credential, a professional certification, or proof that you can do the work unsupervised.
 
-Twelve resource links in this guide currently lead to a free certificate or badge. Each is a completion record from its provider—not an accredited degree, professional license, or guarantee of a job.
+Each resource link marked with a free certificate in this guide leads to a completion record from its provider—not an accredited degree, professional license, or guarantee of a job.
 
-Links and certificate rules were last checked **October 22, 2026**. This page records a verification date, not a permanent promise.
+Links and certificate rules were last checked **October 23, 2026**. This page records a verification date, not a permanent promise.
 
 ## The genuinely free routes
 
-These are the 12 resources in this guide that currently lead to a free completion record from the provider. Requirements vary; the certificate note is the short version.
+These are the 14 resources in this guide that currently lead to a free completion record from the provider. Requirements vary; the certificate note is the short version.
 
 | Course or program | Provider | Time | What the free certificate requires |
 | --- | --- | --- | --- |
 | [Introduction to Generative AI](https://www.skills.google/course_templates/536) | Google | 45 min | Free Google skill badge after passing the quiz; a Google Skills account is required. |
+| [Generative AI Fundamentals](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals) | Databricks | 1 hour | Free one-hour training; pass the quiz to earn a Databricks badge. A Databricks account is required. |
+| [Generative AI for Educators with Gemini](https://grow.google/ai-for-educators/) | Google | 2 hours | Free two-hour course with a certificate for professional-development credit, subject to district and state rules. |
 | [Kaggle: Python](https://www.kaggle.com/learn/python) | Kaggle Learn | 5 hours | Free Kaggle Learn completion certificate after finishing the course exercises. |
 | [Kaggle: Pandas](https://www.kaggle.com/learn/pandas) | Kaggle Learn | 4 hours | Free Kaggle Learn completion certificate. |
 | [Kaggle: Intro to Machine Learning](https://www.kaggle.com/learn/intro-to-machine-learning) | Kaggle Learn | 3 hours | Free Kaggle Learn completion certificate. |
@@ -40,6 +42,7 @@ The learning can still be worth your time. The certificate is a separate purchas
 - [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) — DeepLearning.AI; 1 hr 40 min. Lessons are free; a certificate requires DeepLearning.AI PRO membership.
 - [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone) — DeepLearning.AI; ~7 hours. Coursera preview is free and does not include a certificate. Full course and certificate require payment or approved financial aid.
 - [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) — DeepLearning.AI; ~54 hours. The Coursera preview is free but does not include graded labs or a certificate. Paid enrollment or approved financial aid unlocks the full specialization.
+- [GitHub Foundations Part 1 of 2](https://learn.microsoft.com/en-us/training/paths/github-foundations/) — Microsoft Learn; 8 modules (self-paced). Free learning path. The separate GitHub Foundations certification exam is paid and priced by country.
 - [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/) — DeepLearning.AI; ~2 hours. Lessons are free; a certificate requires DeepLearning.AI PRO membership.
 - [CS50's Introduction to Artificial Intelligence with Python](https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python) — edX; 7 weeks, 10–30 hrs/week. Free audit track, no certificate. A verified CS50 AI certificate currently costs US$299.
 
@@ -53,21 +56,23 @@ The learning can still be worth your time. The certificate is a separate purchas
 
 The absence of a certificate is not a defect. For project-based or advanced study, a working artifact and a clear write-up are often stronger evidence.
 
-- [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course) — Google; ~15 hours. Free
-- [AI for Beginners](https://github.com/microsoft/ai-for-beginners) — Microsoft; 12 weeks (self-paced). Free
-- [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) — Microsoft; 21 lessons (self-paced). Free
-- [Hugging Face LLM Course](https://huggingface.co/learn/llm-course) — Hugging Face; 6–8 hours per chapter. Free
-- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) — Microsoft; 18 lessons (self-paced). Free
-- [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) — Microsoft; 15+ modules (self-paced). Free
-- [Practical Deep Learning for Coders](https://course.fast.ai/) — fast.ai; 9 lessons (~90 min each) + practice. Free
-- [MIT Introduction to Deep Learning (6.S191)](https://introtodeeplearning.com/) — MIT; Semester lectures + labs. Free
+- [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course) — Google; ~15 hours. No certificate is listed; it is an open Google learning resource.
+- [AI for Beginners](https://github.com/microsoft/ai-for-beginners) — Microsoft; 12 weeks (self-paced). No certificate is offered for this open curriculum.
+- [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) — Microsoft; 21 lessons (self-paced). No certificate is offered for this open curriculum.
+- [GitHub Copilot Fundamentals Part 1 of 2](https://learn.microsoft.com/en-us/training/paths/copilot/) — Microsoft Learn; 9 modules (self-paced). No certificate is issued for this learning path; Microsoft Learn tracks module completion.
+- [Hugging Face LLM Course](https://huggingface.co/learn/llm-course) — Hugging Face; 6–8 hours per chapter. Hugging Face states that this course does not currently offer certification.
+- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) — Microsoft; 18 lessons (self-paced). No certificate is offered for this open curriculum.
+- [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) — Microsoft; 15+ modules (self-paced). No certificate is offered for this open curriculum.
+- [Practical Deep Learning for Coders](https://course.fast.ai/) — fast.ai; 9 lessons (~90 min each) + practice. No certificate is offered; the course emphasizes working projects.
+- [MIT Introduction to Deep Learning (6.S191)](https://introtodeeplearning.com/) — MIT; Semester lectures + labs. No certificate is listed; course materials are openly available.
 
 ## Provider-by-provider rules
 
 | Provider | Free to learn? | Free certificate? | What to watch for |
 | --- | --- | --- | --- |
-| [Google](https://www.skills.google/course_templates/536) | Yes | Yes — intro skill badge | The 45-minute Introduction to Generative AI course and its skill badge are free. Google's larger professional certificates and cloud certifications are separate, paid products. |
-| [Microsoft](https://github.com/microsoft/ai-for-beginners) | Yes | No free professional credential | Microsoft's GitHub curricula and many Learn modules are free. Microsoft Certifications and Applied Skills are separate credentials with their own rules and costs. |
+| [Google](https://www.skills.google/course_templates/536) | Yes | Yes — intro badge and educator certificate | The 45-minute Introduction to Generative AI course and its skill badge are free. The two-hour Generative AI for Educators course also includes a free certificate for professional-development credit, subject to district and state rules. Google's larger professional certificates and cloud certifications are separate, paid products. |
+| [Databricks](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals) | Yes — on-demand | Yes — badge after a quiz | The one-hour Generative AI Fundamentals training is free, and passing its quiz earns a Databricks badge. An account is required, and badge rules can change. |
+| [Microsoft](https://learn.microsoft.com/en-us/training/paths/github-foundations/) | Yes | No free professional credential | Microsoft's GitHub learning paths and many Learn modules are free. GitHub Foundations' certification exam is optional and paid. Microsoft Certifications and Applied Skills are separate credentials with their own rules and costs. |
 | [AWS](https://aws.amazon.com/training/badges/) | Yes | Some free digital badges | AWS badges are free to earn and accept for selected learning, but an AWS badge is not an AWS Certification. Certification exams are paid. |
 | [DeepLearning.AI](https://www.deeplearning.ai/short-courses/) | Yes — short courses | No — PRO or paid Coursera | Short-course lessons are free. Certificates require DeepLearning.AI PRO membership, or a paid Coursera enrollment where applicable. Coursera financial aid may help. |
 | [Hugging Face](https://huggingface.co/learn/agents-course) | Yes | Yes — Agents and MCP | The Agents and MCP courses offer free certificates of completion. The LLM Course currently states that it has no certification; check each course's own page. |
@@ -92,8 +97,9 @@ These are the official pages used to check the changing rules above:
 1. A certificate proves that you finished a defined piece of learning. It does not prove that you can apply it without help.
 2. Free access and certificate rules change. Check the provider's page on the day you enroll; this guide records a verified date, not a permanent promise.
 3. Never pay a third-party 'certificate service' for a certificate that the provider offers free. Use the provider's own site.
-4. Do not put real patient, client, student, financial, or password data into a learning project, portfolio, screenshot, or prompt.
-5. A paid professional certification can be worth it later. It is not a prerequisite for learning, and it should not be your first purchase if you are still deciding whether you enjoy the work.
+4. Free badges and certificates often require a quiz, an account, or professional-development approval. Databricks, Google, Kaggle, and Hugging Face each set different rules even when the credential costs nothing.
+5. Do not put real patient, client, student, financial, or password data into a learning project, portfolio, screenshot, or prompt.
+6. A paid professional certification can be worth it later. It is not a prerequisite for learning, and it should not be your first purchase if you are still deciding whether you enjoy the work.
 
 ## How to share a certificate honestly
 
@@ -115,6 +121,6 @@ Maybe—later. A paid professional certificate or verified exam can be worth it 
 
 ---
 
-Verified October 22, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
+Verified October 23, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
 
 [Back to the guide index](README.md)

@@ -33,7 +33,7 @@ const TYPE_SINGULAR = {
 
 function numberWord(number) {
   return (
-    ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'][number] ||
+    ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'][number] ||
     String(number)
   );
 }
@@ -217,7 +217,7 @@ The sixth site category, **Access briefings**, contains short official policy pa
 
 ## Certificates without the marketing gloss
 
-${numberWord(totals.freeCertificates).replace(/^./, (letter) => letter.toUpperCase())} links in this guide lead to a free completion certificate or badge. Most come from Kaggle Learn, freeCodeCamp, Google Skills, or Hugging Face. A free certificate can be useful evidence of practice, especially during a career change. It is not an accredited qualification, and no certificate promises a job.
+${numberWord(totals.freeCertificates).replace(/^./, (letter) => letter.toUpperCase())} links in this guide lead to a free completion certificate or badge. They come from Kaggle Learn, freeCodeCamp, Google, Hugging Face, and Databricks. A free certificate can be useful evidence of practice, especially during a career change. It is not an accredited qualification, and no certificate promises a job.
 
 The guide labels **paid**, **varies**, and **no certificate** routes too. Start with [Free AI and tech certificates, explained](certificates.md).
 
@@ -232,7 +232,7 @@ ${freeCourses
 
 ## Two quieter ways to use the guide
 
-- [Learning paths](learning-paths.md) arrange resources into four routes with a finish line: AI literacy, Python and data, building with LLMs and agents, and deep learning.
+- [Learning paths](learning-paths.md) arrange resources into five routes with a finish line: AI literacy, Python and data, building with LLMs and agents, free AI coding with local models, and deep learning.
 - [The 90-day plan](90-day-plan.md) turns the same material into three short sessions a week, with a fallback for hard weeks.
 
 You can also browse [the complete library](full-library.md), read [the certificate map](certificates.md), or check [the sources and method](sources-and-method.md).
@@ -296,12 +296,12 @@ export function renderCertificatesDoc(content) {
     )
     .join('\n');
   const noCertRows = noCertificateCourses
-    .map((resource) => `- ${resourceLink(resource)} — ${resource.provider}; ${resource.time}. ${resource.cost}`)
+    .map(
+      (resource) =>
+        `- ${resourceLink(resource)} — ${resource.provider}; ${resource.time}. ${resource.certificateNote}`,
+    )
     .join('\n');
-  const freeRouteNote = content.certificates.freeRouteNote.replace(
-    /^Twelve/,
-    numberWord(freeCourses.length).replace(/^./, (letter) => letter.toUpperCase()),
-  );
+  const freeRouteNote = content.certificates.freeRouteNote;
 
   return `# Free AI and tech certificates, explained
 

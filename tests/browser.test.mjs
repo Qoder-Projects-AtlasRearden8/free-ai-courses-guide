@@ -114,12 +114,12 @@ test('the home page renders, navigates, and the skip link works', async () => {
   }
 });
 
-test('library search, category, certificate, and type filters work together', async () => {
+test('library search, category, time, certificate, and type filters work together', async () => {
   const { context, page, errors, externalRequests } = await openPage();
   try {
     await page.goto(`${baseUrl}/library.html`);
     await waitForCardCount(page, content.resources.length);
-    assert.equal((await page.locator('[data-resource-card]').count()), 54);
+    assert.equal((await page.locator('[data-resource-card]').count()), content.resources.length);
 
     await page.fill('#library-search', 'mcp');
     await page.waitForFunction(() => {
@@ -133,11 +133,14 @@ test('library search, category, certificate, and type filters work together', as
         allMatch: visible.every((card) => card.dataset.search.includes('mcp')),
       };
     });
-    assert.ok(searchState.count > 0 && searchState.count < 54);
+    assert.ok(searchState.count > 0 && searchState.count < content.resources.length);
     assert.equal(searchState.allMatch, true);
-    assert.match(await page.locator('#results-count').innerText(), /Showing \d+ of 54 resources/);
+    assert.match(
+      await page.locator('#results-count').innerText(),
+      new RegExp(`Showing \\d+ of ${content.resources.length} resources`),
+    );
     await page.click('[data-clear-search]');
-    await waitForCardCount(page, 54);
+    await waitForCardCount(page, content.resources.length);
 
     await page.selectOption('#category-filter', 'access');
     await waitForCardCount(page, 4);
@@ -146,7 +149,18 @@ test('library search, category, certificate, and type filters work together', as
       true,
     );
     await page.click('.clear-filters');
-    await waitForCardCount(page, 54);
+    await waitForCardCount(page, content.resources.length);
+
+    const quickCount = content.resources.filter((resource) => resource.timeBucket === 'quick').length;
+    assert.ok(quickCount > 0);
+    await page.selectOption('#time-filter', 'quick');
+    await waitForCardCount(page, quickCount);
+    assert.equal(
+      await page.evaluate(() => [...document.querySelectorAll('[data-resource-card]')].filter((card) => !card.hidden).every((card) => card.dataset.timeBucket === 'quick')),
+      true,
+    );
+    await page.click('.clear-filters');
+    await waitForCardCount(page, content.resources.length);
 
     await page.check('#free-cert-filter');
     await waitForCardCount(page, content.resources.filter((resource) => resource.certificate === 'free').length);
@@ -155,7 +169,7 @@ test('library search, category, certificate, and type filters work together', as
       true,
     );
     await page.uncheck('#free-cert-filter');
-    await waitForCardCount(page, 54);
+    await waitForCardCount(page, content.resources.length);
 
     await page.click('[data-type-filter="guide"]');
     await waitForCardCount(page, content.resources.filter((resource) => resource.type === 'guide').length);
@@ -168,7 +182,7 @@ test('library search, category, certificate, and type filters work together', as
     await waitForCardCount(page, 0);
     assert.equal(await page.locator('#empty-state').isVisible(), true);
     await page.click('.empty-state [data-clear-filters]');
-    await waitForCardCount(page, 54);
+    await waitForCardCount(page, content.resources.length);
     assert.equal(await page.locator('#empty-state').isVisible(), false);
 
     assertClean(errors, externalRequests);
@@ -181,7 +195,7 @@ test('saved and done marks persist, filter, and update path progress', async () 
   const { context, page, errors, externalRequests } = await openPage();
   try {
     await page.goto(`${baseUrl}/library.html`);
-    await waitForCardCount(page, 54);
+    await waitForCardCount(page, content.resources.length);
     const card = page.locator('#resource-google-intro-genai');
     await card.locator('[data-save-id]').click();
     await card.locator('[data-done-id]').click();
@@ -196,10 +210,10 @@ test('saved and done marks persist, filter, and update path progress', async () 
     await page.click('#done-filter');
     await waitForCardCount(page, 1);
     await page.click('.clear-filters');
-    await waitForCardCount(page, 54);
+    await waitForCardCount(page, content.resources.length);
 
     await page.reload();
-    await waitForCardCount(page, 54);
+    await waitForCardCount(page, content.resources.length);
     assert.equal(await page.locator('#resource-google-intro-genai [data-save-id]').getAttribute('aria-pressed'), 'true');
     assert.equal(await page.locator('#resource-google-intro-genai [data-done-id]').getAttribute('aria-pressed'), 'true');
 

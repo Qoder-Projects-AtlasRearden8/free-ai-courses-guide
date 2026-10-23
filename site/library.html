@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Free AI and Tech Course Library — Learn AI for Free</title>
-  <meta name="description" content="Browse 54 official free AI and tech resources by category, level, provider, and certificate status.">
+  <meta name="description" content="Browse 59 official free AI and tech resources by category, level, provider, time commitment, and certificate status.">
   <meta name="author" content="ASDALE DYNAMICS, LLC">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#f7f2e8">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Learn AI for Free">
   <meta property="og:title" content="Free AI and Tech Course Library — Learn AI for Free">
-  <meta property="og:description" content="Browse 54 official free AI and tech resources by category, level, provider, and certificate status.">
+  <meta property="og:description" content="Browse 59 official free AI and tech resources by category, level, provider, time commitment, and certificate status.">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
@@ -38,7 +38,7 @@
     <div>
       <p class="eyebrow">The library</p>
       <h1>One good next thing.</h1>
-      <p class="page-lede">54 official resources, sorted for humans. Search by what you want to make, filter by how much time you have, and save the ones that fit.</p>
+      <p class="page-lede">59 official resources, sorted for humans. Search by what you want to make, filter by how much time you have, and save the ones that fit.</p>
     </div>
     <div class="page-hero__aside">
       <p class="mini-label">A useful way in</p>
@@ -72,15 +72,15 @@
         <div class="filter-tabs" role="group" aria-label="Filter by resource type">
 
       <button class="filter-tab" type="button" data-type-filter="all" aria-pressed="true">
-        All<span>54</span>
+        All<span>59</span>
       </button>
 
       <button class="filter-tab" type="button" data-type-filter="course" aria-pressed="false">
-        Courses<span>29</span>
+        Courses<span>33</span>
       </button>
 
       <button class="filter-tab" type="button" data-type-filter="guide" aria-pressed="false">
-        Guides<span>7</span>
+        Guides<span>8</span>
       </button>
 
       <button class="filter-tab" type="button" data-type-filter="book" aria-pressed="false">
@@ -96,10 +96,10 @@
             <label class="field-label" for="category-filter">Category</label>
             <select id="category-filter">
               <option value="">All categories</option>
-              <option value="foundations">Foundations (7)</option>
-<option value="coding-data">Python &amp; data (6)</option>
+              <option value="foundations">Foundations (9)</option>
+<option value="coding-data">Python &amp; data (7)</option>
 <option value="machine-learning">Machine learning (10)</option>
-<option value="llm-agents">LLMs &amp; agents (17)</option>
+<option value="llm-agents">LLMs &amp; agents (19)</option>
 <option value="deep-learning">Deep learning (10)</option>
 <option value="access">Access briefings (4)</option>
             </select>
@@ -114,6 +114,17 @@
             </select>
           </div>
           <div class="select-field">
+            <label class="field-label" for="time-filter">Time</label>
+            <select id="time-filter">
+              <option value="">Any time commitment</option>
+              <option value="quick">Under 1 hour</option>
+              <option value="short">1–5 hours</option>
+              <option value="medium">6–20 hours</option>
+              <option value="long">20+ hours / multi-week</option>
+              <option value="open">Reference / ongoing</option>
+            </select>
+          </div>
+          <div class="select-field">
             <label class="field-label" for="provider-filter">Provider</label>
             <select id="provider-filter">
               <option value="">All providers</option>
@@ -122,16 +133,18 @@
 <option value="Anthropic">Anthropic (1)</option>
 <option value="AWS">AWS (2)</option>
 <option value="Coursera">Coursera (4)</option>
+<option value="Databricks">Databricks (1)</option>
 <option value="DeepLearning.AI">DeepLearning.AI (5)</option>
 <option value="edX">edX (2)</option>
 <option value="fast.ai">fast.ai (2)</option>
 <option value="freeCodeCamp">freeCodeCamp (4)</option>
-<option value="Google">Google (6)</option>
+<option value="Google">Google (7)</option>
 <option value="Hugging Face">Hugging Face (4)</option>
 <option value="Kaggle Learn">Kaggle Learn (8)</option>
-<option value="Microsoft">Microsoft (5)</option>
+<option value="Microsoft">Microsoft (7)</option>
 <option value="MIT">MIT (1)</option>
 <option value="Model Context Protocol">Model Context Protocol (1)</option>
+<option value="Ollama">Ollama (1)</option>
 <option value="Open textbooks">Open textbooks (4)</option>
 <option value="OpenAI">OpenAI (1)</option>
 <option value="StatQuest">StatQuest (1)</option>
@@ -154,7 +167,7 @@
       </div>
 
       <div class="results-bar">
-        <p id="results-count" role="status" aria-live="polite">Showing all 54 resources.</p>
+        <p id="results-count" role="status" aria-live="polite">Showing all 59 resources.</p>
         <button class="text-button clear-filters" type="button" data-clear-filters hidden>Reset all filters</button>
         <p class="results-note">Please check the provider’s page before enrolling—free rules can change.</p>
       </div>
@@ -166,7 +179,7 @@
 
     <div class="resource-grid" id="resource-grid">
 
-<article class="resource-card resource-card--course is-featured" id="resource-google-intro-genai" data-resource-card data-resource-id="google-intro-genai" data-type="course" data-level="beginner" data-provider="Google" data-certificate="free" data-category="foundations" data-title="Introduction to Generative AI" data-search="introduction to generative ai google a 45-minute, no-code explanation of what generative ai is, how it differs from traditional machine learning, and where google uses it. finish with a short quiz and a free google skill badge. micro-course + quiz foundations generative ai foundations no-code">
+<article class="resource-card resource-card--course is-featured" id="resource-google-intro-genai" data-resource-card data-resource-id="google-intro-genai" data-type="course" data-level="beginner" data-time-bucket="quick" data-provider="Google" data-certificate="free" data-category="foundations" data-title="Introduction to Generative AI" data-search="introduction to generative ai google a 45-minute, no-code explanation of what generative ai is, how it differs from traditional machine learning, and where google uses it. finish with a short quiz and a free google skill badge. micro-course + quiz foundations generative ai foundations no-code">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Foundations</span>
@@ -196,7 +209,67 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course is-featured" id="resource-elements-of-ai" data-resource-card data-resource-id="elements-of-ai" data-type="course" data-level="beginner" data-provider="University of Helsinki" data-certificate="paid" data-category="foundations" data-title="Elements of AI: Introduction to AI" data-search="elements of ai: introduction to ai university of helsinki a gentle, non-technical course from the university of helsinki and minnalearn. learn what ai can and cannot do, where it shows up in daily life, and how it affects society. no math or coding required. reading + exercises foundations ai literacy society no-code">
+<article class="resource-card resource-card--course" id="resource-databricks-genai-fundamentals" data-resource-card data-resource-id="databricks-genai-fundamentals" data-type="course" data-level="beginner" data-time-bucket="short" data-provider="Databricks" data-certificate="free" data-category="foundations" data-title="Generative AI Fundamentals" data-search="generative ai fundamentals databricks a free one-hour on-demand course on core generative ai concepts, high-value business use cases, model trade-offs, governance, and where agents fit. pass the quiz to earn a databricks badge for linkedin and your résumé. on-demand course + quiz foundations generative ai ai strategy foundations">
+  <div class="resource-card__top">
+    <span class="resource-type">Course</span>
+    <span class="category-chip">Foundations</span>
+    <span class="cert-tag cert-tag--free">Free certificate</span>
+  </div>
+  <div class="provider-line">
+    <span class="provider-mark" aria-hidden="true">D</span>
+    <span class="provider-name">Databricks</span>
+    <span class="meta-separator" aria-hidden="true">·</span>
+    <span class="resource-format">On-demand course + quiz</span>
+  </div>
+  <h3 class="resource-title"><a href="https://www.databricks.com/resources/learn/training/generative-ai-fundamentals" target="_blank" rel="noopener noreferrer">Generative AI Fundamentals<span class="title-arrow"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="visually-hidden"> (opens in a new tab)</span></span></a></h3>
+  <p class="resource-description">A free one-hour on-demand course on core generative AI concepts, high-value business use cases, model trade-offs, governance, and where agents fit. Pass the quiz to earn a Databricks badge for LinkedIn and your résumé.</p>
+  <div class="resource-meta">
+    <span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.25"/><path d="M12 7.5v5l3.25 2"/></svg><span>1 hour</span></span>
+    <span>Beginner</span>
+    <span class="resource-host">databricks.com</span>
+  </div>
+  <div class="resource-topics" role="list" aria-label="Topics"><span class="topic" role="listitem">Generative AI</span><span class="topic" role="listitem">AI strategy</span><span class="topic" role="listitem">Foundations</span></div>
+  <div class="resource-actions">
+    <button class="text-button save-button" type="button" data-save-id="databricks-genai-fundamentals" data-item-title="Generative AI Fundamentals" aria-pressed="false" aria-label="Save Generative AI Fundamentals for later">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.75 4.75A1.75 1.75 0 0 1 8.5 3h7A1.75 1.75 0 0 1 17.25 4.75v16L12 17.5l-5.25 3.25v-16Z"/></svg><span>Save</span>
+    </button>
+    <button class="text-button done-button" type="button" data-done-id="databricks-genai-fundamentals" data-item-title="Generative AI Fundamentals" aria-pressed="false" aria-label="Mark Generative AI Fundamentals as done">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.4 4.4L19 7.3"/></svg><span>Done</span>
+    </button>
+  </div>
+</article>
+
+<article class="resource-card resource-card--course" id="resource-google-genai-educators" data-resource-card data-resource-id="google-genai-educators" data-type="course" data-level="beginner" data-time-bucket="short" data-provider="Google" data-certificate="free" data-category="foundations" data-title="Generative AI for Educators with Gemini" data-search="generative ai for educators with gemini google a free two-hour, self-paced course for middle- and high-school educators who want to save time on everyday tasks, personalize instruction, and use gemini and notebooklm responsibly. no previous ai experience is required. self-paced course foundations generative ai teaching gemini">
+  <div class="resource-card__top">
+    <span class="resource-type">Course</span>
+    <span class="category-chip">Foundations</span>
+    <span class="cert-tag cert-tag--free">Free certificate</span>
+  </div>
+  <div class="provider-line">
+    <span class="provider-mark" aria-hidden="true">G</span>
+    <span class="provider-name">Google</span>
+    <span class="meta-separator" aria-hidden="true">·</span>
+    <span class="resource-format">Self-paced course</span>
+  </div>
+  <h3 class="resource-title"><a href="https://grow.google/ai-for-educators/" target="_blank" rel="noopener noreferrer">Generative AI for Educators with Gemini<span class="title-arrow"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="visually-hidden"> (opens in a new tab)</span></span></a></h3>
+  <p class="resource-description">A free two-hour, self-paced course for middle- and high-school educators who want to save time on everyday tasks, personalize instruction, and use Gemini and NotebookLM responsibly. No previous AI experience is required.</p>
+  <div class="resource-meta">
+    <span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.25"/><path d="M12 7.5v5l3.25 2"/></svg><span>2 hours</span></span>
+    <span>Beginner</span>
+    <span class="resource-host">grow.google</span>
+  </div>
+  <div class="resource-topics" role="list" aria-label="Topics"><span class="topic" role="listitem">Generative AI</span><span class="topic" role="listitem">Teaching</span><span class="topic" role="listitem">Gemini</span></div>
+  <div class="resource-actions">
+    <button class="text-button save-button" type="button" data-save-id="google-genai-educators" data-item-title="Generative AI for Educators with Gemini" aria-pressed="false" aria-label="Save Generative AI for Educators with Gemini for later">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.75 4.75A1.75 1.75 0 0 1 8.5 3h7A1.75 1.75 0 0 1 17.25 4.75v16L12 17.5l-5.25 3.25v-16Z"/></svg><span>Save</span>
+    </button>
+    <button class="text-button done-button" type="button" data-done-id="google-genai-educators" data-item-title="Generative AI for Educators with Gemini" aria-pressed="false" aria-label="Mark Generative AI for Educators with Gemini as done">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.4 4.4L19 7.3"/></svg><span>Done</span>
+    </button>
+  </div>
+</article>
+
+<article class="resource-card resource-card--course is-featured" id="resource-elements-of-ai" data-resource-card data-resource-id="elements-of-ai" data-type="course" data-level="beginner" data-time-bucket="long" data-provider="University of Helsinki" data-certificate="paid" data-category="foundations" data-title="Elements of AI: Introduction to AI" data-search="elements of ai: introduction to ai university of helsinki a gentle, non-technical course from the university of helsinki and minnalearn. learn what ai can and cannot do, where it shows up in daily life, and how it affects society. no math or coding required. reading + exercises foundations ai literacy society no-code">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Foundations</span>
@@ -226,7 +299,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-google-ml-crash-course" data-resource-card data-resource-id="google-ml-crash-course" data-type="course" data-level="beginner" data-provider="Google" data-certificate="none" data-category="machine-learning" data-title="Machine Learning Crash Course" data-search="machine learning crash course google google&#39;s interactive tour of machine learning fundamentals: regression, classification, neural networks, large language models, and fairness. videos, readings, and hands-on exercises make it a strong free foundation. interactive course machine learning machine learning neural networks responsible ai">
+<article class="resource-card resource-card--course" id="resource-google-ml-crash-course" data-resource-card data-resource-id="google-ml-crash-course" data-type="course" data-level="beginner" data-time-bucket="medium" data-provider="Google" data-certificate="none" data-category="machine-learning" data-title="Machine Learning Crash Course" data-search="machine learning crash course google google&#39;s interactive tour of machine learning fundamentals: regression, classification, neural networks, large language models, and fairness. videos, readings, and hands-on exercises make it a strong free foundation. interactive course machine learning machine learning neural networks responsible ai">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Machine learning</span>
@@ -256,7 +329,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-microsoft-ai-beginners" data-resource-card data-resource-id="microsoft-ai-beginners" data-type="course" data-level="beginner" data-provider="Microsoft" data-certificate="none" data-category="foundations" data-title="AI for Beginners" data-search="ai for beginners microsoft microsoft&#39;s open 12-week, 24-lesson curriculum covers ai history, neural networks, computer vision, natural language processing, and ethics, with quizzes and labs. take only the lessons you need. open curriculum + labs foundations foundations python ethics">
+<article class="resource-card resource-card--course" id="resource-microsoft-ai-beginners" data-resource-card data-resource-id="microsoft-ai-beginners" data-type="course" data-level="beginner" data-time-bucket="long" data-provider="Microsoft" data-certificate="none" data-category="foundations" data-title="AI for Beginners" data-search="ai for beginners microsoft microsoft&#39;s open 12-week, 24-lesson curriculum covers ai history, neural networks, computer vision, natural language processing, and ethics, with quizzes and labs. take only the lessons you need. open curriculum + labs foundations foundations python ethics">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Foundations</span>
@@ -286,7 +359,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-microsoft-genai-beginners" data-resource-card data-resource-id="microsoft-genai-beginners" data-type="course" data-level="beginner" data-provider="Microsoft" data-certificate="none" data-category="llm-agents" data-title="Generative AI for Beginners" data-search="generative ai for beginners microsoft twenty-one lessons that move from prompt basics to retrieval-augmented generation, agents, and responsible use, with python code samples. you can read the ideas without using azure, though a little coding helps. open curriculum + code llms &amp; agents llms rag prompts python">
+<article class="resource-card resource-card--course" id="resource-microsoft-genai-beginners" data-resource-card data-resource-id="microsoft-genai-beginners" data-type="course" data-level="beginner" data-time-bucket="medium" data-provider="Microsoft" data-certificate="none" data-category="llm-agents" data-title="Generative AI for Beginners" data-search="generative ai for beginners microsoft twenty-one lessons that move from prompt basics to retrieval-augmented generation, agents, and responsible use, with python code samples. you can read the ideas without using azure, though a little coding helps. open curriculum + code llms &amp; agents llms rag prompts python">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -316,7 +389,37 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-aws-fundamentals-genai" data-resource-card data-resource-id="aws-fundamentals-genai" data-type="course" data-level="beginner" data-provider="AWS" data-certificate="varies" data-category="foundations" data-title="Fundamentals of Generative AI" data-search="fundamentals of generative ai aws a three-hour aws skill builder course on generative ai, natural language processing, and choosing an ai/ml approach for a real use case. the digital course is free; hands-on labs may require a paid subscription. digital course foundations generative ai cloud aws">
+<article class="resource-card resource-card--guide" id="resource-ollama-quickstart" data-resource-card data-resource-id="ollama-quickstart" data-type="guide" data-level="beginner" data-time-bucket="short" data-provider="Ollama" data-certificate="na" data-category="llm-agents" data-title="Ollama Quickstart" data-search="ollama quickstart ollama an official quickstart for running open models locally: install ollama, pull a model, connect a desktop app or coding agent, and make a first local api request without sending prompts to a hosted service. official quickstart llms &amp; agents local ai llms privacy">
+  <div class="resource-card__top">
+    <span class="resource-type">Guide</span>
+    <span class="category-chip">LLMs &amp; agents</span>
+
+  </div>
+  <div class="provider-line">
+    <span class="provider-mark" aria-hidden="true">O</span>
+    <span class="provider-name">Ollama</span>
+    <span class="meta-separator" aria-hidden="true">·</span>
+    <span class="resource-format">Official quickstart</span>
+  </div>
+  <h3 class="resource-title"><a href="https://docs.ollama.com/quickstart" target="_blank" rel="noopener noreferrer">Ollama Quickstart<span class="title-arrow"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="visually-hidden"> (opens in a new tab)</span></span></a></h3>
+  <p class="resource-description">An official quickstart for running open models locally: install Ollama, pull a model, connect a desktop app or coding agent, and make a first local API request without sending prompts to a hosted service.</p>
+  <div class="resource-meta">
+    <span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.25"/><path d="M12 7.5v5l3.25 2"/></svg><span>~1 hour</span></span>
+    <span>Beginner</span>
+    <span class="resource-host">docs.ollama.com</span>
+  </div>
+  <div class="resource-topics" role="list" aria-label="Topics"><span class="topic" role="listitem">Local AI</span><span class="topic" role="listitem">LLMs</span><span class="topic" role="listitem">Privacy</span></div>
+  <div class="resource-actions">
+    <button class="text-button save-button" type="button" data-save-id="ollama-quickstart" data-item-title="Ollama Quickstart" aria-pressed="false" aria-label="Save Ollama Quickstart for later">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.75 4.75A1.75 1.75 0 0 1 8.5 3h7A1.75 1.75 0 0 1 17.25 4.75v16L12 17.5l-5.25 3.25v-16Z"/></svg><span>Save</span>
+    </button>
+    <button class="text-button done-button" type="button" data-done-id="ollama-quickstart" data-item-title="Ollama Quickstart" aria-pressed="false" aria-label="Mark Ollama Quickstart as done">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.4 4.4L19 7.3"/></svg><span>Done</span>
+    </button>
+  </div>
+</article>
+
+<article class="resource-card resource-card--course" id="resource-aws-fundamentals-genai" data-resource-card data-resource-id="aws-fundamentals-genai" data-type="course" data-level="beginner" data-time-bucket="short" data-provider="AWS" data-certificate="varies" data-category="foundations" data-title="Fundamentals of Generative AI" data-search="fundamentals of generative ai aws a three-hour aws skill builder course on generative ai, natural language processing, and choosing an ai/ml approach for a real use case. the digital course is free; hands-on labs may require a paid subscription. digital course foundations generative ai cloud aws">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Foundations</span>
@@ -346,7 +449,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-deeplearning-ai-python-beginners" data-resource-card data-resource-id="deeplearning-ai-python-beginners" data-type="course" data-level="beginner" data-provider="DeepLearning.AI" data-certificate="paid" data-category="coding-data" data-title="AI Python for Beginners" data-search="ai python for beginners deeplearning.ai a friendly 11.5-hour introduction to python with an ai helper. cover variables, functions, data, and small projects; no coding background required. the lessons are free, and the pace is yours. short course python &amp; data python apis beginner coding">
+<article class="resource-card resource-card--course" id="resource-deeplearning-ai-python-beginners" data-resource-card data-resource-id="deeplearning-ai-python-beginners" data-type="course" data-level="beginner" data-time-bucket="medium" data-provider="DeepLearning.AI" data-certificate="paid" data-category="coding-data" data-title="AI Python for Beginners" data-search="ai python for beginners deeplearning.ai a friendly 11.5-hour introduction to python with an ai helper. cover variables, functions, data, and small projects; no coding background required. the lessons are free, and the pace is yours. short course python &amp; data python apis beginner coding">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Python &amp; data</span>
@@ -376,7 +479,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-deeplearning-chatgpt-prompt" data-resource-card data-resource-id="deeplearning-chatgpt-prompt" data-type="course" data-level="beginner" data-provider="DeepLearning.AI" data-certificate="paid" data-category="llm-agents" data-title="ChatGPT Prompt Engineering for Developers" data-search="chatgpt prompt engineering for developers deeplearning.ai a 1 hour 40 minute course on writing clear instructions, summarizing, inferring, transforming, and expanding text with an llm api. basic python is helpful, but the prompting principles apply far beyond code. short course llms &amp; agents prompting llm apis python">
+<article class="resource-card resource-card--course" id="resource-deeplearning-chatgpt-prompt" data-resource-card data-resource-id="deeplearning-chatgpt-prompt" data-type="course" data-level="beginner" data-time-bucket="short" data-provider="DeepLearning.AI" data-certificate="paid" data-category="llm-agents" data-title="ChatGPT Prompt Engineering for Developers" data-search="chatgpt prompt engineering for developers deeplearning.ai a 1 hour 40 minute course on writing clear instructions, summarizing, inferring, transforming, and expanding text with an llm api. basic python is helpful, but the prompting principles apply far beyond code. short course llms &amp; agents prompting llm apis python">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -406,7 +509,37 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-deeplearning-ai-for-everyone" data-resource-card data-resource-id="deeplearning-ai-for-everyone" data-type="course" data-level="beginner" data-provider="Coursera" data-certificate="paid" data-category="foundations" data-title="AI for Everyone" data-search="ai for everyone deeplearning.ai andrew ng&#39;s non-technical course on what ai can do, how to spot useful opportunities, and how ai projects get built. coursera now offers a free preview of the first module; full access and a certificate are paid. coursera course foundations ai literacy business no-code">
+<article class="resource-card resource-card--course" id="resource-microsoft-github-copilot" data-resource-card data-resource-id="microsoft-github-copilot" data-type="course" data-level="beginner" data-time-bucket="medium" data-provider="Microsoft" data-certificate="none" data-category="llm-agents" data-title="GitHub Copilot Fundamentals Part 1 of 2" data-search="github copilot fundamentals part 1 of 2 microsoft learn a free, nine-module path on using github copilot responsibly: plan choices, prompt engineering, copilot spaces, advanced features, ide and command-line use, developer workflows, and unit testing with an ai assistant. self-paced learning path llms &amp; agents github copilot ai coding prompt engineering">
+  <div class="resource-card__top">
+    <span class="resource-type">Course</span>
+    <span class="category-chip">LLMs &amp; agents</span>
+    <span class="cert-tag cert-tag--none">No certificate</span>
+  </div>
+  <div class="provider-line">
+    <span class="provider-mark" aria-hidden="true">ML</span>
+    <span class="provider-name">Microsoft Learn</span>
+    <span class="meta-separator" aria-hidden="true">·</span>
+    <span class="resource-format">Self-paced learning path</span>
+  </div>
+  <h3 class="resource-title"><a href="https://learn.microsoft.com/en-us/training/paths/copilot/" target="_blank" rel="noopener noreferrer">GitHub Copilot Fundamentals Part 1 of 2<span class="title-arrow"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="visually-hidden"> (opens in a new tab)</span></span></a></h3>
+  <p class="resource-description">A free, nine-module path on using GitHub Copilot responsibly: plan choices, prompt engineering, Copilot Spaces, advanced features, IDE and command-line use, developer workflows, and unit testing with an AI assistant.</p>
+  <div class="resource-meta">
+    <span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.25"/><path d="M12 7.5v5l3.25 2"/></svg><span>9 modules (self-paced)</span></span>
+    <span>Beginner</span>
+    <span class="resource-host">learn.microsoft.com</span>
+  </div>
+  <div class="resource-topics" role="list" aria-label="Topics"><span class="topic" role="listitem">GitHub Copilot</span><span class="topic" role="listitem">AI coding</span><span class="topic" role="listitem">Prompt engineering</span></div>
+  <div class="resource-actions">
+    <button class="text-button save-button" type="button" data-save-id="microsoft-github-copilot" data-item-title="GitHub Copilot Fundamentals Part 1 of 2" aria-pressed="false" aria-label="Save GitHub Copilot Fundamentals Part 1 of 2 for later">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.75 4.75A1.75 1.75 0 0 1 8.5 3h7A1.75 1.75 0 0 1 17.25 4.75v16L12 17.5l-5.25 3.25v-16Z"/></svg><span>Save</span>
+    </button>
+    <button class="text-button done-button" type="button" data-done-id="microsoft-github-copilot" data-item-title="GitHub Copilot Fundamentals Part 1 of 2" aria-pressed="false" aria-label="Mark GitHub Copilot Fundamentals Part 1 of 2 as done">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.4 4.4L19 7.3"/></svg><span>Done</span>
+    </button>
+  </div>
+</article>
+
+<article class="resource-card resource-card--course" id="resource-deeplearning-ai-for-everyone" data-resource-card data-resource-id="deeplearning-ai-for-everyone" data-type="course" data-level="beginner" data-time-bucket="medium" data-provider="Coursera" data-certificate="paid" data-category="foundations" data-title="AI for Everyone" data-search="ai for everyone deeplearning.ai andrew ng&#39;s non-technical course on what ai can do, how to spot useful opportunities, and how ai projects get built. coursera now offers a free preview of the first module; full access and a certificate are paid. coursera course foundations ai literacy business no-code">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Foundations</span>
@@ -436,7 +569,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-coursera-ml-specialization" data-resource-card data-resource-id="coursera-ml-specialization" data-type="course" data-level="intermediate" data-provider="Coursera" data-certificate="paid" data-category="machine-learning" data-title="Machine Learning Specialization" data-search="machine learning specialization deeplearning.ai andrew ng&#39;s three-course foundation in supervised learning, advanced learning algorithms, and unsupervised learning or recommender systems. preview the first module free; graded labs and the certificate require payment or financial aid. coursera specialization machine learning machine learning python mathematics">
+<article class="resource-card resource-card--course" id="resource-coursera-ml-specialization" data-resource-card data-resource-id="coursera-ml-specialization" data-type="course" data-level="intermediate" data-time-bucket="long" data-provider="Coursera" data-certificate="paid" data-category="machine-learning" data-title="Machine Learning Specialization" data-search="machine learning specialization deeplearning.ai andrew ng&#39;s three-course foundation in supervised learning, advanced learning algorithms, and unsupervised learning or recommender systems. preview the first module free; graded labs and the certificate require payment or financial aid. coursera specialization machine learning machine learning python mathematics">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Machine learning</span>
@@ -466,7 +599,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-kaggle-python" data-resource-card data-resource-id="kaggle-python" data-type="course" data-level="beginner" data-provider="Kaggle Learn" data-certificate="free" data-category="coding-data" data-title="Kaggle: Python" data-search="kaggle: python kaggle learn five hours of hands-on python in the browser: variables, functions, loops, lists, dictionaries, and importing libraries. short coding exercises and a free completion certificate make it a low-friction first coding step. interactive notebooks python &amp; data python coding notebooks">
+<article class="resource-card resource-card--course" id="resource-kaggle-python" data-resource-card data-resource-id="kaggle-python" data-type="course" data-level="beginner" data-time-bucket="short" data-provider="Kaggle Learn" data-certificate="free" data-category="coding-data" data-title="Kaggle: Python" data-search="kaggle: python kaggle learn five hours of hands-on python in the browser: variables, functions, loops, lists, dictionaries, and importing libraries. short coding exercises and a free completion certificate make it a low-friction first coding step. interactive notebooks python &amp; data python coding notebooks">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Python &amp; data</span>
@@ -496,7 +629,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-kaggle-pandas" data-resource-card data-resource-id="kaggle-pandas" data-type="course" data-level="beginner" data-provider="Kaggle Learn" data-certificate="free" data-category="coding-data" data-title="Kaggle: Pandas" data-search="kaggle: pandas kaggle learn four hours of practical data wrangling with pandas: selecting, filtering, grouping, joining, and cleaning real tabular data. finish with a free certificate and the skills to inspect a dataset without panic. interactive notebooks python &amp; data pandas data python">
+<article class="resource-card resource-card--course" id="resource-kaggle-pandas" data-resource-card data-resource-id="kaggle-pandas" data-type="course" data-level="beginner" data-time-bucket="short" data-provider="Kaggle Learn" data-certificate="free" data-category="coding-data" data-title="Kaggle: Pandas" data-search="kaggle: pandas kaggle learn four hours of practical data wrangling with pandas: selecting, filtering, grouping, joining, and cleaning real tabular data. finish with a free certificate and the skills to inspect a dataset without panic. interactive notebooks python &amp; data pandas data python">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Python &amp; data</span>
@@ -526,7 +659,37 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course is-featured" id="resource-kaggle-intro-machine-learning" data-resource-card data-resource-id="kaggle-intro-machine-learning" data-type="course" data-level="beginner" data-provider="Kaggle Learn" data-certificate="free" data-category="machine-learning" data-title="Kaggle: Intro to Machine Learning" data-search="kaggle: intro to machine learning kaggle learn a three-hour first pass at machine learning with scikit-learn. build a decision tree and random forest, use a train/test split, and learn why validation matters. no prior ml needed. interactive notebooks machine learning machine learning scikit-learn python">
+<article class="resource-card resource-card--course" id="resource-microsoft-github-foundations" data-resource-card data-resource-id="microsoft-github-foundations" data-type="course" data-level="beginner" data-time-bucket="medium" data-provider="Microsoft" data-certificate="paid" data-category="coding-data" data-title="GitHub Foundations Part 1 of 2" data-search="github foundations part 1 of 2 microsoft learn a free, eight-module learning path covering git and github essentials: repositories, commits, branches, pull requests, projects, markdown, codespaces, code scanning, and an introduction to github copilot. the certification exam is separate. self-paced learning path python &amp; data github git collaboration copilot">
+  <div class="resource-card__top">
+    <span class="resource-type">Course</span>
+    <span class="category-chip">Python &amp; data</span>
+    <span class="cert-tag cert-tag--paid">Certificate paid</span>
+  </div>
+  <div class="provider-line">
+    <span class="provider-mark" aria-hidden="true">ML</span>
+    <span class="provider-name">Microsoft Learn</span>
+    <span class="meta-separator" aria-hidden="true">·</span>
+    <span class="resource-format">Self-paced learning path</span>
+  </div>
+  <h3 class="resource-title"><a href="https://learn.microsoft.com/en-us/training/paths/github-foundations/" target="_blank" rel="noopener noreferrer">GitHub Foundations Part 1 of 2<span class="title-arrow"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="visually-hidden"> (opens in a new tab)</span></span></a></h3>
+  <p class="resource-description">A free, eight-module learning path covering Git and GitHub essentials: repositories, commits, branches, pull requests, Projects, Markdown, Codespaces, code scanning, and an introduction to GitHub Copilot. The certification exam is separate.</p>
+  <div class="resource-meta">
+    <span><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.25"/><path d="M12 7.5v5l3.25 2"/></svg><span>8 modules (self-paced)</span></span>
+    <span>Beginner</span>
+    <span class="resource-host">learn.microsoft.com</span>
+  </div>
+  <div class="resource-topics" role="list" aria-label="Topics"><span class="topic" role="listitem">GitHub</span><span class="topic" role="listitem">Git</span><span class="topic" role="listitem">Collaboration</span></div>
+  <div class="resource-actions">
+    <button class="text-button save-button" type="button" data-save-id="microsoft-github-foundations" data-item-title="GitHub Foundations Part 1 of 2" aria-pressed="false" aria-label="Save GitHub Foundations Part 1 of 2 for later">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.75 4.75A1.75 1.75 0 0 1 8.5 3h7A1.75 1.75 0 0 1 17.25 4.75v16L12 17.5l-5.25 3.25v-16Z"/></svg><span>Save</span>
+    </button>
+    <button class="text-button done-button" type="button" data-done-id="microsoft-github-foundations" data-item-title="GitHub Foundations Part 1 of 2" aria-pressed="false" aria-label="Mark GitHub Foundations Part 1 of 2 as done">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.4 4.4L19 7.3"/></svg><span>Done</span>
+    </button>
+  </div>
+</article>
+
+<article class="resource-card resource-card--course is-featured" id="resource-kaggle-intro-machine-learning" data-resource-card data-resource-id="kaggle-intro-machine-learning" data-type="course" data-level="beginner" data-time-bucket="short" data-provider="Kaggle Learn" data-certificate="free" data-category="machine-learning" data-title="Kaggle: Intro to Machine Learning" data-search="kaggle: intro to machine learning kaggle learn a three-hour first pass at machine learning with scikit-learn. build a decision tree and random forest, use a train/test split, and learn why validation matters. no prior ml needed. interactive notebooks machine learning machine learning scikit-learn python">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Machine learning</span>
@@ -556,7 +719,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-kaggle-intermediate-machine-learning" data-resource-card data-resource-id="kaggle-intermediate-machine-learning" data-type="course" data-level="intermediate" data-provider="Kaggle Learn" data-certificate="free" data-category="machine-learning" data-title="Kaggle: Intermediate Machine Learning" data-search="kaggle: intermediate machine learning kaggle learn move beyond a first model with missing-value handling, categorical variables, pipelines, cross-validation, and gradient boosting. good next practice after intro to machine learning. interactive notebooks machine learning machine learning pipelines xgboost">
+<article class="resource-card resource-card--course" id="resource-kaggle-intermediate-machine-learning" data-resource-card data-resource-id="kaggle-intermediate-machine-learning" data-type="course" data-level="intermediate" data-time-bucket="short" data-provider="Kaggle Learn" data-certificate="free" data-category="machine-learning" data-title="Kaggle: Intermediate Machine Learning" data-search="kaggle: intermediate machine learning kaggle learn move beyond a first model with missing-value handling, categorical variables, pipelines, cross-validation, and gradient boosting. good next practice after intro to machine learning. interactive notebooks machine learning machine learning pipelines xgboost">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Machine learning</span>
@@ -586,7 +749,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-kaggle-intro-deep-learning" data-resource-card data-resource-id="kaggle-intro-deep-learning" data-type="course" data-level="intermediate" data-provider="Kaggle Learn" data-certificate="free" data-category="deep-learning" data-title="Kaggle: Intro to Deep Learning" data-search="kaggle: intro to deep learning kaggle learn use tensorflow and keras to build a first neural network, add layers, train with stochastic gradient descent, and recognize overfitting. four focused hours with a free certificate attached. interactive notebooks deep learning deep learning tensorflow python">
+<article class="resource-card resource-card--course" id="resource-kaggle-intro-deep-learning" data-resource-card data-resource-id="kaggle-intro-deep-learning" data-type="course" data-level="intermediate" data-time-bucket="short" data-provider="Kaggle Learn" data-certificate="free" data-category="deep-learning" data-title="Kaggle: Intro to Deep Learning" data-search="kaggle: intro to deep learning kaggle learn use tensorflow and keras to build a first neural network, add layers, train with stochastic gradient descent, and recognize overfitting. four focused hours with a free certificate attached. interactive notebooks deep learning deep learning tensorflow python">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Deep learning</span>
@@ -616,7 +779,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-kaggle-intro-ai-ethics" data-resource-card data-resource-id="kaggle-intro-ai-ethics" data-type="course" data-level="beginner" data-provider="Kaggle Learn" data-certificate="free" data-category="foundations" data-title="Kaggle: Intro to AI Ethics" data-search="kaggle: intro to ai ethics kaggle learn four hours on human-centered design, fairness, and privacy for ai systems. the examples are practical, the language is plain, and you leave with a free certificate plus a better checklist for building responsibly. interactive readings + exercises foundations ai ethics fairness privacy">
+<article class="resource-card resource-card--course" id="resource-kaggle-intro-ai-ethics" data-resource-card data-resource-id="kaggle-intro-ai-ethics" data-type="course" data-level="beginner" data-time-bucket="short" data-provider="Kaggle Learn" data-certificate="free" data-category="foundations" data-title="Kaggle: Intro to AI Ethics" data-search="kaggle: intro to ai ethics kaggle learn four hours on human-centered design, fairness, and privacy for ai systems. the examples are practical, the language is plain, and you leave with a free certificate plus a better checklist for building responsibly. interactive readings + exercises foundations ai ethics fairness privacy">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Foundations</span>
@@ -646,7 +809,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-kaggle-agents-intensive" data-resource-card data-resource-id="kaggle-agents-intensive" data-type="course" data-level="intermediate" data-provider="Kaggle Learn" data-certificate="varies" data-category="llm-agents" data-title="5-Day AI Agents Intensive Course with Google" data-search="5-day ai agents intensive course with google kaggle learn a self-paced, hands-on agent program from kaggle and google: daily codelabs, whitepapers, a capstone project, and community discussion. it is free to follow; cohort-specific badges or certificates can change, so check the current guide. guided intensive + capstone llms &amp; agents ai agents google capstone">
+<article class="resource-card resource-card--course" id="resource-kaggle-agents-intensive" data-resource-card data-resource-id="kaggle-agents-intensive" data-type="course" data-level="intermediate" data-time-bucket="long" data-provider="Kaggle Learn" data-certificate="varies" data-category="llm-agents" data-title="5-Day AI Agents Intensive Course with Google" data-search="5-day ai agents intensive course with google kaggle learn a self-paced, hands-on agent program from kaggle and google: daily codelabs, whitepapers, a capstone project, and community discussion. it is free to follow; cohort-specific badges or certificates can change, so check the current guide. guided intensive + capstone llms &amp; agents ai agents google capstone">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -676,7 +839,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-freecodecamp-scientific-python" data-resource-card data-resource-id="freecodecamp-scientific-python" data-type="course" data-level="beginner" data-provider="freeCodeCamp" data-certificate="free" data-category="coding-data" data-title="Scientific Computing with Python" data-search="scientific computing with python freecodecamp freecodecamp&#39;s project-heavy python certification covers variables, loops, functions, objects, and algorithms, ending with five build projects and a free certification. the curriculum is large; do the first sections for a taste. interactive curriculum + projects python &amp; data python projects algorithms">
+<article class="resource-card resource-card--course" id="resource-freecodecamp-scientific-python" data-resource-card data-resource-id="freecodecamp-scientific-python" data-type="course" data-level="beginner" data-time-bucket="long" data-provider="freeCodeCamp" data-certificate="free" data-category="coding-data" data-title="Scientific Computing with Python" data-search="scientific computing with python freecodecamp freecodecamp&#39;s project-heavy python certification covers variables, loops, functions, objects, and algorithms, ending with five build projects and a free certification. the curriculum is large; do the first sections for a taste. interactive curriculum + projects python &amp; data python projects algorithms">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Python &amp; data</span>
@@ -706,7 +869,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-freecodecamp-data-analysis-python" data-resource-card data-resource-id="freecodecamp-data-analysis-python" data-type="course" data-level="beginner" data-provider="freeCodeCamp" data-certificate="free" data-category="coding-data" data-title="Data Analysis with Python" data-search="data analysis with python freecodecamp learn numpy, pandas, matplotlib, and seaborn through lessons and five data-analysis projects, with a free certification at the end. a practical, long-form path for people who like to learn by building. interactive curriculum + projects python &amp; data data analysis python visualization">
+<article class="resource-card resource-card--course" id="resource-freecodecamp-data-analysis-python" data-resource-card data-resource-id="freecodecamp-data-analysis-python" data-type="course" data-level="beginner" data-time-bucket="long" data-provider="freeCodeCamp" data-certificate="free" data-category="coding-data" data-title="Data Analysis with Python" data-search="data analysis with python freecodecamp learn numpy, pandas, matplotlib, and seaborn through lessons and five data-analysis projects, with a free certification at the end. a practical, long-form path for people who like to learn by building. interactive curriculum + projects python &amp; data data analysis python visualization">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Python &amp; data</span>
@@ -736,7 +899,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-freecodecamp-machine-learning-python" data-resource-card data-resource-id="freecodecamp-machine-learning-python" data-type="course" data-level="intermediate" data-provider="freeCodeCamp" data-certificate="free" data-category="machine-learning" data-title="Machine Learning with Python" data-search="machine learning with python freecodecamp a long-form, project-based tensorflow and keras certification covering neural networks, classification, clustering, and recommender systems. five projects lead to a free certificate; it is a marathon, not a weekend. interactive curriculum + projects machine learning machine learning tensorflow projects">
+<article class="resource-card resource-card--course" id="resource-freecodecamp-machine-learning-python" data-resource-card data-resource-id="freecodecamp-machine-learning-python" data-type="course" data-level="intermediate" data-time-bucket="long" data-provider="freeCodeCamp" data-certificate="free" data-category="machine-learning" data-title="Machine Learning with Python" data-search="machine learning with python freecodecamp a long-form, project-based tensorflow and keras certification covering neural networks, classification, clustering, and recommender systems. five projects lead to a free certificate; it is a marathon, not a weekend. interactive curriculum + projects machine learning machine learning tensorflow projects">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Machine learning</span>
@@ -766,7 +929,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-huggingface-llm-course" data-resource-card data-resource-id="huggingface-llm-course" data-type="course" data-level="intermediate" data-provider="Hugging Face" data-certificate="none" data-category="llm-agents" data-title="Hugging Face LLM Course" data-search="hugging face llm course hugging face a free, twelve-chapter course on transformers, datasets, tokenizers, fine-tuning, and modern llm techniques using the hugging face ecosystem. it expects good python and benefits from an intro deep-learning course. readings + notebooks llms &amp; agents llms transformers fine-tuning">
+<article class="resource-card resource-card--course" id="resource-huggingface-llm-course" data-resource-card data-resource-id="huggingface-llm-course" data-type="course" data-level="intermediate" data-time-bucket="long" data-provider="Hugging Face" data-certificate="none" data-category="llm-agents" data-title="Hugging Face LLM Course" data-search="hugging face llm course hugging face a free, twelve-chapter course on transformers, datasets, tokenizers, fine-tuning, and modern llm techniques using the hugging face ecosystem. it expects good python and benefits from an intro deep-learning course. readings + notebooks llms &amp; agents llms transformers fine-tuning">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -796,7 +959,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course is-featured" id="resource-huggingface-agents-course" data-resource-card data-resource-id="huggingface-agents-course" data-type="course" data-level="intermediate" data-provider="Hugging Face" data-certificate="free" data-category="llm-agents" data-title="Hugging Face AI Agents Course" data-search="hugging face ai agents course hugging face a free course from beginner to agent builder. learn tool use, agent loops, smolagents, llamaindex, and langgraph, then build and share an agent. basic python is expected; two free certificate levels are available. course + hands-on assignments llms &amp; agents ai agents tool use python">
+<article class="resource-card resource-card--course is-featured" id="resource-huggingface-agents-course" data-resource-card data-resource-id="huggingface-agents-course" data-type="course" data-level="intermediate" data-time-bucket="long" data-provider="Hugging Face" data-certificate="free" data-category="llm-agents" data-title="Hugging Face AI Agents Course" data-search="hugging face ai agents course hugging face a free course from beginner to agent builder. learn tool use, agent loops, smolagents, llamaindex, and langgraph, then build and share an agent. basic python is expected; two free certificate levels are available. course + hands-on assignments llms &amp; agents ai agents tool use python">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -826,7 +989,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-huggingface-mcp-course" data-resource-card data-resource-id="huggingface-mcp-course" data-type="course" data-level="intermediate" data-provider="Hugging Face" data-certificate="free" data-category="llm-agents" data-title="Hugging Face MCP Course" data-search="hugging face mcp course hugging face a free course built with anthropic that explains the model context protocol and walks you through building mcp applications. you should know basic ai, apis, and either python or typescript. free certificates are available. course + hands-on projects llms &amp; agents mcp ai tools anthropic">
+<article class="resource-card resource-card--course" id="resource-huggingface-mcp-course" data-resource-card data-resource-id="huggingface-mcp-course" data-type="course" data-level="intermediate" data-time-bucket="long" data-provider="Hugging Face" data-certificate="free" data-category="llm-agents" data-title="Hugging Face MCP Course" data-search="hugging face mcp course hugging face a free course built with anthropic that explains the model context protocol and walks you through building mcp applications. you should know basic ai, apis, and either python or typescript. free certificates are available. course + hands-on projects llms &amp; agents mcp ai tools anthropic">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -856,7 +1019,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-microsoft-ai-agents-beginners" data-resource-card data-resource-id="microsoft-ai-agents-beginners" data-type="course" data-level="intermediate" data-provider="Microsoft" data-certificate="none" data-category="llm-agents" data-title="AI Agents for Beginners" data-search="ai agents for beginners microsoft eighteen open lessons on agent design patterns, retrieval, tool use, multi-agent systems, and responsible development, with runnable samples. basic coding helps, and there is no certificate or paywall. open curriculum + code llms &amp; agents ai agents rag tools">
+<article class="resource-card resource-card--course" id="resource-microsoft-ai-agents-beginners" data-resource-card data-resource-id="microsoft-ai-agents-beginners" data-type="course" data-level="intermediate" data-time-bucket="medium" data-provider="Microsoft" data-certificate="none" data-category="llm-agents" data-title="AI Agents for Beginners" data-search="ai agents for beginners microsoft eighteen open lessons on agent design patterns, retrieval, tool use, multi-agent systems, and responsible development, with runnable samples. basic coding helps, and there is no certificate or paywall. open curriculum + code llms &amp; agents ai agents rag tools">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -886,7 +1049,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-microsoft-mcp-beginners" data-resource-card data-resource-id="microsoft-mcp-beginners" data-type="course" data-level="intermediate" data-provider="Microsoft" data-certificate="none" data-category="llm-agents" data-title="MCP for Beginners" data-search="mcp for beginners microsoft a free, open curriculum on model context protocol fundamentals, security, and practical labs, with examples across multiple languages. useful as a reference shelf while you build your first mcp server. open curriculum + labs llms &amp; agents mcp security tools">
+<article class="resource-card resource-card--course" id="resource-microsoft-mcp-beginners" data-resource-card data-resource-id="microsoft-mcp-beginners" data-type="course" data-level="intermediate" data-time-bucket="medium" data-provider="Microsoft" data-certificate="none" data-category="llm-agents" data-title="MCP for Beginners" data-search="mcp for beginners microsoft a free, open curriculum on model context protocol fundamentals, security, and practical labs, with examples across multiple languages. useful as a reference shelf while you build your first mcp server. open curriculum + labs llms &amp; agents mcp security tools">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -916,7 +1079,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-deeplearning-mcp-anthropic" data-resource-card data-resource-id="deeplearning-mcp-anthropic" data-type="course" data-level="intermediate" data-provider="DeepLearning.AI" data-certificate="paid" data-category="llm-agents" data-title="MCP: Build Rich-Context AI Apps with Anthropic" data-search="mcp: build rich-context ai apps with anthropic deeplearning.ai a focused two-hour short course on building applications with the model context protocol, made with anthropic. you should be comfortable with python and basic llm concepts. lessons are free. short course llms &amp; agents mcp anthropic python">
+<article class="resource-card resource-card--course" id="resource-deeplearning-mcp-anthropic" data-resource-card data-resource-id="deeplearning-mcp-anthropic" data-type="course" data-level="intermediate" data-time-bucket="short" data-provider="DeepLearning.AI" data-certificate="paid" data-category="llm-agents" data-title="MCP: Build Rich-Context AI Apps with Anthropic" data-search="mcp: build rich-context ai apps with anthropic deeplearning.ai a focused two-hour short course on building applications with the model context protocol, made with anthropic. you should be comfortable with python and basic llm concepts. lessons are free. short course llms &amp; agents mcp anthropic python">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -946,7 +1109,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-fastai-practical-deep-learning" data-resource-card data-resource-id="fastai-practical-deep-learning" data-type="course" data-level="intermediate" data-provider="fast.ai" data-certificate="none" data-category="deep-learning" data-title="Practical Deep Learning for Coders" data-search="practical deep learning for coders fast.ai jeremy howard&#39;s nine-lesson, code-first course takes you from training a first model to deploying practical deep-learning projects. it is free and famously approachable, but it is not a first coding course. video lessons + notebooks deep learning deep learning pytorch projects">
+<article class="resource-card resource-card--course" id="resource-fastai-practical-deep-learning" data-resource-card data-resource-id="fastai-practical-deep-learning" data-type="course" data-level="intermediate" data-time-bucket="long" data-provider="fast.ai" data-certificate="none" data-category="deep-learning" data-title="Practical Deep Learning for Coders" data-search="practical deep learning for coders fast.ai jeremy howard&#39;s nine-lesson, code-first course takes you from training a first model to deploying practical deep-learning projects. it is free and famously approachable, but it is not a first coding course. video lessons + notebooks deep learning deep learning pytorch projects">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Deep learning</span>
@@ -976,7 +1139,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-mit-intro-deep-learning" data-resource-card data-resource-id="mit-intro-deep-learning" data-type="course" data-level="advanced" data-provider="MIT" data-certificate="none" data-category="deep-learning" data-title="MIT Introduction to Deep Learning (6.S191)" data-search="mit introduction to deep learning (6.s191) mit mit&#39;s fast-paced introduction to deep learning: nine lectures and three software labs spanning vision, sequence models, generative ai, and more. the site labels it beginner-friendly, but calculus and linear algebra help. lectures + labs deep learning deep learning research python">
+<article class="resource-card resource-card--course" id="resource-mit-intro-deep-learning" data-resource-card data-resource-id="mit-intro-deep-learning" data-type="course" data-level="advanced" data-time-bucket="long" data-provider="MIT" data-certificate="none" data-category="deep-learning" data-title="MIT Introduction to Deep Learning (6.S191)" data-search="mit introduction to deep learning (6.s191) mit mit&#39;s fast-paced introduction to deep learning: nine lectures and three software labs spanning vision, sequence models, generative ai, and more. the site labels it beginner-friendly, but calculus and linear algebra help. lectures + labs deep learning deep learning research python">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Deep learning</span>
@@ -1006,7 +1169,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--course" id="resource-edx-cs50-ai" data-resource-card data-resource-id="edx-cs50-ai" data-type="course" data-level="intermediate" data-provider="edX" data-certificate="paid" data-category="machine-learning" data-title="CS50&#39;s Introduction to Artificial Intelligence with Python" data-search="cs50&#39;s introduction to artificial intelligence with python edx harvard&#39;s seven-week course on search, knowledge, uncertainty, optimization, learning, neural networks, and language, with substantial python projects. audit for free; a verified certificate currently costs us$299. edx course machine learning ai python computer science">
+<article class="resource-card resource-card--course" id="resource-edx-cs50-ai" data-resource-card data-resource-id="edx-cs50-ai" data-type="course" data-level="intermediate" data-time-bucket="long" data-provider="edX" data-certificate="paid" data-category="machine-learning" data-title="CS50&#39;s Introduction to Artificial Intelligence with Python" data-search="cs50&#39;s introduction to artificial intelligence with python edx harvard&#39;s seven-week course on search, knowledge, uncertainty, optimization, learning, neural networks, and language, with substantial python projects. audit for free; a verified certificate currently costs us$299. edx course machine learning ai python computer science">
   <div class="resource-card__top">
     <span class="resource-type">Course</span>
     <span class="category-chip">Machine learning</span>
@@ -1036,7 +1199,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--guide" id="resource-coursera-preview-guide" data-resource-card data-resource-id="coursera-preview-guide" data-type="guide" data-level="all" data-provider="Coursera" data-certificate="na" data-category="access" data-title="Coursera&#39;s Free Course Preview, Explained" data-search="coursera&#39;s free course preview, explained coursera coursera&#39;s official announcement of the change from free audit to a first-module preview. read this before trusting any list of &#39;free coursera courses&#39;: previews do not earn certificates. official policy explainer access briefings coursera free access certificates">
+<article class="resource-card resource-card--guide" id="resource-coursera-preview-guide" data-resource-card data-resource-id="coursera-preview-guide" data-type="guide" data-level="all" data-time-bucket="quick" data-provider="Coursera" data-certificate="na" data-category="access" data-title="Coursera&#39;s Free Course Preview, Explained" data-search="coursera&#39;s free course preview, explained coursera coursera&#39;s official announcement of the change from free audit to a first-module preview. read this before trusting any list of &#39;free coursera courses&#39;: previews do not earn certificates. official policy explainer access briefings coursera free access certificates">
   <div class="resource-card__top">
     <span class="resource-type">Guide</span>
     <span class="category-chip">Access briefings</span>
@@ -1066,7 +1229,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--guide" id="resource-coursera-financial-aid" data-resource-card data-resource-id="coursera-financial-aid" data-type="guide" data-level="all" data-provider="Coursera" data-certificate="na" data-category="access" data-title="Coursera Financial Aid: How to Apply" data-search="coursera financial aid: how to apply coursera coursera&#39;s official help article on applying for financial aid when you cannot pay for a certificate. approval is not guaranteed, and processing takes time, but it is the legitimate route—not a third-party &#39;free certificate&#39; hack. official help article access briefings coursera financial aid certificates">
+<article class="resource-card resource-card--guide" id="resource-coursera-financial-aid" data-resource-card data-resource-id="coursera-financial-aid" data-type="guide" data-level="all" data-time-bucket="quick" data-provider="Coursera" data-certificate="na" data-category="access" data-title="Coursera Financial Aid: How to Apply" data-search="coursera financial aid: how to apply coursera coursera&#39;s official help article on applying for financial aid when you cannot pay for a certificate. approval is not guaranteed, and processing takes time, but it is the legitimate route—not a third-party &#39;free certificate&#39; hack. official help article access briefings coursera financial aid certificates">
   <div class="resource-card__top">
     <span class="resource-type">Guide</span>
     <span class="category-chip">Access briefings</span>
@@ -1096,7 +1259,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--guide" id="resource-edx-audit-guide" data-resource-card data-resource-id="edx-audit-guide" data-type="guide" data-level="all" data-provider="edX" data-certificate="na" data-category="access" data-title="What the Free edX Audit Track Includes" data-search="what the free edx audit track includes edx edx&#39;s official explanation of audit versus verified enrollment. audit is free but can be time-limited, excludes some graded work, and does not include a certificate. verified certificates are paid. official help article access briefings edx audit certificates">
+<article class="resource-card resource-card--guide" id="resource-edx-audit-guide" data-resource-card data-resource-id="edx-audit-guide" data-type="guide" data-level="all" data-time-bucket="quick" data-provider="edX" data-certificate="na" data-category="access" data-title="What the Free edX Audit Track Includes" data-search="what the free edx audit track includes edx edx&#39;s official explanation of audit versus verified enrollment. audit is free but can be time-limited, excludes some graded work, and does not include a certificate. verified certificates are paid. official help article access briefings edx audit certificates">
   <div class="resource-card__top">
     <span class="resource-type">Guide</span>
     <span class="category-chip">Access briefings</span>
@@ -1126,7 +1289,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--guide" id="resource-aws-digital-badges" data-resource-card data-resource-id="aws-digital-badges" data-type="guide" data-level="all" data-provider="AWS" data-certificate="na" data-category="access" data-title="AWS Digital Badges: How They Work" data-search="aws digital badges: how they work aws aws&#39;s official badge page explains how to earn and share digital badges, which are free to accept, and how they differ from paid aws certification exams. good research before you chase a badge. official credential guide access briefings aws badges credentials">
+<article class="resource-card resource-card--guide" id="resource-aws-digital-badges" data-resource-card data-resource-id="aws-digital-badges" data-type="guide" data-level="all" data-time-bucket="quick" data-provider="AWS" data-certificate="na" data-category="access" data-title="AWS Digital Badges: How They Work" data-search="aws digital badges: how they work aws aws&#39;s official badge page explains how to earn and share digital badges, which are free to accept, and how they differ from paid aws certification exams. good research before you chase a badge. official credential guide access briefings aws badges credentials">
   <div class="resource-card__top">
     <span class="resource-type">Guide</span>
     <span class="category-chip">Access briefings</span>
@@ -1156,7 +1319,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--guide" id="resource-google-pair-guidebook" data-resource-card data-resource-id="google-pair-guidebook" data-type="guide" data-level="intermediate" data-provider="Google" data-certificate="na" data-category="foundations" data-title="People + AI Guidebook" data-search="people + ai guidebook google google&#39;s free, human-centered design guide for ai products. work through chapters on mental models, explainability, feedback, errors, and trust—especially useful if you want to build tools people actually understand. design guide foundations human-centered ai design trust">
+<article class="resource-card resource-card--guide" id="resource-google-pair-guidebook" data-resource-card data-resource-id="google-pair-guidebook" data-type="guide" data-level="intermediate" data-time-bucket="short" data-provider="Google" data-certificate="na" data-category="foundations" data-title="People + AI Guidebook" data-search="people + ai guidebook google google&#39;s free, human-centered design guide for ai products. work through chapters on mental models, explainability, feedback, errors, and trust—especially useful if you want to build tools people actually understand. design guide foundations human-centered ai design trust">
   <div class="resource-card__top">
     <span class="resource-type">Guide</span>
     <span class="category-chip">Foundations</span>
@@ -1186,7 +1349,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--guide" id="resource-google-prompt-whitepaper" data-resource-card data-resource-id="google-prompt-whitepaper" data-type="guide" data-level="intermediate" data-provider="Google" data-certificate="na" data-category="llm-agents" data-title="Prompt Engineering (Google Whitepaper)" data-search="prompt engineering (google whitepaper) google google&#39;s free whitepaper on prompt engineering techniques, model settings, and real examples. it goes deeper than a list of magic phrases and gives you a vocabulary for why a prompt works. whitepaper llms &amp; agents prompting llms google">
+<article class="resource-card resource-card--guide" id="resource-google-prompt-whitepaper" data-resource-card data-resource-id="google-prompt-whitepaper" data-type="guide" data-level="intermediate" data-time-bucket="short" data-provider="Google" data-certificate="na" data-category="llm-agents" data-title="Prompt Engineering (Google Whitepaper)" data-search="prompt engineering (google whitepaper) google google&#39;s free whitepaper on prompt engineering techniques, model settings, and real examples. it goes deeper than a list of magic phrases and gives you a vocabulary for why a prompt works. whitepaper llms &amp; agents prompting llms google">
   <div class="resource-card__top">
     <span class="resource-type">Guide</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -1216,7 +1379,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--guide" id="resource-mcp-docs" data-resource-card data-resource-id="mcp-docs" data-type="guide" data-level="advanced" data-provider="Model Context Protocol" data-certificate="na" data-category="llm-agents" data-title="Model Context Protocol Documentation" data-search="model context protocol documentation model context protocol the official open-standard documentation for mcp: architecture, servers, clients, tools, resources, and prompts. use it as your reference when a course moves too fast, or when you are designing your own tool connection. technical documentation llms &amp; agents mcp tools developers">
+<article class="resource-card resource-card--guide" id="resource-mcp-docs" data-resource-card data-resource-id="mcp-docs" data-type="guide" data-level="advanced" data-time-bucket="open" data-provider="Model Context Protocol" data-certificate="na" data-category="llm-agents" data-title="Model Context Protocol Documentation" data-search="model context protocol documentation model context protocol the official open-standard documentation for mcp: architecture, servers, clients, tools, resources, and prompts. use it as your reference when a course moves too fast, or when you are designing your own tool connection. technical documentation llms &amp; agents mcp tools developers">
   <div class="resource-card__top">
     <span class="resource-type">Guide</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -1246,7 +1409,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--book" id="resource-book-machine-learning-yearning" data-resource-card data-resource-id="book-machine-learning-yearning" data-type="book" data-level="beginner" data-provider="DeepLearning.AI" data-certificate="na" data-category="machine-learning" data-title="Machine Learning Yearning" data-search="machine learning yearning deeplearning.ai andrew ng&#39;s free ebook on shaping machine-learning projects: choosing metrics, prioritizing errors, and deciding what to improve next. short chapters, little math, and unusually practical for beginners and managers. free ebook (pdf) machine learning ml projects strategy no-code">
+<article class="resource-card resource-card--book" id="resource-book-machine-learning-yearning" data-resource-card data-resource-id="book-machine-learning-yearning" data-type="book" data-level="beginner" data-time-bucket="short" data-provider="DeepLearning.AI" data-certificate="na" data-category="machine-learning" data-title="Machine Learning Yearning" data-search="machine learning yearning deeplearning.ai andrew ng&#39;s free ebook on shaping machine-learning projects: choosing metrics, prioritizing errors, and deciding what to improve next. short chapters, little math, and unusually practical for beginners and managers. free ebook (pdf) machine learning ml projects strategy no-code">
   <div class="resource-card__top">
     <span class="resource-type">Free book</span>
     <span class="category-chip">Machine learning</span>
@@ -1276,7 +1439,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--book" id="resource-book-statlearning" data-resource-card data-resource-id="book-statlearning" data-type="book" data-level="intermediate" data-provider="Open textbooks" data-certificate="na" data-category="machine-learning" data-title="An Introduction to Statistical Learning" data-search="an introduction to statistical learning statlearning a respected, approachable textbook on statistical learning, with free pdfs and companion labs in r and python. it is a patient bridge from classical statistics to modern machine learning. free textbook + labs machine learning statistical learning statistics python">
+<article class="resource-card resource-card--book" id="resource-book-statlearning" data-resource-card data-resource-id="book-statlearning" data-type="book" data-level="intermediate" data-time-bucket="open" data-provider="Open textbooks" data-certificate="na" data-category="machine-learning" data-title="An Introduction to Statistical Learning" data-search="an introduction to statistical learning statlearning a respected, approachable textbook on statistical learning, with free pdfs and companion labs in r and python. it is a patient bridge from classical statistics to modern machine learning. free textbook + labs machine learning statistical learning statistics python">
   <div class="resource-card__top">
     <span class="resource-type">Free book</span>
     <span class="category-chip">Machine learning</span>
@@ -1306,7 +1469,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--book" id="resource-book-fastbook" data-resource-card data-resource-id="book-fastbook" data-type="book" data-level="intermediate" data-provider="fast.ai" data-certificate="na" data-category="deep-learning" data-title="Deep Learning for Coders with fastai and PyTorch" data-search="deep learning for coders with fastai and pytorch fast.ai the free online edition of jeremy howard and sylvain gugger&#39;s hands-on deep-learning book. it is the companion to the fast.ai course and assumes you can already code. free online book + notebooks deep learning deep learning pytorch fastai">
+<article class="resource-card resource-card--book" id="resource-book-fastbook" data-resource-card data-resource-id="book-fastbook" data-type="book" data-level="intermediate" data-time-bucket="long" data-provider="fast.ai" data-certificate="na" data-category="deep-learning" data-title="Deep Learning for Coders with fastai and PyTorch" data-search="deep learning for coders with fastai and pytorch fast.ai the free online edition of jeremy howard and sylvain gugger&#39;s hands-on deep-learning book. it is the companion to the fast.ai course and assumes you can already code. free online book + notebooks deep learning deep learning pytorch fastai">
   <div class="resource-card__top">
     <span class="resource-type">Free book</span>
     <span class="category-chip">Deep learning</span>
@@ -1336,7 +1499,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--book" id="resource-book-dive-into-deep-learning" data-resource-card data-resource-id="book-dive-into-deep-learning" data-type="book" data-level="advanced" data-provider="Open textbooks" data-certificate="na" data-category="deep-learning" data-title="Dive into Deep Learning" data-search="dive into deep learning d2l.ai an open, interactive deep-learning textbook that combines math, prose, and runnable code. adopted by hundreds of universities; free online, with a print edition if you prefer paper. interactive open textbook deep learning deep learning mathematics code">
+<article class="resource-card resource-card--book" id="resource-book-dive-into-deep-learning" data-resource-card data-resource-id="book-dive-into-deep-learning" data-type="book" data-level="advanced" data-time-bucket="long" data-provider="Open textbooks" data-certificate="na" data-category="deep-learning" data-title="Dive into Deep Learning" data-search="dive into deep learning d2l.ai an open, interactive deep-learning textbook that combines math, prose, and runnable code. adopted by hundreds of universities; free online, with a print edition if you prefer paper. interactive open textbook deep learning deep learning mathematics code">
   <div class="resource-card__top">
     <span class="resource-type">Free book</span>
     <span class="category-chip">Deep learning</span>
@@ -1366,7 +1529,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--book" id="resource-book-deep-learning" data-resource-card data-resource-id="book-deep-learning" data-type="book" data-level="advanced" data-provider="Open textbooks" data-certificate="na" data-category="deep-learning" data-title="Deep Learning" data-search="deep learning mit press the canonical deep-learning reference by goodfellow, bengio, and courville, free to read in html. it is rigorous and dense—a reference to grow into, not a first book for most beginners. free online reference deep learning deep learning theory research">
+<article class="resource-card resource-card--book" id="resource-book-deep-learning" data-resource-card data-resource-id="book-deep-learning" data-type="book" data-level="advanced" data-time-bucket="open" data-provider="Open textbooks" data-certificate="na" data-category="deep-learning" data-title="Deep Learning" data-search="deep learning mit press the canonical deep-learning reference by goodfellow, bengio, and courville, free to read in html. it is rigorous and dense—a reference to grow into, not a first book for most beginners. free online reference deep learning deep learning theory research">
   <div class="resource-card__top">
     <span class="resource-type">Free book</span>
     <span class="category-chip">Deep learning</span>
@@ -1396,7 +1559,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--book" id="resource-book-mathematics-for-ml" data-resource-card data-resource-id="book-mathematics-for-ml" data-type="book" data-level="advanced" data-provider="Open textbooks" data-certificate="na" data-category="deep-learning" data-title="Mathematics for Machine Learning" data-search="mathematics for machine learning mml book a free textbook that fills the math gaps behind machine learning: linear algebra, analytic geometry, probability, optimization, and modeling. use selected chapters as a companion, not a prerequisite gate. free textbook deep learning mathematics linear algebra probability">
+<article class="resource-card resource-card--book" id="resource-book-mathematics-for-ml" data-resource-card data-resource-id="book-mathematics-for-ml" data-type="book" data-level="advanced" data-time-bucket="open" data-provider="Open textbooks" data-certificate="na" data-category="deep-learning" data-title="Mathematics for Machine Learning" data-search="mathematics for machine learning mml book a free textbook that fills the math gaps behind machine learning: linear algebra, analytic geometry, probability, optimization, and modeling. use selected chapters as a companion, not a prerequisite gate. free textbook deep learning mathematics linear algebra probability">
   <div class="resource-card__top">
     <span class="resource-type">Free book</span>
     <span class="category-chip">Deep learning</span>
@@ -1426,7 +1589,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-3blue1brown" data-resource-card data-resource-id="youtube-3blue1brown" data-type="channel" data-level="all" data-provider="3Blue1Brown" data-certificate="na" data-category="deep-learning" data-title="3Blue1Brown" data-search="3blue1brown 3blue1brown visual, carefully paced explanations of neural networks, calculus, and linear algebra. start with the neural-network series when jargon starts to blur; the animations build intuition faster than definitions alone. youtube channel deep learning visual math neural networks intuition">
+<article class="resource-card resource-card--channel" id="resource-youtube-3blue1brown" data-resource-card data-resource-id="youtube-3blue1brown" data-type="channel" data-level="all" data-time-bucket="open" data-provider="3Blue1Brown" data-certificate="na" data-category="deep-learning" data-title="3Blue1Brown" data-search="3blue1brown 3blue1brown visual, carefully paced explanations of neural networks, calculus, and linear algebra. start with the neural-network series when jargon starts to blur; the animations build intuition faster than definitions alone. youtube channel deep learning visual math neural networks intuition">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">Deep learning</span>
@@ -1456,7 +1619,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-statquest" data-resource-card data-resource-id="youtube-statquest" data-type="channel" data-level="all" data-provider="StatQuest" data-certificate="na" data-category="machine-learning" data-title="StatQuest with Josh Starmer" data-search="statquest with josh starmer statquest clear, cheerful explanations of statistics and machine-learning algorithms, from histograms to random forests and boosting. the songs are optional; the step-by-step diagrams are the reason to stay. youtube channel machine learning statistics machine learning algorithms">
+<article class="resource-card resource-card--channel" id="resource-youtube-statquest" data-resource-card data-resource-id="youtube-statquest" data-type="channel" data-level="all" data-time-bucket="open" data-provider="StatQuest" data-certificate="na" data-category="machine-learning" data-title="StatQuest with Josh Starmer" data-search="statquest with josh starmer statquest clear, cheerful explanations of statistics and machine-learning algorithms, from histograms to random forests and boosting. the songs are optional; the step-by-step diagrams are the reason to stay. youtube channel machine learning statistics machine learning algorithms">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">Machine learning</span>
@@ -1486,7 +1649,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-karpathy" data-resource-card data-resource-id="youtube-karpathy" data-type="channel" data-level="advanced" data-provider="Andrej Karpathy" data-certificate="na" data-category="deep-learning" data-title="Andrej Karpathy" data-search="andrej karpathy andrej karpathy deep, code-first explanations of language models, backpropagation, and building neural networks from scratch. best when you have some python and want to understand what is happening under the hood. youtube channel deep learning deep learning llms from scratch">
+<article class="resource-card resource-card--channel" id="resource-youtube-karpathy" data-resource-card data-resource-id="youtube-karpathy" data-type="channel" data-level="advanced" data-time-bucket="open" data-provider="Andrej Karpathy" data-certificate="na" data-category="deep-learning" data-title="Andrej Karpathy" data-search="andrej karpathy andrej karpathy deep, code-first explanations of language models, backpropagation, and building neural networks from scratch. best when you have some python and want to understand what is happening under the hood. youtube channel deep learning deep learning llms from scratch">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">Deep learning</span>
@@ -1516,7 +1679,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-freecodecamp" data-resource-card data-resource-id="youtube-freecodecamp" data-type="channel" data-level="all" data-provider="freeCodeCamp" data-certificate="na" data-category="coding-data" data-title="freeCodeCamp.org" data-search="freecodecamp.org freecodecamp long-form, free full courses on python, machine learning, and ai development, usually taught by working practitioners. use the course chapters to sample a topic before committing to a 300-hour certification. youtube channel python &amp; data python machine learning full courses">
+<article class="resource-card resource-card--channel" id="resource-youtube-freecodecamp" data-resource-card data-resource-id="youtube-freecodecamp" data-type="channel" data-level="all" data-time-bucket="open" data-provider="freeCodeCamp" data-certificate="na" data-category="coding-data" data-title="freeCodeCamp.org" data-search="freecodecamp.org freecodecamp long-form, free full courses on python, machine learning, and ai development, usually taught by working practitioners. use the course chapters to sample a topic before committing to a 300-hour certification. youtube channel python &amp; data python machine learning full courses">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">Python &amp; data</span>
@@ -1546,7 +1709,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-huggingface" data-resource-card data-resource-id="youtube-huggingface" data-type="channel" data-level="intermediate" data-provider="Hugging Face" data-certificate="na" data-category="llm-agents" data-title="Hugging Face" data-search="hugging face hugging face practical demos and tutorials for models, datasets, agents, and open-source ai tooling. useful when you want to see a workflow before reading the documentation. youtube channel llms &amp; agents open models agents demos">
+<article class="resource-card resource-card--channel" id="resource-youtube-huggingface" data-resource-card data-resource-id="youtube-huggingface" data-type="channel" data-level="intermediate" data-time-bucket="open" data-provider="Hugging Face" data-certificate="na" data-category="llm-agents" data-title="Hugging Face" data-search="hugging face hugging face practical demos and tutorials for models, datasets, agents, and open-source ai tooling. useful when you want to see a workflow before reading the documentation. youtube channel llms &amp; agents open models agents demos">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -1576,7 +1739,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-google-deepmind" data-resource-card data-resource-id="youtube-google-deepmind" data-type="channel" data-level="all" data-provider="Google" data-certificate="na" data-category="deep-learning" data-title="Google DeepMind" data-search="google deepmind google deepmind research talks, explainers, and glimpses of frontier ai work in science, models, and safety. a good channel for context on where the field is going—and what is still research, not a product. youtube channel deep learning research ai safety science">
+<article class="resource-card resource-card--channel" id="resource-youtube-google-deepmind" data-resource-card data-resource-id="youtube-google-deepmind" data-type="channel" data-level="all" data-time-bucket="open" data-provider="Google" data-certificate="na" data-category="deep-learning" data-title="Google DeepMind" data-search="google deepmind google deepmind research talks, explainers, and glimpses of frontier ai work in science, models, and safety. a good channel for context on where the field is going—and what is still research, not a product. youtube channel deep learning research ai safety science">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">Deep learning</span>
@@ -1606,7 +1769,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-openai" data-resource-card data-resource-id="youtube-openai" data-type="channel" data-level="all" data-provider="OpenAI" data-certificate="na" data-category="llm-agents" data-title="OpenAI" data-search="openai openai official product demonstrations, developer sessions, and conversations about how ai systems are built and used. treat launch videos as a starting point; verify claims against documentation. youtube channel llms &amp; agents llms developer tools product">
+<article class="resource-card resource-card--channel" id="resource-youtube-openai" data-resource-card data-resource-id="youtube-openai" data-type="channel" data-level="all" data-time-bucket="open" data-provider="OpenAI" data-certificate="na" data-category="llm-agents" data-title="OpenAI" data-search="openai openai official product demonstrations, developer sessions, and conversations about how ai systems are built and used. treat launch videos as a starting point; verify claims against documentation. youtube channel llms &amp; agents llms developer tools product">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -1636,7 +1799,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-anthropic" data-resource-card data-resource-id="youtube-anthropic" data-type="channel" data-level="intermediate" data-provider="Anthropic" data-certificate="na" data-category="llm-agents" data-title="Anthropic" data-search="anthropic anthropic official talks and demos about claude, agentic systems, safety research, and building with mcp. helpful context for the agent-building path, especially around evaluation and guardrails. youtube channel llms &amp; agents claude agents safety">
+<article class="resource-card resource-card--channel" id="resource-youtube-anthropic" data-resource-card data-resource-id="youtube-anthropic" data-type="channel" data-level="intermediate" data-time-bucket="open" data-provider="Anthropic" data-certificate="na" data-category="llm-agents" data-title="Anthropic" data-search="anthropic anthropic official talks and demos about claude, agentic systems, safety research, and building with mcp. helpful context for the agent-building path, especially around evaluation and guardrails. youtube channel llms &amp; agents claude agents safety">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -1666,7 +1829,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-deeplearningai" data-resource-card data-resource-id="youtube-deeplearningai" data-type="channel" data-level="all" data-provider="DeepLearning.AI" data-certificate="na" data-category="llm-agents" data-title="DeepLearning.AI" data-search="deeplearning.ai deeplearning.ai lectures, course previews, and interviews about ai careers and building with llms. useful for deciding which deeplearning.ai course fits your next step. youtube channel llms &amp; agents llms careers courses">
+<article class="resource-card resource-card--channel" id="resource-youtube-deeplearningai" data-resource-card data-resource-id="youtube-deeplearningai" data-type="channel" data-level="all" data-time-bucket="open" data-provider="DeepLearning.AI" data-certificate="na" data-category="llm-agents" data-title="DeepLearning.AI" data-search="deeplearning.ai deeplearning.ai lectures, course previews, and interviews about ai careers and building with llms. useful for deciding which deeplearning.ai course fits your next step. youtube channel llms &amp; agents llms careers courses">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -1696,7 +1859,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-microsoft-developer" data-resource-card data-resource-id="youtube-microsoft-developer" data-type="channel" data-level="intermediate" data-provider="Microsoft" data-certificate="na" data-category="llm-agents" data-title="Microsoft Developer" data-search="microsoft developer microsoft developer developer-focused demos and deep dives on azure ai, copilot, agents, and open-source tooling. look for the hands-on sessions where you can follow along with code. youtube channel llms &amp; agents azure copilot developer tools">
+<article class="resource-card resource-card--channel" id="resource-youtube-microsoft-developer" data-resource-card data-resource-id="youtube-microsoft-developer" data-type="channel" data-level="intermediate" data-time-bucket="open" data-provider="Microsoft" data-certificate="na" data-category="llm-agents" data-title="Microsoft Developer" data-search="microsoft developer microsoft developer developer-focused demos and deep dives on azure ai, copilot, agents, and open-source tooling. look for the hands-on sessions where you can follow along with code. youtube channel llms &amp; agents azure copilot developer tools">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -1726,7 +1889,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-google-cloud-tech" data-resource-card data-resource-id="youtube-google-cloud-tech" data-type="channel" data-level="intermediate" data-provider="Google" data-certificate="na" data-category="llm-agents" data-title="Google Cloud Tech" data-search="google cloud tech google cloud tech practical google cloud ai demos, gemini walkthroughs, and engineering talks. best used with a project in hand rather than watched passively. youtube channel llms &amp; agents gemini cloud engineering">
+<article class="resource-card resource-card--channel" id="resource-youtube-google-cloud-tech" data-resource-card data-resource-id="youtube-google-cloud-tech" data-type="channel" data-level="intermediate" data-time-bucket="open" data-provider="Google" data-certificate="na" data-category="llm-agents" data-title="Google Cloud Tech" data-search="google cloud tech google cloud tech practical google cloud ai demos, gemini walkthroughs, and engineering talks. best used with a project in hand rather than watched passively. youtube channel llms &amp; agents gemini cloud engineering">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">LLMs &amp; agents</span>
@@ -1756,7 +1919,7 @@
   </div>
 </article>
 
-<article class="resource-card resource-card--channel" id="resource-youtube-kaggle" data-resource-card data-resource-id="youtube-kaggle" data-type="channel" data-level="intermediate" data-provider="Kaggle Learn" data-certificate="na" data-category="machine-learning" data-title="Kaggle" data-search="kaggle kaggle competition walkthroughs, agent course sessions, and practical data-science talks from kaggle&#39;s community. good for seeing how other people approach messy, real datasets. youtube channel machine learning data science competitions agents">
+<article class="resource-card resource-card--channel" id="resource-youtube-kaggle" data-resource-card data-resource-id="youtube-kaggle" data-type="channel" data-level="intermediate" data-time-bucket="open" data-provider="Kaggle Learn" data-certificate="na" data-category="machine-learning" data-title="Kaggle" data-search="kaggle kaggle competition walkthroughs, agent course sessions, and practical data-science talks from kaggle&#39;s community. good for seeing how other people approach messy, real datasets. youtube channel machine learning data science competitions agents">
   <div class="resource-card__top">
     <span class="resource-type">YouTube</span>
     <span class="category-chip">Machine learning</span>
@@ -1820,8 +1983,8 @@
         <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.8c.55 5.3 3.9 8.65 9.2 9.2-5.3.55-8.65 3.9-9.2 9.2-.55-5.3-3.9-8.65-9.2-9.2 5.3-.55 8.65-3.9 9.2-9.2Z"/></svg></span>
         <span class="brand-words"><strong>Learn AI</strong><span>for free</span></span>
       </a>
-      <p>A warm, no-hype route through 54 official free resources. Start small. Make something. Check your work.</p>
-      <p class="footer-stamp">Links verified October 22, 2026</p>
+      <p>A warm, no-hype route through 59 official free resources. Start small. Make something. Check your work.</p>
+      <p class="footer-stamp">Links verified October 23, 2026</p>
     </div>
     <div class="footer-links">
       <h2>Explore</h2>

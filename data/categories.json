@@ -11,14 +11,16 @@
       "tagline": "Understand what AI and generative AI actually are, where they fail, and how to use them without surrendering your judgment.",
       "lede": "Start here if you want the vocabulary and a sound mental model before touching code. This is also the best shelf for nurses, writers, small-business owners, and anyone tired of hearing words like \"model\" and \"hallucination\" without a plain-English explanation.",
       "body": [
-        "The opening resources do different jobs. Google's 45-minute introduction gives you a fast, accurate map of generative AI. Elements of AI slows down and asks what AI is for, where it shows up in society, and what it cannot do. Kaggle's ethics course turns those ideas into practical questions about fairness and privacy. Microsoft's curriculum is the deeper, self-paced option when you want to understand how the machinery works.",
+        "The opening resources do different jobs. Google's 45-minute introduction gives you a fast, accurate map of generative AI. Databricks' one-hour course adds a free badge and a business framing, while Google's two-hour educator course shows how the same ideas apply to teaching. Elements of AI slows down and asks what AI is for, where it shows up in society, and what it cannot do. Kaggle's ethics course turns those ideas into practical questions about fairness and privacy. Microsoft's curriculum is the deeper, self-paced option when you want to understand how the machinery works.",
         "You do not need to complete every item. A sensible first pass is roughly 6–10 hours: Google's introduction, the first two chapters of Elements of AI, and Kaggle's ethics lessons. Add Microsoft when you want a structured 12-week curriculum, and use the People + AI Guidebook when you are designing something another person will use.",
         "Two access notes matter. Coursera's AI for Everyone now offers a free first-module preview, not the full course and not a certificate. AWS's digital lesson is free, but its labs and credential ecosystem are separate products. The guide labels both clearly rather than calling everything \"free.\""
       ],
-      "certificateReality": "The Google Introduction to Generative AI skill badge and all listed Kaggle Learn certificates are free. Elements of AI's course is free but its optional certificate costs €50. Coursera and AWS do not hand out a free professional credential with these beginner courses. Microsoft's open curricula do not include a certificate.",
-      "bestFor": "Curious adults, career changers, healthcare workers, writers, and business owners who need useful literacy before tools or code.",
+      "certificateReality": "The Google Introduction to Generative AI skill badge, Databricks' one-hour fundamentals badge, Google's educator certificate, and all listed Kaggle Learn certificates are free. Elements of AI's course is free but its optional certificate costs €50. Coursera and AWS do not hand out a free professional credential with these beginner courses. Microsoft's open curricula do not include a certificate.",
+      "bestFor": "Curious adults, career changers, healthcare workers, writers, educators, and business owners who need useful literacy before tools or code.",
       "resourceIds": [
         "google-intro-genai",
+        "databricks-genai-fundamentals",
+        "google-genai-educators",
         "elements-of-ai",
         "kaggle-intro-ai-ethics",
         "microsoft-ai-beginners",
@@ -28,6 +30,8 @@
       ],
       "route": [
         "google-intro-genai",
+        "databricks-genai-fundamentals",
+        "google-genai-educators",
         "elements-of-ai",
         "kaggle-intro-ai-ethics",
         "microsoft-ai-beginners",
@@ -49,13 +53,15 @@
       "body": [
         "Kaggle is the lowest-friction starting line: short browser notebooks, immediate feedback, and a free completion certificate. Python takes about five hours and pandas about four. You can finish the first one this week without installing anything; install Python locally only when you want to keep working offline.",
         "The long freeCodeCamp certifications are a different commitment. Each is project-based and estimated at roughly 300 hours. They can be excellent evidence of persistence, but they are a poor first test of whether you enjoy coding. Use the freeCodeCamp YouTube channel or early curriculum sections as a sample before promising yourself a marathon.",
-        "DeepLearning.AI's AI Python for Beginners is useful once you can write a basic script and want an AI-assisted, project-oriented next step. Its lessons are free to watch; labs, quizzes, and certificates on its own platform require DeepLearning.AI PRO. Keep API keys in environment variables and never commit them."
+        "DeepLearning.AI's AI Python for Beginners is useful once you can write a basic script and want an AI-assisted, project-oriented next step. Its lessons are free to watch; labs, quizzes, and certificates on its own platform require DeepLearning.AI PRO. Keep API keys in environment variables and never commit them.",
+        "GitHub Foundations Part 1 is the collaboration layer that code tutorials often skip. The free Microsoft Learn path covers Git, repositories, branches, pull requests, Projects, Codespaces, and an introduction to Copilot. The separate certification exam is optional and paid; you do not need it to start using GitHub."
       ],
-      "certificateReality": "Kaggle's Python and pandas certificates are free after you complete the exercises. freeCodeCamp's certifications are free after the required projects; each is a long course, not a quick badge. DeepLearning.AI's certificate is tied to paid PRO access, even though its lesson videos are free to watch.",
-      "bestFor": "Beginners who want a practical coding foundation, spreadsheet users ready to graduate, and builders who need enough Python to work with APIs and data.",
+      "certificateReality": "Kaggle's Python and pandas certificates are free after you complete the exercises. freeCodeCamp's certifications are free after the required projects; each is a long course, not a quick badge. DeepLearning.AI's certificate is tied to paid PRO access, even though its lesson videos are free to watch. GitHub Foundations is free to learn, but its certification exam is a separate paid purchase.",
+      "bestFor": "Beginners who want a practical coding foundation, spreadsheet users ready to graduate, and builders who need enough Python and GitHub fluency to work with APIs and data.",
       "resourceIds": [
         "kaggle-python",
         "kaggle-pandas",
+        "microsoft-github-foundations",
         "deeplearning-ai-python-beginners",
         "freecodecamp-data-analysis-python",
         "freecodecamp-scientific-python",
@@ -64,6 +70,7 @@
       "route": [
         "kaggle-python",
         "kaggle-pandas",
+        "microsoft-github-foundations",
         "deeplearning-ai-python-beginners",
         "freecodecamp-data-analysis-python",
         "freecodecamp-scientific-python"
@@ -122,13 +129,16 @@
       "body": [
         "Begin with the model layer, not the hype layer. DeepLearning.AI's prompting short course is free to watch and still one of the clearest introductions to instructions, formats, and iterative improvement. Microsoft's Generative AI for Beginners is a broad, code-included curriculum for context. Hugging Face's LLM course is the structured route when you want transformers, datasets, fine-tuning, and evaluation.",
         "Agents are loops: a goal, a set of tools, observations, and a stop condition. Hugging Face's Agents and MCP courses provide structured practice and free certificates for their fundamentals and completion tracks. Microsoft's open curricula give you another perspective and more implementation detail. Kaggle's 5-day intensive can add community structure, but its cohort badges and certificates have changed between sessions, so treat the current guide as the source of truth.",
+        "Two practical additions matter for local-first work. GitHub Copilot Fundamentals is a free Microsoft Learn path on AI-assisted coding, prompt engineering, and responsible use. Ollama's official quickstart shows how to run an open model on your own machine and connect it to an app or coding agent—useful when privacy, cost, or offline access matters.",
         "Build small and read-only first. A calculator, a public-data lookup, or a local notes search is enough to learn the pattern. Require explicit human confirmation before any write action. Never place API keys in a repository, screenshot, prompt, or shared notebook; use environment variables and a local secret store."
       ],
-      "certificateReality": "Hugging Face's fundamentals and full-course completion certificates are free, with different requirements per course. Kaggle's agent intensive certificate varies by cohort. DeepLearning.AI's short-course videos are free, but its certificates require PRO membership. Microsoft's open curricula do not include certificates, and MCP documentation is reference material.",
-      "bestFor": "Builders with basic Python who want to make LLM-backed tools, automate a narrow workflow, or connect models to outside data while keeping permissions clear.",
+      "certificateReality": "Hugging Face's fundamentals and full-course completion certificates are free, with different requirements per course. Kaggle's agent intensive certificate varies by cohort. DeepLearning.AI's short-course videos are free, but its certificates require PRO membership. Microsoft's open curricula do not include certificates, and MCP documentation is reference material. GitHub Copilot Fundamentals and Ollama's quickstart do not include certificates.",
+      "bestFor": "Builders with basic Python who want to make LLM-backed tools, use an AI coding assistant, run models locally, or connect models to outside data while keeping permissions clear.",
       "resourceIds": [
         "deeplearning-chatgpt-prompt",
+        "microsoft-github-copilot",
         "microsoft-genai-beginners",
+        "ollama-quickstart",
         "huggingface-agents-course",
         "huggingface-mcp-course",
         "microsoft-ai-agents-beginners",
@@ -147,7 +157,9 @@
       ],
       "route": [
         "deeplearning-chatgpt-prompt",
+        "microsoft-github-copilot",
         "microsoft-genai-beginners",
+        "ollama-quickstart",
         "huggingface-agents-course",
         "huggingface-mcp-course",
         "microsoft-ai-agents-beginners",

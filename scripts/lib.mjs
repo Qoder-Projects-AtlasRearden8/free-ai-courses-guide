@@ -23,6 +23,13 @@ export const CERTIFICATE_LABELS = {
   varies: 'Certificate varies',
   na: '',
 };
+export const TIME_BUCKET_LABELS = {
+  quick: 'Under 1 hour',
+  short: '1–5 hours',
+  medium: '6–20 hours',
+  long: '20+ hours / multi-week',
+  open: 'Reference / ongoing',
+};
 
 const REQUIRED_RESOURCE_FIELDS = [
   'id',
@@ -34,6 +41,7 @@ const REQUIRED_RESOURCE_FIELDS = [
   'description',
   'level',
   'time',
+  'timeBucket',
   'cost',
   'certificate',
   'certificateNote',
@@ -119,6 +127,9 @@ export function validateContent({ catalog, categories, paths, plan, certificates
     }
     if (!Object.hasOwn(CERTIFICATE_LABELS, resource.certificate)) {
       push(`${label} has an invalid certificate value.`);
+    }
+    if (!Object.hasOwn(TIME_BUCKET_LABELS, resource.timeBucket)) {
+      push(`${label} has an invalid time bucket.`);
     }
     if (resource.certificate === 'free' && resource.type !== 'course') {
       push(`${label} lists a free certificate but is not a course.`);

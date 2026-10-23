@@ -35,7 +35,7 @@ Get the vocabulary, practice a real prompt, and build a habit of checking the ou
 - [ ] **Block three 45-minute sessions this week.**
   Calendar them. Put your notes in one place. A small repeatable slot beats a heroic weekend.
 
-**If you have extra time:** Skim the four learning paths and choose a home base.
+**If you have extra time:** Skim the five learning paths and choose a home base.
 
 **Keep this:** One safe starter task, one place for notes, and three appointments with yourself.
 
@@ -308,6 +308,6 @@ The finish line is a thing you made, a clear write-up, and a realistic next step
 
 ---
 
-Verified October 22, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
+Verified October 23, 2026. Course access and certificate rules can change; check the provider's page before enrolling. Independent guide by ASDALE DYNAMICS, LLC. Education only—not medical, legal, or financial advice.
 
 [Back to the guide index](README.md)
